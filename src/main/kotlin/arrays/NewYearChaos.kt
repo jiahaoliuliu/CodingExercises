@@ -30,7 +30,10 @@ class NewYearChaos {
         private const val TOO_CHAOTIC = "Too chaotic"
     }
 
-    fun minimumBribes(q: Array<Int>): String {
+    /**
+     * Note this solution is not working
+     */
+    private fun minimumBribes(q: Array<Int>): String {
         // Write your code here
         var movement = 0
         for ((index, value) in q.withIndex()) {
