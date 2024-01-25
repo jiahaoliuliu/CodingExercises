@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/FindResultingArrayAfterRemovingAnagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/FindResultingArrayAfterRemovingAnagrams.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/Anagram.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,22 @@
       <recent name="hashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindResultingArrayAfterRemovingAnagrams.test2">
+  <component name="RunManager" selected="JUnit.Anagram">
+    <configuration name="Anagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string" />
+      <option name="MAIN_CLASS_NAME" value="string.Anagram" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindResultingArrayAfterRemovingAnagrams.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -122,29 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotation.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Anagram" />
         <item itemvalue="JUnit.FindResultingArrayAfterRemovingAnagrams.test2" />
         <item itemvalue="JUnit.FindResultingArrayAfterRemovingAnagrams.test1" />
         <item itemvalue="JUnit.FindResultingArrayAfterRemovingAnagrams.testAnagram2" />
         <item itemvalue="JUnit.FindResultingArrayAfterRemovingAnagrams.testAnagram1" />
-        <item itemvalue="JUnit.LeftRotation.test3" />
       </list>
     </recent_temporary>
   </component>
