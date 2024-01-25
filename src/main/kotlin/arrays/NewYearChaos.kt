@@ -1,4 +1,4 @@
-package arrays.hackerrank
+package arrays
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/NewYearChaos.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/ValidAnagram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/TwoStrings.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingExercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingExercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/NewYearChaos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/NewYearChaos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +54,33 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ValidAnagram">
-    <configuration name="NewYearChaos.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TwoStrings">
+    <configuration name="TwoStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.hackerrank.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrays.hackerrank" />
-      <option name="MAIN_CLASS_NAME" value="arrays.hackerrank.NewYearChaos" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.TwoStrings" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoStrings.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.TwoStrings" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,22 +97,6 @@
       <option name="PACKAGE_NAME" value="arrays" />
       <option name="MAIN_CLASS_NAME" value="arrays.ValidAnagram" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.ValidAnagram" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoStrings" />
+        <item itemvalue="JUnit.TwoStrings.test1" />
         <item itemvalue="JUnit.ValidAnagram" />
         <item itemvalue="JUnit.ValidAnagram.test4" />
         <item itemvalue="JUnit.ValidAnagram.test2" />
-        <item itemvalue="JUnit.ValidAnagram.test1" />
-        <item itemvalue="JUnit.NewYearChaos.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +177,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/ValidAnagram.kt</url>
           <line>63</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/TwoStrings.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/TwoStrings.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
