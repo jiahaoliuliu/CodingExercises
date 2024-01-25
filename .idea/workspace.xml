@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/LeftRotation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/NewYearChaos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/NewYearChaos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/TwoStrings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/TwoStrings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/ValidAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/hashmap/ValidAnagram.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +57,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RansomNote.test2">
-    <configuration name="RansomNote.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="hashmap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LeftRotation.test3">
+    <configuration name="LeftRotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +72,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.RansomNote" />
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRotation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRotation.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRotation.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrays" />
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,59 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.TwoStrings" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoStrings.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.TwoStrings" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrays.ValidAnagram" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeftRotation.test3" />
+        <item itemvalue="JUnit.LeftRotation.test2" />
+        <item itemvalue="JUnit.LeftRotation" />
+        <item itemvalue="JUnit.LeftRotation.test1" />
         <item itemvalue="JUnit.RansomNote.test2" />
-        <item itemvalue="JUnit.RansomNote.test1" />
-        <item itemvalue="JUnit.TwoStrings" />
-        <item itemvalue="JUnit.TwoStrings.test1" />
-        <item itemvalue="JUnit.ValidAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -169,49 +178,64 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/ValidAnagram.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/ValidAnagram.kt</url>
           <line>58</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/ValidAnagram.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/ValidAnagram.kt</url>
           <line>63</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/TwoStrings.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/TwoStrings.kt</url>
           <line>36</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/TwoStrings.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/TwoStrings.kt</url>
           <line>38</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt</url>
           <line>42</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt</url>
           <line>48</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt</url>
           <line>56</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/RansomNote.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/hashmap/RansomNote.kt</url>
           <line>44</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/LeftRotation.kt</url>
+          <line>56</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/LeftRotation.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/LeftRotation.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

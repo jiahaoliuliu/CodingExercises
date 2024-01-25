@@ -1,4 +1,4 @@
-package arrays
+package hashmap
 
 import junit.framework.Assert.assertEquals
 import org.junit.Test
