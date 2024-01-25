@@ -144,5 +144,104 @@ class FindResultingArrayAfterRemovingAnagrams {
         // Then
         assertTrue(listOf("a","b","c","d","e") == result)
     }
+}
 
+class FindResultingArrayAfterRemovingAnagramsOptimized {
+
+    /**
+     * Optimization 1:
+     *      Since we are comparing the first string with other strings always,
+     *      we can build a dictionary of dictionary to be used later
+     *      The result is that since we are operating on the existing dictionary,
+     *      so the content of that dictionary needs to be cloned every time
+     *      thus this operation has the same cost than not optimization
+     */
+    private val dictOfDict = HashMap<String, IntArray>()
+    private fun removeAnagrams(words: Array<String>): List<String> {
+        val result = mutableListOf<String>()
+        var i = 0
+        words.forEachIndexed { index, element ->
+            if (!words[i].isAnagramTo(element)) {
+                result.add(words[i])
+                i = index
+            }
+        }
+        result.add(words[i])
+        return result
+    }
+
+    // If the dictionary is null, init it and store it
+    // if not, use it
+    private fun String.isAnagramTo(word2: String): Boolean {
+        val dict: IntArray by lazy {
+            dictOfDict[this@isAnagramTo]
+                ?: IntArray(26).apply {
+                    this@isAnagramTo.forEach { char ->
+                        this[char - 'a']++
+                    }
+                }
+        }
+        // the value of dict is going to be changed later
+        // so it need to be cloned
+        // This is an expensive operation, so at the end
+        // the result is the same as before optimization :(
+        dictOfDict[this] = dict.clone()
+
+        // Check
+        word2.forEach {
+            dict[it - 'a']--
+        }
+
+        return dict.all { it == 0 }
+    }
+
+    @Test
+    fun testAnagram1() {
+        // Given
+        val string1 = "abba"
+        val string2 = "bbaa"
+
+        // When
+        val result = string1.isAnagramTo(string2)
+
+        // Then
+        assertTrue(result)
+    }
+
+    @Test
+    fun testAnagram2() {
+        // Given
+        val string1 = "car"
+        val string2 = "rat"
+
+        // When
+        val result = string1.isAnagramTo(string2)
+
+        // Then
+        assertFalse(result)
+    }
+
+    @Test
+    fun test1() {
+        // Given
+        val params = arrayOf("abba","baba","bbaa","cd","cd")
+
+        // When
+        val result = removeAnagrams(params)
+
+        // Then
+        assertTrue(listOf("abba", "cd") == result)
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val params = arrayOf("a","b","c","d","e")
+
+        // When
+        val result = removeAnagrams(params)
+
+        // Then
+        assertTrue(listOf("a","b","c","d","e") == result)
+    }
 }
