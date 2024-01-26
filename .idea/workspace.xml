@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/GroupAnagram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/RemoveElement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/FindResultingArrayAfterRemovingAnagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/FindResultingArrayAfterRemovingAnagrams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/LeftRotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/LeftRotation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/NewYearChaos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/NewYearChaos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,39 +58,8 @@
       <recent name="hashmap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroupAnagram.test2">
-    <configuration name="Anagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string" />
-      <option name="MAIN_CLASS_NAME" value="string.Anagram" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindResultingArrayAfterRemovingAnagrams.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrays" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.FindResultingArrayAfterRemovingAnagrams" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupAnagram.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RemoveElement.test5">
+    <configuration name="RemoveElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +68,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.GroupAnagram" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.RemoveElement" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagram.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveElement.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -118,35 +83,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.GroupAnagram" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.RemoveElement" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveElement.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="arrayandlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string" />
-      <option name="MAIN_CLASS_NAME" value="string.MakeAnagram" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="arrayandlist" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.RemoveElement" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.RemoveElement" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.RemoveElement" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GroupAnagram.test2" />
-        <item itemvalue="JUnit.GroupAnagram.test1" />
-        <item itemvalue="JUnit.MakeAnagram" />
-        <item itemvalue="JUnit.Anagram" />
-        <item itemvalue="JUnit.FindResultingArrayAfterRemovingAnagrams.test2" />
+        <item itemvalue="JUnit.RemoveElement.test5" />
+        <item itemvalue="JUnit.RemoveElement" />
+        <item itemvalue="JUnit.RemoveElement.test4" />
+        <item itemvalue="JUnit.RemoveElement.test3" />
+        <item itemvalue="JUnit.RemoveElement.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +282,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/GroupAnagram.kt</url>
           <line>32</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/RemoveElement.kt</url>
+          <line>92</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
