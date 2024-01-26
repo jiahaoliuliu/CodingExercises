@@ -1,10 +1,9 @@
-package arrayandlist
+package arrayandlist.medium
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-/*
-* https://www.hackerrank.com/challenges/new-year-chaos/problem?isFullScreen=true
+/**
 * It is New Year's Day and people are in line for the Wonderland rollercoaster ride.
 * Each person wears a sticker indicating their initial position in the queue from  to.
 * Any person can bribe the person directly in front of them to swap positions, but they
@@ -20,7 +19,7 @@ import org.junit.Test
 * Example 2
 *   - q = [4, 1, 2, 3]
 *   - Person 4 had to bribe 3 people to get to the current position. Print Too chaotic.
-*/
+**/
 class NewYearChaos {
     /**
      * Initial

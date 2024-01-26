@@ -1,11 +1,11 @@
-package hashmap
+package hashmap.easy
 
 import junit.framework.Assert.assertFalse
 import junit.framework.Assert.assertTrue
 import org.junit.Test
 
 /**
- * https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true
+ *
  * Harold is a kidnapper who wrote a ransom note, but now he is worried it will be traced back to him
  * through his handwriting. He found a magazine and wants to know if he can cut out whole words from it
  * and use them to create an untraceable replica of his ransom note. The words in his note are case-sensitive

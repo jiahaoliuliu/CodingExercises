@@ -1,4 +1,4 @@
-package arrayandlist
+package arrayandlist.easy
 
 import junit.framework.Assert.*
 import org.junit.Test

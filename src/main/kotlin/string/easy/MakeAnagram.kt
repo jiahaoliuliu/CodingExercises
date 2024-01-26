@@ -1,10 +1,10 @@
-package string
+package string.easy
 
 import junit.framework.Assert.assertEquals
 import org.junit.Test
 
 /**
- * https://www.hackerrank.com/challenges/ctci-making-anagrams/problem?isFullScreen=true
+ *
  * A student is taking a cryptography class and has found anagrams to be very useful. Two strings are
  * anagrams of each other if the first string's letters can be rearranged to form the second string.
  * In other words, both strings must contain the same exact letters in the same exact frequency.
