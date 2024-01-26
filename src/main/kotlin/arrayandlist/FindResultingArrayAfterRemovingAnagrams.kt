@@ -1,4 +1,4 @@
-package arrays
+package arrayandlist
 
 import junit.framework.Assert.assertFalse
 import junit.framework.Assert.assertTrue

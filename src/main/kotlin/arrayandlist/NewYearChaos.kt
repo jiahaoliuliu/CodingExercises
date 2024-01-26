@@ -1,4 +1,4 @@
-package arrays
+package arrayandlist
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
