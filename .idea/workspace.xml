@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/MergeStringsAlternatively.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/IsPalindrome.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,22 @@
       <recent name="arrayandlist.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeStringsAlternatively">
+  <component name="RunManager" selected="JUnit.IsPalindrome">
+    <configuration name="IsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.IsPalindrome" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeStringsAlternatively" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -129,29 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidWordAbbreviation.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.ValidWordAbbreviation" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsPalindrome" />
         <item itemvalue="JUnit.MergeStringsAlternatively" />
         <item itemvalue="JUnit.MergeStringsAlternatively.test2" />
         <item itemvalue="JUnit.MergeStringsAlternatively.test1" />
         <item itemvalue="JUnit.ValidWordAbbreviation" />
-        <item itemvalue="JUnit.ValidWordAbbreviation.test6" />
       </list>
     </recent_temporary>
   </component>
