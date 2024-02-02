@@ -32,7 +32,7 @@ import org.junit.Test
  *    Output: false
  *    Explanation: The word "apple" cannot be abbreviated as "a2e".
  */
-class `Valid word abbreviation` {
+class ValidWordAbbreviation {
 
     /**
      * Initial thoughts

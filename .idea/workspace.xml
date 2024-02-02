@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +65,8 @@
       <recent name="arrayandlist.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Valid word abbreviation">
-    <configuration name="Valid word abbreviation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ValidWordAbbreviation">
+    <configuration name="ValidWordAbbreviation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -76,13 +75,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.Valid word abbreviation" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.ValidWordAbbreviation" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid word abbreviation.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidWordAbbreviation.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -91,14 +90,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.Valid word abbreviation" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.ValidWordAbbreviation" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid word abbreviation.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidWordAbbreviation.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -107,14 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.Valid word abbreviation" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.ValidWordAbbreviation" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid word abbreviation.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidWordAbbreviation.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -123,14 +122,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.Valid word abbreviation" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.ValidWordAbbreviation" />
       <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid word abbreviation.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidWordAbbreviation.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.Valid word abbreviation" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.ValidWordAbbreviation" />
       <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Valid word abbreviation" />
-        <item itemvalue="JUnit.Valid word abbreviation.test6" />
-        <item itemvalue="JUnit.Valid word abbreviation.test5" />
-        <item itemvalue="JUnit.Valid word abbreviation.test2" />
-        <item itemvalue="JUnit.Valid word abbreviation.test3" />
+        <item itemvalue="JUnit.ValidWordAbbreviation" />
+        <item itemvalue="JUnit.ValidWordAbbreviation.test6" />
+        <item itemvalue="JUnit.ValidWordAbbreviation.test5" />
+        <item itemvalue="JUnit.ValidWordAbbreviation.test2" />
+        <item itemvalue="JUnit.ValidWordAbbreviation.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -312,33 +311,33 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt</url>
-          <line>68</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt</url>
+          <line>71</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt</url>
-          <line>69</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt</url>
+          <line>72</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt</url>
-          <line>77</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt</url>
+          <line>80</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt</url>
-          <line>82</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt</url>
+          <line>85</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt</url>
-          <line>85</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt</url>
+          <line>88</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/Valid word abbreviation.kt</url>
-          <line>89</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt</url>
+          <line>92</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
