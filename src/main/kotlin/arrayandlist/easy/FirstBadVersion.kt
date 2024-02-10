@@ -63,6 +63,8 @@ class FirstBadVersionImpl(
         }
         return left
     }
+
+
 }
 
 class Testing() {
