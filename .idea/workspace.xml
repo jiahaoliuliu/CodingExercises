@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/BestTimeToBuyAndSellStock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/BestTimeToBuyAndSellStock.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ContainsDuplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ContainsDuplicate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindResultingArrayAfterRemovingAnagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindResultingArrayAfterRemovingAnagrams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/LeftRotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/LeftRotation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/MergeSortedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/MergeSortedArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/RemoveElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/RemoveElement.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/TwoSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/TwoSum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/4Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/4Sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/NewYearChaos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/NewYearChaos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/ProductOfArrayExceptSelf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/ProductOfArrayExceptSelf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hashmap/easy/RansomNote.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/RansomNote.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hashmap/easy/TwoStrings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/TwoStrings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hashmap/easy/ValidAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidAnagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/PowerOfThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/PowerOfThree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/Anagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/Anagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstUniqueCharInAString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstUniqueCharInAString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/IsPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/IsPalindrome.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/MakeAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/MakeAnagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/MergeStringsAlternatively.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/MergeStringsAlternatively.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/NumberOfValidClockTimes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/NumberOfValidClockTimes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/RearrangeSpacesBetweenWords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/RearrangeSpacesBetweenWords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/RemoveAllAdjacentDuplicatesInString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/RemoveAllAdjacentDuplicatesInString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/RomanToInteger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/RomanToInteger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidParentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidParentheses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidWordAbbreviation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/medium/FindAllAnagramsInAString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/FindAllAnagramsInAString.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +67,8 @@
       <recent name="arrayandlist.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MeetingRooms">
-    <configuration name="MeetingRooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindWinnerOnATicTacTocGame.test4">
+    <configuration name="FindWinnerOnATicTacTocGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MeetingRooms" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingRooms.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindWinnerOnATicTacTocGame.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -118,46 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MeetingRooms" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeetingRooms.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MeetingRooms" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeetingRooms.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MeetingRooms" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingRooms.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindWinnerOnATicTacTocGame.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +108,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MeetingRooms" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
       <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindWinnerOnATicTacTocGame.testBest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
+      <option name="METHOD_NAME" value="testBest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindWinnerOnATicTacTocGame.testBest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
+      <option name="METHOD_NAME" value="testBest4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MeetingRooms" />
-        <item itemvalue="JUnit.MeetingRooms.test4" />
-        <item itemvalue="JUnit.MeetingRooms.test3" />
-        <item itemvalue="JUnit.MeetingRooms.test2" />
-        <item itemvalue="JUnit.MeetingRooms.test1" />
+        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame.test4" />
+        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame.testBest4" />
+        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame.testBest1" />
+        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame" />
+        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -587,6 +561,36 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/MeetingRooms.kt</url>
           <line>44</line>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt</url>
+          <line>142</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt</url>
+          <line>180</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt</url>
+          <line>306</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt</url>
+          <line>325</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt</url>
+          <line>275</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindWinnerOnATicTacTocGame.kt</url>
+          <line>289</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
