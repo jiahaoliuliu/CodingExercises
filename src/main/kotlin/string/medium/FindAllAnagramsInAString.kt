@@ -4,6 +4,8 @@ import junit.framework.Assert.assertTrue
 import org.junit.Test
 
 /**
+ * Find all anagrams in a string
+ *
  * Given two strings s and p, return an array of all the start indices of p's anagrams in s.
  * You may return the answer in any order.
  * An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
@@ -53,7 +55,7 @@ class FindAllAnagramsInAString {
      *   - If a char is dropped, do not restart from beginning
      *   - If a char is added, do not restart from beginning
      */
-    fun findAnagrams(s: String, p: String): List<Int> {
+    private fun findAnagrams(s: String, p: String): List<Int> {
         // Build the dict for p
         val dicP = IntArray(26)
         p.forEach {

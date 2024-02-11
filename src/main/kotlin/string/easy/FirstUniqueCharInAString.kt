@@ -4,6 +4,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**
+ * First unique char in a string
  * Given a string s, find the first non-repeating character in it and return its index. If it does not exist,
  * return -1.
  *

@@ -1,10 +1,10 @@
-package hashmap.easy
+package string.easy
 
 import junit.framework.Assert.assertEquals
 import org.junit.Test
 
 /**
- *
+ * Two Strings
  * Given two strings, determine if they share a common substring. A substring may be as small as one character.
  * Example 1
  *      s1 = 'and'

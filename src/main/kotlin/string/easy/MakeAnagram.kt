@@ -4,6 +4,7 @@ import junit.framework.Assert.assertEquals
 import org.junit.Test
 
 /**
+ * Make anagram
  *
  * A student is taking a cryptography class and has found anagrams to be very useful. Two strings are
  * anagrams of each other if the first string's letters can be rearranged to form the second string.

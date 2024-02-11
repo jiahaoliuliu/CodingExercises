@@ -4,7 +4,7 @@ import junit.framework.Assert.assertEquals
 import org.junit.Test
 
 /**
- *
+ * Anagram
  * Two words are anagrams of one another if their letters can be rearranged to form the other word.
  * Given a string, split it into two contiguous substrings of equal length. Determine the minimum number
  * of characters to change to make the two substrings into anagrams of one another.
@@ -25,7 +25,7 @@ class Anagram {
      *   2. for the second half, extract 1 per character
      *   3. Sum all the characters of the dict that are positive
      **/
-    fun anagram(s: String): Int {
+    private fun anagram(s: String): Int {
         if (s.length % 2 != 0) return -1
 
         val dict = IntArray(26)

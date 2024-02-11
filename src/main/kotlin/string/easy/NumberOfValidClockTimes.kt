@@ -4,6 +4,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**
+ * Number of valid clock times
+ *
  * You are given a string of length 5 called time, representing the current time on a digital
  * clock in the format "hh:mm". The earliest possible time is "00:00" and the latest possible time is "23:59".
  *

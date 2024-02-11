@@ -1,11 +1,11 @@
-package hashmap.easy
+package arrayandlist.easy
 
 import junit.framework.Assert.assertFalse
 import junit.framework.Assert.assertTrue
 import org.junit.Test
 
 /**
- *
+ * Ransom Note
  * Harold is a kidnapper who wrote a ransom note, but now he is worried it will be traced back to him
  * through his handwriting. He found a magazine and wants to know if he can cut out whole words from it
  * and use them to create an untraceable replica of his ransom note. The words in his note are case-sensitive
@@ -30,7 +30,7 @@ class RansomNote {
      * word required by note
      *
      */
-    fun checkMagazine(magazine: Array<String>, note: Array<String>): Boolean {
+    private fun checkMagazine(magazine: Array<String>, note: Array<String>): Boolean {
         // Corner case
         if (note.isEmpty()) {
             println("Yes")

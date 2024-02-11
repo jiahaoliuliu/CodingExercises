@@ -4,6 +4,7 @@ import junit.framework.Assert.assertTrue
 import org.junit.Test
 
 /**
+ * Left rotation
  * A left rotation operation on an array shifts each of the array's elements  unit to the left.
  * For example, if 2 left rotations are performed on array [1, 2, 3, 4, 5] , then the array would become [3, 4, 5, 1, 2].
  * Note that the lowest index item moves to the highest index in a rotation. This is called a circular array.
@@ -20,7 +21,6 @@ import org.junit.Test
         int a'[n]: the rotated array
  */
 class LeftRotation {
-
     private fun rotLeft(a: Array<Int>, d: Int): Array<Int> {
         if (d == 0 || d == a.size) {
             return a
