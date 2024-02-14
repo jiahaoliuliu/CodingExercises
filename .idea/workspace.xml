@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/MinimumNumberOfOperationsToConvertTime.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="arrayandlist.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HappyNumber">
+  <component name="RunManager" selected="JUnit.MinimumNumberOfOperationsToConvertTime">
     <configuration name="HappyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -79,22 +79,6 @@
       <option name="PACKAGE_NAME" value="math.easy" />
       <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HappyNumber.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.easy" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,31 +99,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumPopulationYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumNumberOfOperationsToConvertTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MaximumPopulationYear" />
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.MinimumNumberOfOperationsToConvertTime" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumPopulationYear.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumNumberOfOperationsToConvertTime.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MaximumPopulationYear" />
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.MinimumNumberOfOperationsToConvertTime" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumNumberOfOperationsToConvertTime.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.MinimumNumberOfOperationsToConvertTime" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinimumNumberOfOperationsToConvertTime" />
+        <item itemvalue="JUnit.MinimumNumberOfOperationsToConvertTime.test2" />
+        <item itemvalue="JUnit.MinimumNumberOfOperationsToConvertTime.test1" />
         <item itemvalue="JUnit.HappyNumber" />
         <item itemvalue="JUnit.HappyNumber.test2" />
-        <item itemvalue="JUnit.HappyNumber.test1" />
-        <item itemvalue="JUnit.MaximumPopulationYear" />
-        <item itemvalue="JUnit.MaximumPopulationYear.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -595,6 +595,21 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/MaximumPopulationYear.kt</url>
           <line>74</line>
           <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/MinimumNumberOfOperationsToConvertTime.kt</url>
+          <line>77</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/MinimumNumberOfOperationsToConvertTime.kt</url>
+          <line>108</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/MinimumNumberOfOperationsToConvertTime.kt</url>
+          <line>102</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
