@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,34 +67,49 @@
       <recent name="arrayandlist.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumPopulationYear">
-    <configuration name="FindWinnerOnATicTacTocGame.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HappyNumber">
+    <configuration name="HappyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HappyNumber.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindWinnerOnATicTacTocGame.testBest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HappyNumber.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindWinnerOnATicTacTocGame" />
-      <option name="METHOD_NAME" value="testBest4" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,22 +126,6 @@
       <option name="PACKAGE_NAME" value="arrayandlist.easy" />
       <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MaximumPopulationYear" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumPopulationYear.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MaximumPopulationYear" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HappyNumber" />
+        <item itemvalue="JUnit.HappyNumber.test2" />
+        <item itemvalue="JUnit.HappyNumber.test1" />
         <item itemvalue="JUnit.MaximumPopulationYear" />
         <item itemvalue="JUnit.MaximumPopulationYear.test2" />
-        <item itemvalue="JUnit.MaximumPopulationYear.test1" />
-        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame.test4" />
-        <item itemvalue="JUnit.FindWinnerOnATicTacTocGame.testBest4" />
       </list>
     </recent_temporary>
   </component>

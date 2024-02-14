@@ -34,8 +34,64 @@ import org.junit.Test
  */
 class HappyNumber {
 
+    /**
+     * Initial thought
+     * To avoid the cycle, we can create a hash set to store all the number that has happened
+     *
+     * To loop, until the number is < 10, get the rest of the number and then, divide the number
+     * into 10
+     *
+     * 1. Init variable
+     * - Create an empty hash set
+     * - result = 0
+     *
+     * 2. Loop
+     * until n < 10
+     * - result = result + (n rem 10)^2
+     * - n = n / 10
+     * end loop
+     *
+     * - result = result + n^2
+     *
+     * 3. Return result
+     * if result = 1
+     *    return true
+     * if hash set contains result
+     *      - return false
+     *
+     * add result to hash set
+     * call the method with the result and the hashset
+     *
+     * In this case, we are going to need to remember the hashset
+     * -> create another method which accepts the hashset as paramter
+     */
     private fun isHappy(n: Int): Boolean {
-        return true
+        return isHappy(n, hashSetOf())
+    }
+
+    private fun isHappy(n: Int, prevResult: HashSet<Int>): Boolean {
+        // Init
+        var result = 0
+        var number = n
+
+        // Loop
+        while (number > 0) {
+            result += (number % 10) * (number % 10)
+            number /= 10
+        }
+
+        // Check result
+        if (result == 1) {
+            return true
+        }
+
+        // We entered a loop
+        if (prevResult.contains(result)) {
+            return false
+        }
+
+        prevResult.add(result)
+        return isHappy(result, prevResult)
     }
 
     @Test
@@ -52,6 +108,55 @@ class HappyNumber {
 
     @Test
     fun test2() {
+        // Given
+        val input = 2
+
+        // When
+        val result = isHappy(input)
+
+        // Then
+        assertFalse(result)
+    }
+
+    //------------------------------------
+    private fun isHappyBest(n: Int): Boolean {
+        val prev = HashSet<Int>()
+        var current = n
+        var next = -1
+        while (!prev.contains(current)) {
+            next = getNext(current)
+            prev.add(current)
+            current = next
+        }
+        return next == 1
+    }
+
+    private fun getNext(n: Int): Int {
+        var rem = n
+        var next = 0
+        var digit = 0
+        while (rem > 0) {
+            digit = rem % 10
+            next += digit * digit
+            rem /= 10
+        }
+
+        return next
+    }
+
+    @Test
+    fun testBest1() {
+        // Given
+        val input = 19
+        // When
+        val result = isHappy(input)
+
+        // Then
+        assertTrue(result)
+    }
+
+    @Test
+    fun testBest2() {
         // Given
         val input = 2
 
