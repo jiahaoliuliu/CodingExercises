@@ -178,4 +178,85 @@ class AddStrings {
         assertEquals("333", result)
     }
 
+    // ---------------------------------------------------
+    /**
+     * Use the operation char - '0' to know the number
+     * then work it as normal adding value
+     *
+     */
+    private fun addStringsOptimized(num1: String, num2: String): String {
+        // 1. Init data
+        var num1Index = num1.lastIndex
+        var num2Index = num2.lastIndex
+        var carry = 0
+        val sb = StringBuilder()
+        var sum = 0
+
+        // 2. Loop through
+        while (num1Index >= 0 || num2Index >= 0 || carry > 0) {
+            sum = carry + if (num1Index >= 0) num1[num1Index] - '0' else 0
+            sum += if (num2Index >= 0) num2[num2Index] - '0' else 0
+            carry = sum / 10
+            sb.append(sum % 10)
+            num1Index--
+            num2Index--
+        }
+
+        return sb.reverse().toString()
+    }
+
+    @Test
+    fun test1Optimized() {
+        // Given
+        val num1 = "11"
+        val num2 = "123"
+
+        // When
+        val result = addStringsOptimized(num1, num2)
+
+        // Then
+        assertEquals("134", result)
+    }
+
+    @Test
+    fun test2Optimized() {
+        // Given
+        val num1 = "456"
+        val num2 = "77"
+
+        // When
+        val result = addStringsOptimized(num1, num2)
+
+        // Then
+        assertEquals("533", result)
+    }
+
+    @Test
+    fun test3Optimized() {
+        // Given
+        val num1 = "0"
+        val num2 = "0"
+
+        // When
+        val result = addStringsOptimized(num1, num2)
+
+        // Then
+        assertEquals("0", result)
+    }
+
+    @Test
+    fun test4Optimized() {
+        // Given
+        val num1 = "111"
+        val num2 = "222"
+
+        // When
+        val result = addStringsOptimized(num1, num2)
+
+        // Then
+        assertEquals("333", result)
+    }
+
+
+
 }
