@@ -55,7 +55,7 @@ class MergeTwoSortedListTODO {
      * While list1 && list2 are not null
      * // If list 1 is not null, then list 2 cannot be null
      * - if (list1 is null || list1.value < list2.value)
-     *      append list2
+     *      append list2L
      *      advance list2
      * // If list 2 is not null, then list 1 cannot be null
      * - else if (list2 is null || list1.value >= list2.value)

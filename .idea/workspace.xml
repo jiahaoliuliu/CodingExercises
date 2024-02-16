@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedListTODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LRUCacheTODO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedListTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedListTODO.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <recent name="string.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindAllDuplicatesInAnArray">
+  <component name="RunManager" selected="JUnit.LRUCacheTODO.test1">
     <configuration name="ClosestBinarySearchTreeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -80,22 +81,6 @@
       <option name="PACKAGE_NAME" value="tree.easy" />
       <option name="MAIN_CLASS_NAME" value="tree.easy.ClosestBinarySearchTreeValue" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClosestBinarySearchTreeValue.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.ClosestBinarySearchTreeValue" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LRUCacheTODO.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.LRUCacheTODO" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumSubarray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LRUCacheTODO.test1" />
         <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
         <item itemvalue="JUnit.MaximumSubarrayTODO" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test3" />
-        <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -700,6 +701,21 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/tree/easy/ClosestBinarySearchTreeValue.kt</url>
           <line>47</line>
           <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LRUCacheTODO.kt</url>
+          <line>84</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LRUCacheTODO.kt</url>
+          <line>120</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LRUCacheTODO.kt</url>
+          <line>118</line>
+          <option name="timeStamp" value="176" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
