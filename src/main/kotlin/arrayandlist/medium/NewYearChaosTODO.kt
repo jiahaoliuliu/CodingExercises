@@ -21,7 +21,7 @@ import org.junit.Test
  *   - q = [4, 1, 2, 3]
  *   - Person 4 had to bribe 3 people to get to the current position. Print Too chaotic.
 **/
-class NewYearChaos {
+class NewYearChaosTODO {
     /**
      * Initial
      */
