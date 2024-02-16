@@ -1,8 +1,8 @@
 package arrayandlist.medium
 
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertTrue
 import org.junit.Test
+import kotlin.math.abs
 
 /**
  * Find all duplicates in an array
@@ -45,7 +45,7 @@ class FindAllDuplicatesInAnArray {
      * return the result
      *
      */
-    private fun findDuplicates(nums: IntArray): List<Int> {
+    private fun findDuplicatesWithOnSpace(nums: IntArray): List<Int> {
         // 1. init the variables
         val result = mutableListOf<Int>()
         val seen = hashSetOf<Int>()
@@ -60,6 +60,69 @@ class FindAllDuplicatesInAnArray {
         }
 
         // 3. return the result
+        return result
+    }
+
+    @Test
+    fun test1WithOnSpace() {
+        // Given
+        val nums = intArrayOf(4,3,2,7,8,2,3,1)
+
+        // When
+        val result = findDuplicatesWithOnSpace(nums)
+
+        // Then
+        assertEquals(listOf(2, 3), result)
+    }
+
+    @Test
+    fun test2WithOnSpace() {
+        // Given
+        val nums = intArrayOf(1, 1, 2)
+
+        // When
+        val result = findDuplicatesWithOnSpace(nums)
+
+        // Then
+        assertEquals(listOf(1), result)
+    }
+
+    @Test
+    fun test3WithOnSpace() {
+        // Given
+        val nums = intArrayOf(1)
+
+        // When
+        val result = findDuplicatesWithOnSpace(nums)
+
+        // Then
+        assertEquals(listOf<Int>(), result)
+    }
+
+    /**
+     * Doing it without extra space
+     *
+     * Ideas
+     * - since the numbers needs to be between 1 and array.length, we can use them as pointers
+     *   -> if two pointers is pointing to the same position, that number is duplicated
+     * - To mark an element as already pointed, we can use negative number
+     */
+    private fun findDuplicates(nums: IntArray): List<Int> {
+        // 1. Init the variables
+        val result = mutableListOf<Int>()
+
+        // 2. Loop
+        for (num in nums) {
+            // The index where this number is pointing
+            val index = abs(num) - 1
+            // If the element was already marked
+            if (nums[index] < 0) {
+                result.add(index + 1)
+            }
+            nums[index] *= -1
+        }
+
+        // 3. Return the result
         return result
     }
 
