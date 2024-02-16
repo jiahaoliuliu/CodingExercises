@@ -1,5 +1,7 @@
 package linkedlist.medium
 
+import linkedlist.ListNode
+
 /**
  * Add two numbers
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in
@@ -41,9 +43,5 @@ class AddTwoNumbersTODO {
      */
     private fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         return null
-    }
-
-    class ListNode(var `val`: Int) {
-        var next: ListNode? = null
     }
 }
