@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/3Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MaximumSubarrayTODO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <recent name="arrayandlist.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClosestBinarySearchTreeValue">
+  <component name="RunManager" selected="JUnit.MaximumSubarrayTODO">
     <configuration name="ClosestBinarySearchTreeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -132,16 +132,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSubarray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.ValidPalindrome" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MaximumSubarray" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumSubarrayTODO" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test3" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test1" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test2" />
-        <item itemvalue="JUnit.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
