@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/PascalsTriangleTODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LongestSubarrayWithSumKTODO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +61,11 @@
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\easy" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="arrayandlist.medium" />
+      <recent name="arrayandlist.mediumTODO" />
       <recent name="string.easy" />
       <recent name="arrayandlist.easy" />
       <recent name="string.medium" />
-      <recent name="hashmap.easy" />
-      <recent name="arrayandlist.medium" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FindAllDuplicatesInAnArray">
