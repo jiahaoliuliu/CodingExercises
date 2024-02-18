@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervalsTODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/MedianOfTwoSortedArrays.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/TrappingWaterTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/TrappingWaterTODO.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeIntervalsTODO">
+  <component name="RunManager" selected="JUnit.ClosestBinarySearchTreeValue">
     <configuration name="ClosestBinarySearchTreeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -149,7 +148,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeIntervalsTODO" />
         <item itemvalue="JUnit.MergeIntervals.test1" />
         <item itemvalue="JUnit.LRUCacheTODO.test1" />
         <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
@@ -718,12 +716,12 @@
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervalsTODO.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervals.kt</url>
           <line>89</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervalsTODO.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervals.kt</url>
           <line>102</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
