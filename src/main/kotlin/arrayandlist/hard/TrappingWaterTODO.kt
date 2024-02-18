@@ -1,4 +1,4 @@
-package arrayandlist.medium
+package arrayandlist.hard
 
 /**
  * Trapping water

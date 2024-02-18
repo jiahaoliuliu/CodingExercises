@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/TrappingWaterTODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervalsTODO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/TrappingWaterTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/TrappingWaterTODO.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +62,14 @@
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\easy" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="arrayandlist.hard" />
       <recent name="arrayandlist.medium" />
       <recent name="arrayandlist.mediumTODO" />
       <recent name="string.easy" />
       <recent name="arrayandlist.easy" />
-      <recent name="string.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LRUCacheTODO.test1">
+  <component name="RunManager" selected="JUnit.MergeIntervalsTODO">
     <configuration name="ClosestBinarySearchTreeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -80,22 +81,6 @@
       <option name="PACKAGE_NAME" value="tree.easy" />
       <option name="MAIN_CLASS_NAME" value="tree.easy.ClosestBinarySearchTreeValue" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClosestBinarySearchTreeValue.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.ClosestBinarySearchTreeValue" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -140,18 +125,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MaximumSubarray" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MergeIntervals" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeIntervals.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MergeIntervals" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeIntervalsTODO" />
+        <item itemvalue="JUnit.MergeIntervals.test1" />
         <item itemvalue="JUnit.LRUCacheTODO.test1" />
         <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue" />
-        <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -714,6 +716,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LRUCacheTODO.kt</url>
           <line>118</line>
           <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervalsTODO.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MergeIntervalsTODO.kt</url>
+          <line>102</line>
+          <option name="timeStamp" value="178" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
