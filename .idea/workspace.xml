@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/LRUCacheTODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/TrappingWaterTODO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedListTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedListTODO.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,6 @@
       <list>
         <item itemvalue="JUnit.LRUCacheTODO.test1" />
         <item itemvalue="JUnit.FindAllDuplicatesInAnArray" />
-        <item itemvalue="JUnit.MaximumSubarrayTODO" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue" />
         <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test3" />
       </list>
