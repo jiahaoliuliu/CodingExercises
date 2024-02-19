@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FizzBuzz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/UniqueNumberOfOccurrencesTODO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,38 +68,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzz">
-    <configuration name="DiameterOfBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.DiameterOfBinaryTree" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiameterOfBinaryTree.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.DiameterOfBinaryTree" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UniqueNumberOfOccurrencesTODO">
     <configuration name="FizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -147,13 +116,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueNumberOfOccurrencesTODO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.UniqueNumberOfOccurrencesTODO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueNumberOfOccurrencesTODO.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.UniqueNumberOfOccurrencesTODO" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniqueNumberOfOccurrencesTODO" />
+        <item itemvalue="JUnit.UniqueNumberOfOccurrencesTODO.test1" />
         <item itemvalue="JUnit.FizzBuzz" />
         <item itemvalue="JUnit.FizzBuzz.testFizzBuzzOneLine1" />
         <item itemvalue="JUnit.FizzBuzz.test1" />
-        <item itemvalue="JUnit.DiameterOfBinaryTreeTODO" />
-        <item itemvalue="JUnit.DiameterOfBinaryTree.test1" />
       </list>
     </recent_temporary>
   </component>
