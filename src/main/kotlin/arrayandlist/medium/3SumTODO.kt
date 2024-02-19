@@ -44,6 +44,24 @@ class `3SumTODO` {
      * is the same as the previous number
      *  -> if so, we just skip it
      *
+     * ------------------------
+     * Better approach
+     * Using sliding windows
+     *
+     * 1. Sort the elements
+     * 2. Loop (per each element of the array)
+     * - left = i + 1
+     * - right = length - 1
+     * while (left < right)
+     *      - check the sum of nums[i], nums[left], nums[right]
+     *          - if it is 0
+     *              -> Add it to the result
+     *          - if it bigger than 0
+     *              -> decrease right
+     *          - if it smaller than 0
+     *              -> increase left
+     *
+     * Time complexity O(n^2)
      */
     private fun threeSum(nums: IntArray): List<List<Int>> {
         return listOf(listOf(1,2,3))
