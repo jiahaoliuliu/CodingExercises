@@ -2,6 +2,7 @@ package tree.easy
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
+import tree.TreeNode
 
 /**
  * Given the root node of a binary search tree and two integers low and high, return the sum of values of all
@@ -56,11 +57,6 @@ class RangeSumOfBST {
 
         // 3. return result
         return sum
-    }
-
-    class TreeNode(var `val`: Int) {
-         var left: TreeNode? = null
-         var right: TreeNode? = null
     }
 
     @Test

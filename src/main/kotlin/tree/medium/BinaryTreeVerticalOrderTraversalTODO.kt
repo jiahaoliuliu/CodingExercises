@@ -1,5 +1,6 @@
 package tree.medium
 
+import tree.TreeNode
 import tree.easy.ClosestBinarySearchTreeValue
 
 /**
@@ -47,7 +48,7 @@ class BinaryTreeVerticalOrderTraversalTODO {
      * -> Biggest index
      * That will be updated everytime we visit a node
      */
-    fun verticalOrder(root: ClosestBinarySearchTreeValue.TreeNode?): List<List<Int>> {
+    fun verticalOrder(root: TreeNode?): List<List<Int>> {
         return listOf(listOf())
     }
 }

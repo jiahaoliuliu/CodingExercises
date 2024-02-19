@@ -2,6 +2,7 @@ package tree.easy
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
+import tree.TreeNode
 import kotlin.math.abs
 import kotlin.math.min
 
@@ -66,11 +67,6 @@ class ClosestBinarySearchTreeValue {
         }
 
         return closestValue
-    }
-
-    class TreeNode(var `val`: Int) {
-        var left: TreeNode? = null
-        var right: TreeNode? = null
     }
 
     @Test
