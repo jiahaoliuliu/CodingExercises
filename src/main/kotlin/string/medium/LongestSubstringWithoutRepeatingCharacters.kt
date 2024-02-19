@@ -1,5 +1,9 @@
 package string.medium
 
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import java.lang.Integer.max
+
 /**
  * Longest substring without repeating characters
  *
@@ -51,6 +55,59 @@ class LongestSubstringWithoutRepeatingCharactersTODO {
      *  return longest
      */
     private fun lengthOfLongestSubstring(s: String): Int {
-        return -1
+        var firstPointer = 0
+        var secondPointer = 0
+        var max = 0
+
+        val hashSet = HashSet<Char>()
+
+        while (secondPointer < s.length) {
+            if (!hashSet.contains(s[secondPointer])) {
+                hashSet.add(s[secondPointer])
+                secondPointer++
+                max = max(hashSet.size, max)
+            } else {
+                hashSet.remove(s[firstPointer])
+                firstPointer++
+            }
+        }
+        return max
     }
+
+    @Test
+    fun test1() {
+        // Given
+        val input = "abcabcbb"
+
+        // When
+        val result = lengthOfLongestSubstring(input)
+
+        // Then
+        assertEquals(3, result)
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val input = "bbbbb"
+
+        // When
+        val result = lengthOfLongestSubstring(input)
+
+        // Then
+        assertEquals(1, result)
+    }
+
+    @Test
+    fun test3() {
+        // Given
+        val input = "pwwkew"
+
+        // When
+        val result = lengthOfLongestSubstring(input)
+
+        // Then
+        assertEquals(3, result)
+    }
+
 }
