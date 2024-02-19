@@ -24,7 +24,7 @@ import org.junit.Test
  *      Output: false
  *      Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  */
-class IsPalindrome {
+class PalindromeNumber {
 
     /**
      * Initial thought
