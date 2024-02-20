@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/MajorityElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/FibonacciNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExercises/META-INF/CodingExercises.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExercises/META-INF/CodingExercises.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jiaha/OneDrive/Documents/projects/github/Kotlin-Algorithms&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/jiaha/Downloads/Statistic-4.2.14.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\easy" />
@@ -68,91 +71,90 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MajorityElementTODO">
-    <configuration name="FizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.math.easy in CodingExercises">
+    <configuration name="FibonacciNumber$FibonacciTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FizzBuzz" />
+      <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulation" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzz.testFizzBuzzOneLine1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciNumber$FibonacciTabulationOptimized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FizzBuzz" />
-      <option name="METHOD_NAME" value="testFizzBuzzOneLine1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.MajorityElement" />
+      <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulationOptimized" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNumberOfOccurrencesTODO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciNumber$FibonacciTabulationOptimized.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.UniqueNumberOfOccurrencesTODO" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueNumberOfOccurrencesTODO.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.UniqueNumberOfOccurrencesTODO" />
+      <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulationOptimized" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciNumber$FibonacciTabulation.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulation" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="math.easy in CodingExercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MajorityElementTODO" />
-        <item itemvalue="JUnit.UniqueNumberOfOccurrencesTODO" />
-        <item itemvalue="JUnit.UniqueNumberOfOccurrencesTODO.test1" />
-        <item itemvalue="JUnit.FizzBuzz" />
-        <item itemvalue="JUnit.FizzBuzz.testFizzBuzzOneLine1" />
+        <item itemvalue="JUnit.math.easy in CodingExercises" />
+        <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulation" />
+        <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulation.test5" />
+        <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulationOptimized" />
+        <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulationOptimized.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -735,6 +737,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/ClimbingStairs.kt</url>
           <line>66</line>
           <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/FibonacciNumber.kt</url>
+          <line>211</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/FibonacciNumber.kt</url>
+          <line>207</line>
+          <option name="timeStamp" value="188" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
