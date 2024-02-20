@@ -180,7 +180,7 @@ class PowerOfThree {
         val result = isPowerOfThree2(input)
 
         // Then
-        assertTrue(result)
+        assertFalse(result)
     }
 
 }

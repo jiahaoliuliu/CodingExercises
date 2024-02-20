@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/FibonacciNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExercises/META-INF/CodingExercises.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExercises/META-INF/CodingExercises.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/PowerOfThree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/PowerOfThree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.math.easy in CodingExercises">
+  <component name="RunManager" selected="JUnit.PowerOfThree">
     <configuration name="FibonacciNumber$FibonacciTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -87,37 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumber$FibonacciTabulationOptimized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulationOptimized" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciNumber$FibonacciTabulationOptimized.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulationOptimized" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FibonacciNumber$FibonacciTabulation.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -129,6 +96,37 @@
       <option name="PACKAGE_NAME" value="math.easy.FibonacciNumber" />
       <option name="MAIN_CLASS_NAME" value="math.easy.FibonacciNumber$FibonacciTabulation" />
       <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.PowerOfThree" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerOfThree.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.PowerOfThree" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PowerOfThree" />
+        <item itemvalue="JUnit.PowerOfThree.test10" />
         <item itemvalue="JUnit.math.easy in CodingExercises" />
         <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulation" />
         <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulation.test5" />
-        <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulationOptimized" />
-        <item itemvalue="JUnit.FibonacciNumber$FibonacciTabulationOptimized.test1" />
       </list>
     </recent_temporary>
   </component>
