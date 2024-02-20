@@ -30,7 +30,7 @@ import kotlin.math.log10
  *  -2^31 <= n <= 2^31 - 1
  * Follow up: Could you solve it without loops/recursion?
  */
-class PowerOfThree {
+class PowerOfThree: IsPowerOfThreeTests() {
 
     /**
      * Initial thought
@@ -39,7 +39,7 @@ class PowerOfThree {
      * -> while it is divisible by 3, divide it
      * If it is not divisible by 3, the unique number valid is 1
      */
-    private fun isPowerOfThree(n: Int): Boolean {
+    override fun isPowerOfThree(n: Int): Boolean {
         if (n < 1) return false
 
         var divident = n
@@ -50,17 +50,22 @@ class PowerOfThree {
 
         return divident == 1
     }
+}
+
+class PowerOfThree2: IsPowerOfThreeTests() {
 
     /**
      * This is a more accurate solution, but not better
      * because there are 2 logs here and logs are expensive
      */
-    private fun isPowerOfThree2(n: Int): Boolean {
+    override fun isPowerOfThree(n: Int): Boolean {
         val log3 = log10(n.toDouble()) / log10(3.0)
         // Check if the log3 does not have any decimals
         return  log3 - log3.toInt() == 0.0
     }
-
+}
+abstract class IsPowerOfThreeTests {
+    abstract fun isPowerOfThree(n: Int): Boolean
     @Test
     fun test1() {
         // Given
@@ -113,10 +118,10 @@ class PowerOfThree {
     @Test
     fun test5() {
         // Given
-        val input = 27
+        val input = 243
 
         // When
-        val result = isPowerOfThree2(input)
+        val result = isPowerOfThree(input)
 
         // Then
         assertTrue(result)
@@ -125,62 +130,12 @@ class PowerOfThree {
     @Test
     fun test6() {
         // Given
-        val input = 0
-
-        // When
-        val result = isPowerOfThree2(input)
-
-        // Then
-        assertFalse(result)
-    }
-
-
-    @Test
-    fun test7() {
-        // Given
-        val input = -1
-
-        // When
-        val result = isPowerOfThree2(input)
-
-        // Then
-        assertFalse(result)
-    }
-
-    @Test
-    fun test8() {
-        // Given
-        val input = 45
-
-        // When
-        val result = isPowerOfThree2(input)
-
-        // Then
-        assertFalse(result)
-    }
-
-    @Test
-    fun test9() {
-        // Given
-        val input = 243
-
-        // When
-        val result = isPowerOfThree2(input)
-
-        // Then
-        assertTrue(result)
-    }
-
-    @Test
-    fun test10() {
-        // Given
         val input = 19684
 
         // When
-        val result = isPowerOfThree2(input)
+        val result = isPowerOfThree(input)
 
         // Then
         assertFalse(result)
     }
-
 }
