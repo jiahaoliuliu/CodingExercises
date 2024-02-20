@@ -225,7 +225,7 @@ class MinimumPathSumTabulation: MinimumPathSum() {
  * Same as tabulation, but the space is optimized to 2 * m
  *
  */
-class MinimumPathSumTabulationOptiSpace: MinimumPathSum() {
+class MinimumPathSumTabulationOptimSpace: MinimumPathSum() {
 
     /**
      * Complexity:

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MinimumPathSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/PathsOnMatrixWithWalls.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MinimumPathSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MinimumPathSum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +70,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinimumPathSumTabulationOptiSpace">
-    <configuration name="MinimumPathSumMemoization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PathsOnMatrixWithWallsTabulationOptimSpace">
+    <configuration name="PathsOnMatrixWithWallsMemoization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MinimumPathSumMemoization" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.PathsOnMatrixWithWallsMemoization" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSumRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathsOnMatrixWithWallsRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +95,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MinimumPathSumRecursive" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.PathsOnMatrixWithWallsRecursive" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSumTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathsOnMatrixWithWallsRecursiveSimpler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +110,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MinimumPathSumTabulation" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.PathsOnMatrixWithWallsRecursiveSimpler" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSumTabulationOptiSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathsOnMatrixWithWallsTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +125,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MinimumPathSumTabulationOptiSpace" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.PathsOnMatrixWithWallsTabulation" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumPathSumTabulation.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathsOnMatrixWithWallsTabulationOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -139,20 +140,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.MinimumPathSumTabulation" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.PathsOnMatrixWithWallsTabulationOptimSpace" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinimumPathSumTabulationOptiSpace" />
-        <item itemvalue="JUnit.MinimumPathSumTabulation" />
-        <item itemvalue="JUnit.MinimumPathSumTabulation.test" />
-        <item itemvalue="JUnit.MinimumPathSumMemoization" />
-        <item itemvalue="JUnit.MinimumPathSumRecursive" />
+        <item itemvalue="JUnit.PathsOnMatrixWithWallsTabulationOptimSpace" />
+        <item itemvalue="JUnit.PathsOnMatrixWithWallsTabulation" />
+        <item itemvalue="JUnit.PathsOnMatrixWithWallsMemoization" />
+        <item itemvalue="JUnit.PathsOnMatrixWithWallsRecursiveSimpler" />
+        <item itemvalue="JUnit.PathsOnMatrixWithWallsRecursive" />
       </list>
     </recent_temporary>
   </component>
