@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ElementAppearingMoreThan25PercentInSortedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bits/easy/SortIntegersByTheNumberOf1Bits.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,38 +69,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch">
-    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SortIntegersByTheNumberOf1BitsCustomSort">
     <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.testFindLeftest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -117,43 +86,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayFrequencyMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortIntegersByTheNumberOf1BitsCustomSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="bits.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayFrequencyMap" />
+      <option name="PACKAGE_NAME" value="bits.easy" />
+      <option name="MAIN_CLASS_NAME" value="bits.easy.SortIntegersByTheNumberOf1BitsCustomSort" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementAppearingMoreThan25PercentInSortedArraySlidingWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortIntegersByTheNumberOf1BitsImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="bits.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArraySlidingWindows" />
+      <option name="PACKAGE_NAME" value="bits.easy" />
+      <option name="MAIN_CLASS_NAME" value="bits.easy.SortIntegersByTheNumberOf1BitsImpl" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortIntegersByTheNumberOf1BitsImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bits.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bits.easy" />
+      <option name="MAIN_CLASS_NAME" value="bits.easy.SortIntegersByTheNumberOf1BitsImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortIntegersByTheNumberOf1BitsImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bits.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bits.easy" />
+      <option name="MAIN_CLASS_NAME" value="bits.easy.SortIntegersByTheNumberOf1BitsImpl" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
-        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.testFindLeftest" />
-        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" />
-        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" />
-        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" />
+        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsCustomSort" />
+        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl" />
+        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl" />
+        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl" />
+        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -761,6 +762,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ElementAppearingMoreThan25PercentInSortedArray.kt</url>
           <line>139</line>
           <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/bits/easy/SortIntegersByTheNumberOf1Bits.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/bits/easy/SortIntegersByTheNumberOf1Bits.kt</url>
+          <line>56</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
