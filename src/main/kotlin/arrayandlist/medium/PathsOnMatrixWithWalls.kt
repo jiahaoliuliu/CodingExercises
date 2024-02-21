@@ -182,6 +182,7 @@ class PathsOnMatrixWithWallsTabulation: PathsOnMatrixWithWalls() {
 
     /**
      * paths(i, j) represents the number of paths from the cell (0, 0) to that cell
+     * https://excalidraw.com/#room=655e228900a3c68dafbb,OilwL_gWQV2WtiWr4FjF6Q
      *
      * General case
      * - paths(i, j) = paths(i-1, j) + paths(i, j-1)
