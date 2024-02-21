@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/HouseRobber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ElementAppearingMoreThan25PercentInSortedArray.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/PathsOnMatrixWithWalls.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/PathsOnMatrixWithWalls.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,82 +69,79 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HouseRobberTabulationOptimSpace">
-    <configuration name="HouseRobberMemoization and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch">
+    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.HouseRobber" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="arrayandlist.medium.HouseRobberMemoization" />
-        <pattern testClass="arrayandlist.medium.HouseRobberRecursive" />
-        <pattern testClass="arrayandlist.medium.HouseRobberTabulation" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HouseRobberMemoization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.HouseRobberMemoization" />
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobberRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.HouseRobberRecursive" />
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.testFindLeftest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
+      <option name="METHOD_NAME" value="testFindLeftest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayFrequencyMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayFrequencyMap" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobberTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementAppearingMoreThan25PercentInSortedArraySlidingWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.HouseRobberTabulation" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HouseRobberTabulationOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.HouseRobberTabulationOptimSpace" />
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArraySlidingWindows" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HouseRobberTabulationOptimSpace" />
-        <item itemvalue="JUnit.HouseRobberMemoization and 2 more" />
-        <item itemvalue="JUnit.HouseRobberTabulation" />
-        <item itemvalue="JUnit.HouseRobberMemoization" />
-        <item itemvalue="JUnit.HouseRobberRecursive" />
+        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
+        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.testFindLeftest" />
+        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" />
+        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" />
+        <item itemvalue="JUnit.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -750,6 +746,21 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MinimumPathSum.kt</url>
           <line>103</line>
           <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ElementAppearingMoreThan25PercentInSortedArray.kt</url>
+          <line>176</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ElementAppearingMoreThan25PercentInSortedArray.kt</url>
+          <line>132</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ElementAppearingMoreThan25PercentInSortedArray.kt</url>
+          <line>139</line>
+          <option name="timeStamp" value="196" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
