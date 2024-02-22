@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ReverseWordsInAStringIIITODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/Sqrt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,53 +69,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestCommonSubsequenceTabulationOptimSpace">
-    <configuration name="LongestCommonSubsequenceTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestCommonSubsequenceTabulation" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonSubsequenceTabulationImproved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestCommonSubsequenceTabulationImproved" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonSubsequenceTabulationImproved.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestCommonSubsequenceTabulationImproved" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SqrtImpl.test4">
     <configuration name="LongestCommonSubsequenceTabulationOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -131,16 +85,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequenceTabulation.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SqrtImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestCommonSubsequenceTabulation" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.SqrtImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqrtImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.SqrtImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqrtImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.SqrtImpl" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqrtImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.SqrtImpl" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LongestCommonSubsequenceTabulationOptimSpace" />
-        <item itemvalue="JUnit.LongestCommonSubsequenceTabulationImproved" />
-        <item itemvalue="JUnit.LongestCommonSubsequenceTabulationImproved.test4" />
-        <item itemvalue="JUnit.LongestCommonSubsequenceTabulationImproved" />
-        <item itemvalue="JUnit.LongestCommonSubsequenceTabulation" />
+        <item itemvalue="JUnit.SqrtImpl.test4" />
+        <item itemvalue="JUnit.SqrtImpl.test4" />
+        <item itemvalue="JUnit.SqrtImpl" />
+        <item itemvalue="JUnit.SqrtImpl.test3" />
+        <item itemvalue="JUnit.SqrtImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -821,6 +822,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/string/medium/LongestCommonSubsequence.kt</url>
           <line>305</line>
           <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/Sqrt.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
