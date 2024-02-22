@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/TransposeMatrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/AssignCookies.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +69,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortIntegersByTheNumberOf1BitsCustomSort">
-    <configuration name="ElementAppearingMoreThan25PercentInSortedArrayBinarySearch.testFindLeftest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssignCookiesOptim">
+    <configuration name="AssignCookiesImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -79,9 +79,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.ElementAppearingMoreThan25PercentInSortedArrayBinarySearch" />
-      <option name="METHOD_NAME" value="testFindLeftest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.AssignCookiesImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignCookiesOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.AssignCookiesOptim" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,22 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortIntegersByTheNumberOf1BitsImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bits.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bits.easy" />
-      <option name="MAIN_CLASS_NAME" value="bits.easy.SortIntegersByTheNumberOf1BitsImpl" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortIntegersByTheNumberOf1BitsImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -150,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssignCookiesOptim" />
+        <item itemvalue="JUnit.AssignCookiesImpl" />
         <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsCustomSort" />
         <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl" />
         <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl" />
-        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl" />
-        <item itemvalue="JUnit.SortIntegersByTheNumberOf1BitsImpl.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -772,6 +770,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/bits/easy/SortIntegersByTheNumberOf1Bits.kt</url>
           <line>56</line>
           <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/AssignCookies.kt</url>
+          <line>99</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/AssignCookies.kt</url>
+          <line>100</line>
+          <option name="timeStamp" value="203" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
