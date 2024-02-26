@@ -1,6 +1,8 @@
 package linkedlist.easy
 
 import linkedlist.ListNode
+import linkedlist.checkValues
+import linkedlist.toLinkedList
 import org.junit.Assert.*
 import org.junit.Test
 
@@ -35,11 +37,12 @@ abstract class RemoveLinkedListElements {
     @Test
     fun testCornerCase1() {
         // Given
-        val node1 = null
+        val list = emptyList<Int>()
+        val head = list.toLinkedList()
         val value = 3
 
         // When
-        val result = removeElements(node1, value)
+        val result = removeElements(head, value)
 
         // Then
         assertNull(result)
@@ -48,21 +51,13 @@ abstract class RemoveLinkedListElements {
     @Test
     fun testCornerCase2() {
         // Given
-        val node1 = ListNode(7)
-
-        val node2 = ListNode(7)
-        node1.next = node2
-
-        val node3 = ListNode(7)
-        node2.next = node3
-
-        val node4 = ListNode(7)
-        node3.next = node4
+        val list = listOf(7, 7, 7, 7)
+        val head = list.toLinkedList()
 
         val value = 7
 
         // When
-        val result = removeElements(node1, 7)
+        val result = removeElements(head, value)
 
         // Then
         assertNull(result)
@@ -71,65 +66,30 @@ abstract class RemoveLinkedListElements {
     @Test
     fun testCornerCase3() {
         // Given
-        val node1 = ListNode(7)
-
-        val node2 = ListNode(8)
-        node1.next = node2
-
-        val node3 = ListNode(9)
-        node2.next = node3
-
-        val node4 = ListNode(10)
-        node3.next = node4
+        val list = listOf(7, 8, 9, 10)
+        val head = list.toLinkedList()
 
         val value = 7
 
         // When
-        val result = removeElements(node1, 7)
+        val result = removeElements(head, 7)
 
         // Then
-        assertNotNull(result)
-        assertEquals(node2, result)
-        assertEquals(node3, node2.next)
-        assertEquals(node4, node3.next)
-        assertNull(node4.next)
+        result.checkValues(listOf(8, 9, 10))
     }
 
     @Test
     fun test1() {
         // Given
-        val node1 = ListNode(1)
-
-        val node2 = ListNode(2)
-        node1.next = node2
-
-        val node3 = ListNode(6)
-        node2.next = node3
-
-        val node4 = ListNode(3)
-        node3.next = node4
-
-        val node5 = ListNode(4)
-        node4.next = node5
-
-        val node6 = ListNode(5)
-        node5.next = node6
-
-        val node7 = ListNode(6)
-        node6.next = node7
-
+        val list = listOf(1, 2, 6, 3, 4, 5, 6)
+        val head = list.toLinkedList()
         val value = 6
 
         // When
-        val result = removeElements(node1, value)
+        val result = removeElements(head, value)
 
         // Then
-        assertNotNull(result)
-        assertEquals(node2, result!!.next)
-        assertEquals(node4, node2.next)
-        assertEquals(node5, node4.next)
-        assertEquals(node6, node5.next)
-        assertNull(node6.next)
+        result.checkValues(listOf(1, 2, 3, 4, 5, 6))
     }
 }
 
