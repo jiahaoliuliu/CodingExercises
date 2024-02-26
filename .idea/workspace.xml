@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MiddleOfALinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,37 +69,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MiddleOfALinkedListImpl.test1">
-    <configuration name="ConvertBinaryNumberInALinkedListToIntegerImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.ConvertBinaryNumberInALinkedListToIntegerImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiddleOfALinkedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RemoveLinkedListElementsOptimalSol">
     <configuration name="MiddleOfALinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -116,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfALinkedListImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveLinkedListElementsImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -125,9 +95,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.RemoveLinkedListElementsImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveLinkedListElementsImpl.testCornerCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.RemoveLinkedListElementsImpl" />
+      <option name="METHOD_NAME" value="testCornerCase3" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveLinkedListElementsOptimalSol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.RemoveLinkedListElementsOptimalSol" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveLinkedListElementsOptimalSol" />
+        <item itemvalue="JUnit.RemoveLinkedListElementsImpl" />
+        <item itemvalue="JUnit.RemoveLinkedListElementsImpl.testCornerCase3" />
+        <item itemvalue="JUnit.RemoveLinkedListElementsImpl" />
         <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
-        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
-        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
-        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
-        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
       </list>
     </recent_temporary>
   </component>
