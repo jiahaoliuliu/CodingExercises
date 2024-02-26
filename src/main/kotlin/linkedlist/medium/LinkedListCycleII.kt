@@ -1,4 +1,4 @@
-package linkedlist.easy
+package linkedlist.medium
 
 import linkedlist.ListNode
 import linkedlist.toLinkedList
