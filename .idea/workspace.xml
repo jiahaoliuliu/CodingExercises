@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ReverseLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +69,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseLinkedListImpl">
-    <configuration name="MergeTwoSortedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListCycleImpl">
+    <configuration name="LinkedListCycleImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +79,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListImpl" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedListImpl.testCornerCases_listsWithSameSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListCycleImpl.testNormal1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +94,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListImpl" />
-      <option name="METHOD_NAME" value="testCornerCases_listsWithSameSize" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleImpl" />
+      <option name="METHOD_NAME" value="testNormal1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedListOptimalImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListCycleImpl.testNormal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +110,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListOptimalImpl" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleImpl" />
+      <option name="METHOD_NAME" value="testNormal2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListCycleImpl" />
+        <item itemvalue="JUnit.LinkedListCycleImpl.testNormal2" />
+        <item itemvalue="JUnit.LinkedListCycleImpl.testNormal1" />
         <item itemvalue="JUnit.ReverseLinkedListImpl" />
         <item itemvalue="JUnit.ReverseLinkedListImpl.testNormal2" />
-        <item itemvalue="JUnit.ReverseLinkedListImpl" />
-        <item itemvalue="JUnit.MergeTwoSortedListOptimalImpl" />
-        <item itemvalue="JUnit.MergeTwoSortedListImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -871,6 +872,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
           <line>64</line>
           <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycle.kt</url>
+          <line>64</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycle.kt</url>
+          <line>79</line>
+          <option name="timeStamp" value="240" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
