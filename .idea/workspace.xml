@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedListTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +69,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveLinkedListElementsImpl and 1 more">
-    <configuration name="RemoveLinkedListElementsImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeTwoSortedListOptimalImpl">
+    <configuration name="MergeTwoSortedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -80,43 +79,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.RemoveLinkedListElements" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="linkedlist.easy.RemoveLinkedListElementsImpl" />
-        <pattern testClass="linkedlist.easy.RemoveLinkedListElementsOptimalSol" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.TestCheckValues" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCheckValues.testCornerCaseEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeTwoSortedListImpl.testCornerCases_listsWithDifferentSize1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.TestCheckValues" />
-      <option name="METHOD_NAME" value="testCornerCaseEmptyList" />
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListImpl" />
+      <option name="METHOD_NAME" value="testCornerCases_listsWithDifferentSize1" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedListImpl.testCornerCases_listsWithSameSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListImpl" />
+      <option name="METHOD_NAME" value="testCornerCases_listsWithSameSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedListOptimalImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedListOptimalImpl" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,29 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testEmptyLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Tests" />
-      <option name="METHOD_NAME" value="testEmptyLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RemoveLinkedListElementsImpl and 1 more" />
-        <item itemvalue="JUnit.TestCheckValues" />
-        <item itemvalue="JUnit.TestCheckValues.testDifferentListAndNodes" />
-        <item itemvalue="JUnit.TestCheckValues.testCornerCaseEmptyList" />
-        <item itemvalue="JUnit.Tests.testEmptyLinkedList" />
+        <item itemvalue="JUnit.MergeTwoSortedListOptimalImpl" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl.testCornerCases_listsWithSameSize" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl.testCornerCases_listsWithDifferentSize1" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -857,6 +852,31 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt</url>
           <line>77</line>
           <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
+          <line>191</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
+          <line>212</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
+          <line>220</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt</url>
+          <line>53</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
+          <line>64</line>
+          <option name="timeStamp" value="235" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
