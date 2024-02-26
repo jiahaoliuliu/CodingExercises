@@ -1,5 +1,6 @@
 package arrayandlist.easy
 
+import arrayandlist.swap
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
@@ -91,12 +92,6 @@ class MeetingRooms {
 
         // Show the result
         // Not need. It is a mutable list
-    }
-
-    private fun <T> MutableList<T>.swap(i: Int, j: Int) {
-        val tmp = this[i]
-        this[i] = this[j]
-        this[j] = tmp
     }
 
     @Test
