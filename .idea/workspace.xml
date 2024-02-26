@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ConvertBinaryNumberInALinkedListToInteger.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/BasicCalculatorIITODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MiddleOfALinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertBinaryNumberInALinkedListToIntegerImpl">
+  <component name="RunManager" selected="JUnit.MiddleOfALinkedListImpl.test1">
     <configuration name="ConvertBinaryNumberInALinkedListToIntegerImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -86,47 +85,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoldMineTabulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MiddleOfALinkedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GoldMineTabulation" />
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoldMineTabulationOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MiddleOfALinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GoldMineTabulationOptimSpace" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningSumOf1DArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MiddleOfALinkedListImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.RunningSumOf1DArray" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConvertBinaryNumberInALinkedListToIntegerImpl" />
-        <item itemvalue="JUnit.SetMismatch" />
-        <item itemvalue="JUnit.RunningSumOf1DArray" />
-        <item itemvalue="JUnit.GoldMineTabulationOptimSpace" />
-        <item itemvalue="JUnit.GoldMineTabulation" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -835,6 +836,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GoldMine.kt</url>
           <line>254</line>
           <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MiddleOfALinkedList.kt</url>
+          <line>102</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MiddleOfALinkedList.kt</url>
+          <line>107</line>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
