@@ -15,8 +15,8 @@ import org.junit.Test
  * Example 3: [1, 9, -1, -2, 3, 0, 4, -2, -2, 3, 4]
  *      - Output [-1, -2, 3, 0, 4, -2, -2]
  *
- * Example 4: [10, 3, 4, -2, 4, -5, 8, 9, -12, 6]
- *      - Output [4, -2, 4, -5, 8, 9, -12]
+ * Example 4: [10, 3, 4, 0, -4, -5, 8, 9, -12, 6]
+ *      - Output [4, 0, -4, -5, 8, 9, -12]
  */
 abstract class ZeroSum {
 

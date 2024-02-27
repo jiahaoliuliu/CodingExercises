@@ -21,8 +21,23 @@ package arrayandlist.hard
  * Example 3: [1, 9, -1, -2, 3, 0, 4, -2, -2, 3, 4]
  *      - Output [-1, -2, 3, 0, 4, -2, -2]
  *
- * Example 4: [10, 3, 4, -2, 4, -5, 8, 9, -12, 6]
- *      - Output [4, -2, 4, -5, 8, 9, -12]
+ * Example 4: [10, 3, 4, 0, -4, -5, 8, 9, -12, 6]
+ *      - Output [4, 0, -4, -5, 8, 9, -12]
  */
-class CoinsFace {
+class CoinsFaceTODO {
+
+    /**
+     * Initial thoughts
+     *
+     * For the k, we can do the follow
+     * - Substitute H for k
+     * - Substitute T for -1
+     *
+     * Find the longest sum in the array
+     *
+     */
+    fun longestSubsequence(k: Int, flips: CharArray): Int {
+        return 0
+    }
+
 }
