@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycleII.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/CoinsFace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/ZeroSum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ListNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\linkedlist\medium" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\easy" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -70,7 +71,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListCycleIIOptimImpl">
+  <component name="RunManager" selected="JUnit.ZeroSumImpl.test3">
     <configuration name="LinkedListCycleIIImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -82,22 +83,6 @@
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
       <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleIIImpl" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListCycleIIImpl.testNormal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleIIImpl" />
-      <option name="METHOD_NAME" value="testNormal2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,33 +102,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycleImpl.testNormal1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZeroSumImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleImpl" />
-      <option name="METHOD_NAME" value="testNormal1" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.ZeroSumImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroSumImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.ZeroSumImpl" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycleImpl.testNormal2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZeroSumImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListCycleImpl" />
-      <option name="METHOD_NAME" value="testNormal2" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.ZeroSumImpl" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZeroSumImpl.test3" />
+        <item itemvalue="JUnit.ZeroSumImpl.test3" />
+        <item itemvalue="JUnit.ZeroSumImpl" />
+        <item itemvalue="JUnit.ZeroSumImpl.test1" />
         <item itemvalue="JUnit.LinkedListCycleIIOptimImpl" />
-        <item itemvalue="JUnit.LinkedListCycleIIImpl" />
-        <item itemvalue="JUnit.LinkedListCycleIIImpl" />
-        <item itemvalue="JUnit.LinkedListCycleIIImpl" />
-        <item itemvalue="JUnit.LinkedListCycleIIImpl.testNormal2" />
       </list>
     </recent_temporary>
   </component>
@@ -885,24 +885,39 @@
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycleII.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/LinkedListCycleII.kt</url>
           <line>82</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycleII.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/LinkedListCycleII.kt</url>
           <line>115</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycleII.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/LinkedListCycleII.kt</url>
           <line>122</line>
           <option name="timeStamp" value="243" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycleII.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/LinkedListCycleII.kt</url>
           <line>146</line>
           <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/ZeroSum.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/ZeroSum.kt</url>
+          <line>124</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/ZeroSum.kt</url>
+          <line>132</line>
+          <option name="timeStamp" value="247" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
