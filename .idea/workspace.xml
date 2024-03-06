@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/ValidateBinarySearchTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/medium/ValidateBinarySearchTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/ValidateBinarySearchTree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestToBinaryTree.testWithNull">
+  <component name="RunManager" selected="JUnit.ValidateBinarySearchTreeImpl">
     <configuration name="SortListMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -83,22 +82,6 @@
       <option name="PACKAGE_NAME" value="linkedlist.medium" />
       <option name="MAIN_CLASS_NAME" value="linkedlist.medium.SortListMergeSort" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortListMergeSort.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.SortListMergeSort" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,17 +118,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroSumImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateBinarySearchTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="tree.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.ZeroSumImpl" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.ValidateBinarySearchTreeImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateBinarySearchTreeImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.ValidateBinarySearchTreeImpl" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateBinarySearchTreeImpl" />
+        <item itemvalue="JUnit.ValidateBinarySearchTreeImpl.test4" />
+        <item itemvalue="JUnit.ValidateBinarySearchTreeImpl" />
         <item itemvalue="JUnit.TestToBinaryTree.testWithNull" />
         <item itemvalue="JUnit.TestToBinaryTree.testSimple1" />
-        <item itemvalue="JUnit.SortListMergeSort" />
-        <item itemvalue="JUnit.SortListMergeSort.test1" />
-        <item itemvalue="JUnit.SortListMergeSort.test1" />
       </list>
     </recent_temporary>
   </component>
