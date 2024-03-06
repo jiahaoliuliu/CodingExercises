@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/SortList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/ValidateBinarySearchTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ReverseLinkedListTODO.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,38 +71,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortListMergeSort">
-    <configuration name="SortListBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.SortListBubbleSort" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortListBubbleSort.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.SortListBubbleSort" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestToBinaryTree.testWithNull">
     <configuration name="SortListMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -134,6 +103,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestToBinaryTree.testSimple1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.TestToBinaryTree" />
+      <option name="METHOD_NAME" value="testSimple1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestToBinaryTree.testWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.TestToBinaryTree" />
+      <option name="METHOD_NAME" value="testWithNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZeroSumImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestToBinaryTree.testWithNull" />
+        <item itemvalue="JUnit.TestToBinaryTree.testSimple1" />
         <item itemvalue="JUnit.SortListMergeSort" />
         <item itemvalue="JUnit.SortListMergeSort.test1" />
         <item itemvalue="JUnit.SortListMergeSort.test1" />
-        <item itemvalue="JUnit.SortListBubbleSort.test1" />
-        <item itemvalue="JUnit.SortListBubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -954,6 +955,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/SortList.kt</url>
           <line>162</line>
           <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="263" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
