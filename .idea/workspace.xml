@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/BalancedBinaryTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/medium/ValidateBinarySearchTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/ValidateBinarySearchTree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,34 +70,33 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidateBinarySearchTreeImpl">
-    <configuration name="SortListMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BalancedBinaryTreeOptim">
+    <configuration name="BalancedBinaryTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
+          <option name="PATTERN" value="tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.SortListMergeSort" />
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.BalancedBinaryTreeImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestToBinaryTree.testSimple1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalancedBinaryTreeOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TestToBinaryTree" />
-      <option name="METHOD_NAME" value="testSimple1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.BalancedBinaryTreeOptim" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedBinaryTreeOptim" />
+        <item itemvalue="JUnit.BalancedBinaryTreeImpl" />
         <item itemvalue="JUnit.ValidateBinarySearchTreeImpl" />
         <item itemvalue="JUnit.ValidateBinarySearchTreeImpl.test4" />
         <item itemvalue="JUnit.ValidateBinarySearchTreeImpl" />
-        <item itemvalue="JUnit.TestToBinaryTree.testWithNull" />
-        <item itemvalue="JUnit.TestToBinaryTree.testSimple1" />
       </list>
     </recent_temporary>
   </component>
