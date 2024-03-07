@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/BalancedBinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/TreeBreathFirstSearchII.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/TreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBinaryTreeOptim">
+  <component name="RunManager" selected="JUnit.TreeBreathFirstSearchIIImpl">
     <configuration name="BalancedBinaryTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -101,33 +102,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestToBinaryTree.testWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeBreathFirstSearchIIImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TestToBinaryTree" />
-      <option name="METHOD_NAME" value="testWithNull" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.TreeBreathFirstSearchIIImpl" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBinarySearchTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeBreathFirstSearchIIImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.ValidateBinarySearchTreeImpl" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.TreeBreathFirstSearchIIImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeBreathFirstSearchIIImpl" />
+        <item itemvalue="JUnit.TreeBreathFirstSearchIIImpl.test1" />
+        <item itemvalue="JUnit.TreeBreathFirstSearchIIImpl.test1" />
         <item itemvalue="JUnit.BalancedBinaryTreeOptim" />
         <item itemvalue="JUnit.BalancedBinaryTreeImpl" />
-        <item itemvalue="JUnit.ValidateBinarySearchTreeImpl" />
-        <item itemvalue="JUnit.ValidateBinarySearchTreeImpl.test4" />
-        <item itemvalue="JUnit.ValidateBinarySearchTreeImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -959,9 +960,19 @@
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt</url>
-          <line>20</line>
-          <option name="timeStamp" value="263" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/easy/TreeBreathFirstSearchII.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/easy/TreeBreathFirstSearchII.kt</url>
+          <line>85</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/easy/TreeBreathFirstSearchII.kt</url>
+          <line>90</line>
+          <option name="timeStamp" value="266" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
