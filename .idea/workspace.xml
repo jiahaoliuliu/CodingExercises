@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/PalindromeLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/LongestPalindrome.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,22 +70,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeLinkedListImpl">
-    <configuration name="FindPeakElementBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindPeakElementBinarySearch" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LongestPalindromeImpl">
     <configuration name="FindPeakElementSimpleLinear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -96,6 +81,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
       <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindPeakElementSimpleLinear" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.LongestPalindromeImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromeImpl" />
         <item itemvalue="JUnit.PalindromeLinkedListImpl" />
         <item itemvalue="JUnit.PalindromeLinkedListImpl.test3" />
         <item itemvalue="JUnit.PalindromeLinkedListImpl" />
         <item itemvalue="JUnit.PalindromeLinkedListImpl.test1" />
-        <item itemvalue="JUnit.FindPeakElementBinarySearch" />
       </list>
     </recent_temporary>
   </component>
