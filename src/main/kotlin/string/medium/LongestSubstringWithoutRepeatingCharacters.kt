@@ -68,6 +68,31 @@ abstract class LongestSubstringWithoutRepeatingCharacters {
         // Then
         assertEquals(3, result)
     }
+
+    @Test
+    fun test4() {
+        // Given
+        val input = " "
+
+        // When
+        val result = lengthOfLongestSubstring(input)
+
+        // Then
+        assertEquals(1, result)
+    }
+
+    @Test
+    fun test5() {
+        // Given
+        val input = "   "
+
+        // When
+        val result = lengthOfLongestSubstring(input)
+
+        // Then
+        assertEquals(1, result)
+    }
+
 }
 
 class LongestSubstringWithoutRepeatingCharactersImpl: LongestSubstringWithoutRepeatingCharacters() {
@@ -113,5 +138,44 @@ class LongestSubstringWithoutRepeatingCharactersImpl: LongestSubstringWithoutRep
             }
         }
         return max
+    }
+}
+
+class LongestSubstringWithoutRepeatingCharactersOptim: LongestSubstringWithoutRepeatingCharacters() {
+
+    /**
+     * Optimization over the existing algorithm. Instead of using a hashset of all the chars in the string
+     * Use an array of 26 chars, where it stores the last know position
+     *
+     * For each char, if the last position exists and it is bigger than start, then
+     * move start to the next position to that position
+     *
+     * pwwkew = 3
+     *
+     * start = 2
+     * [p = 0, w = 5, k = 3, e = 4]
+     * max length = 2
+     * Complexity:
+     * - Time: O(n)
+     * - Space: O(1)
+     */
+    override fun lengthOfLongestSubstring(s: String): Int {
+        // 1. Init the variables
+        var start = 0
+        val positions = Array<Int>(128){ -1 }
+        var maxLength = 0
+
+        // 2. Loop
+        s.forEachIndexed { index, c ->
+            if (positions[c.code] >= start) {
+                start = positions[c.code] + 1
+            }
+            positions[c.code] = index
+
+            maxLength = max(maxLength, index - start + 1)
+        }
+
+        // Return the result
+        return maxLength
     }
 }
