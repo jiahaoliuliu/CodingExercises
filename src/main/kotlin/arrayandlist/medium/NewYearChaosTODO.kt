@@ -14,7 +14,7 @@ import org.junit.Test
  * Print the number of bribes, or, if anyone has bribed more than two people, print Too chaotic.
  * Example 1
  *   - q = [1, 2, 3, 5, 4, 6, 7, 8]
- *   - If person  bribes person , the queue will look like this:\
+ *   - If person  bribes person , the queue will look like this:
  *       q = [1, 2, 3, 5, 4, 6, 7, 8]
  *     Only  bribe is required. Print 1.
  * Example 2
