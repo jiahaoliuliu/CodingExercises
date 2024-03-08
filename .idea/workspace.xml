@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindPeakElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/PalindromeLinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindPeakElementBinarySearch">
+  <component name="RunManager" selected="JUnit.PalindromeLinkedListImpl">
     <configuration name="FindPeakElementBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -101,63 +101,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharactersImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeLinkedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestSubstringWithoutRepeatingCharactersImpl" />
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.PalindromeLinkedListImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharactersImpl,test4 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeLinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestSubstringWithoutRepeatingCharacters" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="string.medium.LongestSubstringWithoutRepeatingCharactersImpl,test4" />
-        <pattern testClass="string.medium.LongestSubstringWithoutRepeatingCharactersOptim,test4" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.PalindromeLinkedListImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharactersOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeLinkedListImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="linkedlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LongestSubstringWithoutRepeatingCharactersOptim" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.PalindromeLinkedListImpl" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeLinkedListImpl" />
+        <item itemvalue="JUnit.PalindromeLinkedListImpl.test3" />
+        <item itemvalue="JUnit.PalindromeLinkedListImpl" />
+        <item itemvalue="JUnit.PalindromeLinkedListImpl.test1" />
         <item itemvalue="JUnit.FindPeakElementBinarySearch" />
-        <item itemvalue="JUnit.FindPeakElementSimpleLinear" />
-        <item itemvalue="JUnit.LongestSubstringWithoutRepeatingCharactersOptim" />
-        <item itemvalue="JUnit.LongestSubstringWithoutRepeatingCharactersImpl,test4 and 1 more" />
-        <item itemvalue="JUnit.LongestSubstringWithoutRepeatingCharactersImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -985,6 +982,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindTheDuplicateNumber.kt</url>
           <line>145</line>
           <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/PalindromeLinkedList.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/PalindromeLinkedList.kt</url>
+          <line>100</line>
+          <option name="timeStamp" value="278" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
