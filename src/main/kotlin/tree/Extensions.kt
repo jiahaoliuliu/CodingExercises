@@ -91,5 +91,71 @@ class TestToBinaryTree {
         assertNull(result?.right?.right?.left)
         assertNull(result?.right?.right?.right)
     }
+}
+
+fun TreeNode?.toList(): List<Int?> {
+    // Corner case
+    if (this == null) return emptyList()
+
+    // Init the variables
+    val queue = ArrayDeque<TreeNode?>()
+    val result = mutableListOf<Int?>()
+    queue.addLast(this)
+
+    // Loop
+    while(queue.isNotEmpty()) {
+        val node = queue.removeFirst()
+        result.add(node?.`val`)
+
+        node?.let {
+            queue.addLast(it.left)
+            queue.addLast(it.right)
+        }
+    }
+
+    return result
+}
+
+class ToListTest {
+    @Test
+    fun testCornerCaseNullList() {
+        // Given
+        val root:TreeNode? = null
+
+        // When
+        val result = root.toList()
+
+        // Then
+        assertTrue(result.isEmpty())
+    }
+
+    @Test
+    fun testSimple1() {
+        // Given
+        val list = listOf(1, 2, 3, 4, 5, 6, 7)
+        val root = list.toBinaryTree()
+
+        // When
+        val result = root.toList()
+
+        // Then
+        assertEquals(list, result)
+    }
+
+    @Test
+    fun testSimple2() {
+        // Given
+        val list = listOf(3,9,20,null,null,15,7)
+        val root = list.toBinaryTree()
+
+        // When
+        val result = root.toList()
+
+        // Then
+        val toCheck = mutableListOf<Int?>()
+        toCheck.addAll(list)
+        toCheck.addAll(listOf(null, null, null, null))
+        assertEquals(toCheck, result)
+    }
 
 }
