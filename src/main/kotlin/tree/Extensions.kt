@@ -113,7 +113,13 @@ fun TreeNode?.toList(): List<Int?> {
         }
     }
 
-    return result
+    // Remove all the nulls from the end
+    var lastNotNull = result.size - 1
+    while (result[lastNotNull] == null) {
+        lastNotNull--
+    }
+
+    return result.subList(0, lastNotNull + 1)
 }
 
 class ToListTest {
@@ -152,10 +158,7 @@ class ToListTest {
         val result = root.toList()
 
         // Then
-        val toCheck = mutableListOf<Int?>()
-        toCheck.addAll(list)
-        toCheck.addAll(listOf(null, null, null, null))
-        assertEquals(toCheck, result)
+        assertEquals(list, result)
     }
 
 }

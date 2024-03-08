@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/InvertBinaryTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/easy/InvertBinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/InvertBinaryTree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,41 +71,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToListTest.testSimple2">
-    <configuration name="FindDuplicateImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindTheDuplicateNumber" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="arrayandlist.easy.FindDuplicateImpl" />
-        <pattern testClass="arrayandlist.easy.FindTheDuplicateNumberAsLinkedList" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstRepeatingCharacterImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.FirstRepeatingCharacterImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.InvertBinaryTreeImpl">
     <configuration name="FirstRepeatingCharacterOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -117,6 +83,37 @@
       <option name="PACKAGE_NAME" value="string.easy" />
       <option name="MAIN_CLASS_NAME" value="string.easy.FirstRepeatingCharacterOptimSpace" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertBinaryTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.InvertBinaryTreeImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertBinaryTreeImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.InvertBinaryTreeImpl" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToListTest.testSimple2" />
+        <item itemvalue="JUnit.InvertBinaryTreeImpl" />
+        <item itemvalue="JUnit.InvertBinaryTreeImpl.test2" />
         <item itemvalue="JUnit.ToListTest" />
-        <item itemvalue="JUnit.FirstRepeatingCharacterOptimSpace" />
-        <item itemvalue="JUnit.FirstRepeatingCharacterImpl" />
-        <item itemvalue="JUnit.FindDuplicateImpl and 1 more" />
+        <item itemvalue="JUnit.ToListTest.testSimple2" />
+        <item itemvalue="JUnit.InvertBinaryTreeImpl" />
       </list>
     </recent_temporary>
   </component>
