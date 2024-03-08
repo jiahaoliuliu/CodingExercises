@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/TreeBreathFirstSearchII.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindTheDuplicateNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/TreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/TreeNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,79 +70,84 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TreeBreathFirstSearchIIImpl">
-    <configuration name="BalancedBinaryTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindDuplicateImpl and 1 more">
+    <configuration name="FindDuplicateImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.BalancedBinaryTreeImpl" />
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindTheDuplicateNumber" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="arrayandlist.easy.FindDuplicateImpl" />
+        <pattern testClass="arrayandlist.easy.FindTheDuplicateNumberAsLinkedList" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDuplicateImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindDuplicateImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBinaryTreeOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDuplicateImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.BalancedBinaryTreeOptim" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeBreathFirstSearchIIImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.TreeBreathFirstSearchIIImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeBreathFirstSearchIIImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.easy" />
-      <option name="MAIN_CLASS_NAME" value="tree.easy.TreeBreathFirstSearchIIImpl" />
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindDuplicateImpl" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBinarySearchTreeImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindTheDuplicateNumberAsLinkedList.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.ValidateBinarySearchTreeImpl" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindTheDuplicateNumberAsLinkedList" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheDuplicateNumberAsLinkedList.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindTheDuplicateNumberAsLinkedList" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeBreathFirstSearchIIImpl" />
-        <item itemvalue="JUnit.TreeBreathFirstSearchIIImpl.test1" />
-        <item itemvalue="JUnit.TreeBreathFirstSearchIIImpl.test1" />
-        <item itemvalue="JUnit.BalancedBinaryTreeOptim" />
-        <item itemvalue="JUnit.BalancedBinaryTreeImpl" />
+        <item itemvalue="JUnit.FindDuplicateImpl and 1 more" />
+        <item itemvalue="JUnit.FindTheDuplicateNumberAsLinkedList.test2" />
+        <item itemvalue="JUnit.FindTheDuplicateNumberAsLinkedList.test1" />
+        <item itemvalue="JUnit.FindDuplicateImpl" />
+        <item itemvalue="JUnit.FindDuplicateImpl.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -973,6 +977,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/tree/easy/TreeBreathFirstSearchII.kt</url>
           <line>90</line>
           <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindTheDuplicateNumber.kt</url>
+          <line>148</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/FindTheDuplicateNumber.kt</url>
+          <line>143</line>
+          <option name="timeStamp" value="271" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
