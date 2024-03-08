@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/Extensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/easy/InvertBinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/easy/InvertBinaryTree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/medium/LongestSubstringWithoutRepeatingCharacters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/LongestSubstringWithoutRepeatingCharacters.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,22 +70,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvertBinaryTreeImpl">
-    <configuration name="FirstRepeatingCharacterOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.FirstRepeatingCharacterOptimSpace" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LongestSubstringWithoutRepeatingCharactersImpl">
     <configuration name="InvertBinaryTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -114,6 +98,21 @@
       <option name="MAIN_CLASS_NAME" value="tree.easy.InvertBinaryTreeImpl" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingCharactersImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LongestSubstringWithoutRepeatingCharactersImpl" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestSubstringWithoutRepeatingCharactersImpl" />
         <item itemvalue="JUnit.InvertBinaryTreeImpl" />
         <item itemvalue="JUnit.InvertBinaryTreeImpl.test2" />
         <item itemvalue="JUnit.ToListTest" />
         <item itemvalue="JUnit.ToListTest.testSimple2" />
-        <item itemvalue="JUnit.InvertBinaryTreeImpl" />
       </list>
     </recent_temporary>
   </component>

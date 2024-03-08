@@ -29,50 +29,9 @@ import java.lang.Integer.max
  *      0 <= s.length <= 5 * 104
  *      s consists of English letters, digits, symbols and spaces.
  */
-class LongestSubstringWithoutRepeatingCharacters {
+abstract class LongestSubstringWithoutRepeatingCharacters {
 
-    /**
-     * Initial though
-     *
-     * have 2 pointers
-     *  -> Left = 0
-     *  -> Right = 0
-     * 1 hash set
-     * - value: seen char
-     * longest = 0
-     *
-     *  Loop
-     *  while (right < s.length)
-     *    check if s[right] exists in the hashset
-     *     -> If so,
-     *          - increase left until right
-     *              - every time, remove s[left] from the hashmap
-     *          - add s[right] in the hashset
-     *     -> If not
-     *          -> add s[right] in the hashset
-     *          -> check if right - left + 1 is longer than longest
-     *              -> if so, update longest
-     *  return longest
-     */
-    private fun lengthOfLongestSubstring(s: String): Int {
-        var firstPointer = 0
-        var secondPointer = 0
-        var max = 0
-
-        val hashSet = HashSet<Char>()
-
-        while (secondPointer < s.length) {
-            if (!hashSet.contains(s[secondPointer])) {
-                hashSet.add(s[secondPointer])
-                secondPointer++
-                max = max(hashSet.size, max)
-            } else {
-                hashSet.remove(s[firstPointer])
-                firstPointer++
-            }
-        }
-        return max
-    }
+    abstract fun lengthOfLongestSubstring(s: String): Int
 
     @Test
     fun test1() {
@@ -109,5 +68,50 @@ class LongestSubstringWithoutRepeatingCharacters {
         // Then
         assertEquals(3, result)
     }
+}
 
+class LongestSubstringWithoutRepeatingCharactersImpl: LongestSubstringWithoutRepeatingCharacters() {
+
+    /**
+     * Initial though
+     *
+     * have 2 pointers
+     *  -> Left = 0
+     *  -> Right = 0
+     * 1 hash set
+     * - value: seen char
+     * longest = 0
+     *
+     *  Loop
+     *  while (right < s.length)
+     *    check if s[right] exists in the hashset
+     *     -> If so,
+     *          - increase left until right
+     *              - every time, remove s[left] from the hashmap
+     *          - add s[right] in the hashset
+     *     -> If not
+     *          -> add s[right] in the hashset
+     *          -> check if right - left + 1 is longer than longest
+     *              -> if so, update longest
+     *  return longest
+     */
+    override fun lengthOfLongestSubstring(s: String): Int {
+        var firstPointer = 0
+        var secondPointer = 0
+        var max = 0
+
+        val hashSet = HashSet<Char>()
+
+        while (secondPointer < s.length) {
+            if (!hashSet.contains(s[secondPointer])) {
+                hashSet.add(s[secondPointer])
+                secondPointer++
+                max = max(hashSet.size, max)
+            } else {
+                hashSet.remove(s[firstPointer])
+                firstPointer++
+            }
+        }
+        return max
+    }
 }
