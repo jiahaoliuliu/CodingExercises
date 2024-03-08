@@ -107,3 +107,28 @@ class FirstRepeatingCharacterImpl: FirstRepeatingCharacter() {
         return null
     }
 }
+
+class FirstRepeatingCharacterOptimSpace: FirstRepeatingCharacter() {
+
+    /**
+     * Instead of using a hash set, use an array of chars
+     */
+    override fun firstRepeatingCharacter(str: String): Char? {
+        // 1. Init the variable
+        val myArray = Array<Boolean>(26) { false }
+
+        // 2. Repeat
+        str.forEach {
+            if (it != ' ') {
+                if (myArray[it - 'a']) {
+                    return it
+                } else {
+                    myArray[it - 'a'] = true
+                }
+            }
+        }
+
+        return null
+    }
+
+}

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstRepeatingCharacter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/NewYearChaosTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/NewYearChaosTODO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstRepeatingCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstRepeatingCharacter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstRepeatingCharacterImpl">
+  <component name="RunManager" selected="JUnit.FirstRepeatingCharacterOptimSpace">
     <configuration name="FindDuplicateImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -87,21 +86,6 @@
         <pattern testClass="arrayandlist.easy.FindDuplicateImpl" />
         <pattern testClass="arrayandlist.easy.FindTheDuplicateNumberAsLinkedList" />
       </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDuplicateImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.FindDuplicateImpl" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,13 +137,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstRepeatingCharacterOptimSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.FirstRepeatingCharacterOptimSpace" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstRepeatingCharacterOptimSpace" />
         <item itemvalue="JUnit.FirstRepeatingCharacterImpl" />
         <item itemvalue="JUnit.FindDuplicateImpl and 1 more" />
         <item itemvalue="JUnit.FindTheDuplicateNumberAsLinkedList.test2" />
         <item itemvalue="JUnit.FindTheDuplicateNumberAsLinkedList.test1" />
-        <item itemvalue="JUnit.FindDuplicateImpl" />
       </list>
     </recent_temporary>
   </component>
