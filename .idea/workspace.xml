@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/LongestPalindrome.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/FindTheIndexOfTheFirstOccurrenceInAString.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,18 +70,34 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPalindromeImpl">
-    <configuration name="FindPeakElementSimpleLinear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindTheIndexOfTheFirstOccurrenceInAStringImpl.test3">
+    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindPeakElementSimpleLinear" />
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.FindTheIndexOfTheFirstOccurrenceInAStringImpl" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.FindTheIndexOfTheFirstOccurrenceInAStringImpl" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,22 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.PalindromeLinkedListImpl" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromeLinkedListImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindTheIndexOfTheFirstOccurrenceInAStringImpl.test3" />
+        <item itemvalue="JUnit.FindTheIndexOfTheFirstOccurrenceInAStringImpl" />
         <item itemvalue="JUnit.LongestPalindromeImpl" />
         <item itemvalue="JUnit.PalindromeLinkedListImpl" />
         <item itemvalue="JUnit.PalindromeLinkedListImpl.test3" />
-        <item itemvalue="JUnit.PalindromeLinkedListImpl" />
-        <item itemvalue="JUnit.PalindromeLinkedListImpl.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -992,6 +992,21 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/PalindromeLinkedList.kt</url>
           <line>100</line>
           <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/FindTheIndexOfTheFirstOccurrenceInAString.kt</url>
+          <line>100</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/FindTheIndexOfTheFirstOccurrenceInAString.kt</url>
+          <line>108</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/easy/FindTheIndexOfTheFirstOccurrenceInAString.kt</url>
+          <line>102</line>
+          <option name="timeStamp" value="284" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
