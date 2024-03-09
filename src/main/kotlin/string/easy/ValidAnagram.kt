@@ -11,28 +11,85 @@ import org.junit.Test
  * An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
  *  typically using all the original letters exactly once.
  */
-class ValidAnagram {
+abstract class ValidAnagram {
+
+    abstract fun isValid(s: String, t: String): Boolean
+
+    @Test
+    fun test1() {
+        // Given
+        val original = "anagram"
+        val check = "nagaram"
+
+        // When
+        val result = isValid(original, check)
+
+        // Then
+        assertTrue(result)
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val original = "rat"
+        val check = "cat"
+
+        // When
+        val result = isValid(original, check)
+
+        // Then
+        assertFalse(result)
+    }
+
+    @Test
+    fun test3() {
+        // Given
+        val original = "CNBC"
+        val check = "BCCN"
+
+        // When
+        val result = isValid(original, check)
+
+        // Then
+        assertTrue(result)
+    }
+
+    @Test
+    fun test4() {
+        // Given
+        val original = "CNaBC"
+        val check = "BCaCN"
+
+        // When
+        val result = isValid(original, check)
+
+        // Then
+        assertTrue(result)
+    }
+}
+
+class ValidAnagramImpl: ValidAnagram() {
 
     /**
      * Optimal solution for when the parameter are only lower case
      */
-    private fun solution1(s: String, t: String): Boolean {
+    override fun isValid(s: String, t: String): Boolean {
         // Corner case check
         if (s.length != t.length) {
             return false
         }
 
         // Create the map of 26 chars, since there are only 26 chars in English
-        val map = IntArray(26)
+        val map = IntArray(128)
 
         // Build the map with the chars
         s.toCharArray().forEach {
-            map[it - 'a'] ++
+            map[it.code] ++
         }
 
         // Check the chars against the map
         t.toCharArray().forEach {
-            map[it - 'a'] --
+            map[it.code] --
         }
 
         // Check the result
@@ -41,8 +98,11 @@ class ValidAnagram {
         }
         return true
     }
+}
 
-    private fun solution2(s: String, t:String): Boolean {
+class ValidAnagramOptim: ValidAnagram() {
+
+    override fun isValid(s: String, t:String): Boolean {
         // Corner case
         if (s.length != t.length) {
             return false
@@ -64,67 +124,5 @@ class ValidAnagram {
         return charHashMap.filter {(_, v) ->
             v != 0
         }.isEmpty()
-    }
-
-    @Test
-    fun test1() {
-        // Given
-        val original = "anagram"
-        val check = "nagaram"
-
-        // When
-        val result1 = solution1(original, check)
-        val result2 = solution2(original, check)
-
-        // Then
-        assertTrue(result1)
-        assertTrue(result2)
-    }
-
-    @Test
-    fun test2() {
-        // Given
-        val original = "rat"
-        val check = "cat"
-
-        // When
-        val result1 = solution1(original, check)
-        val result2 = solution2(original, check)
-
-        // Then
-        assertFalse(result1)
-        assertFalse(result2)
-    }
-
-    @Test
-    fun test3() {
-        // Given
-        val original = "CNBC"
-        val check = "BCCN"
-
-        // When
-        // The solution 1 only works with lower case characters
-//        val result1 = solution1(original, check)
-        val result2 = solution2(original, check)
-
-        // Then
-//        assertTrue(result1)
-        assertTrue(result2)
-    }
-
-    @Test
-    fun test4() {
-        // Given
-        val original = "CNaBC"
-        val check = "BCaCN"
-
-        // When
-        // The solution 1 only works with lower case characters
-//        val result1 = solution1(original, check)
-        val result2 = solution2(original, check)
-
-        // Then
-//        assertTrue(result1)
-        assertTrue(result2)
     }
 }

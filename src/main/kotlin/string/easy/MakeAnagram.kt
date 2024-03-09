@@ -14,14 +14,14 @@ import org.junit.Test
  * The student decides on an encryption scheme that involves two large strings. The encryption is dependent
  * on the minimum number of character deletions required to make the two strings anagrams. Determine this number.
  *
- * Given two strings,  and , that may or may not be of the same length, determine the minimum number of character
- * required to make  and  anagrams. Any characters can be deleted from either of the strings.
+ * Given two strings, a and b, that may or may not be of the same length, determine the minimum number of character
+ * required to make a and b anagrams. Any characters can be deleted from either of the strings.
  *
  * Example
  *  a = 'cde'
  *  b = 'def'
- *  Delete  from  and  from  so that the remaining strings are  and  which are anagrams.
- *  This takes 4 character deletions.
+ *  Delete c from a and f from b so that the remaining strings are cd and dc which are anagrams.
+ *  This takes 2 character deletions.
  */
 class MakeAnagram {
 
@@ -32,7 +32,7 @@ class MakeAnagram {
      * - For extra characters from string 2 to string 1 the number will be negative
      * - Result: Convert the negative numbers in the map as positive and sum them to the positive ones
      */
-    fun makeAnagram(a: String, b: String): Int {
+    private fun makeAnagram(a: String, b: String): Int {
         // Create hashmap
         val dict = IntArray(26)
         a.forEach {
