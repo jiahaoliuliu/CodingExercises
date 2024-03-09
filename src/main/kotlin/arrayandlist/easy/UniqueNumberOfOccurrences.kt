@@ -27,19 +27,18 @@ import org.junit.Test
  *      1 <= arr.length <= 1000
  *      -1000 <= arr[i] <= 1000
  */
-class UniqueNumberOfOccurrencesTODO {
+class UniqueNumberOfOccurrences {
 
     /**
      * Initial thoughts
      *
      * 1. Create frequency map
-     * 2. Create a hash set of size arr.size
-     * - key: The frequency
-     * - value: the frequency
+     * - key: number
+     * - value: its frequency
      *
-     * 3. Loop through frequency map
-     * if same frequency exists, return false
-     * by default, return true
+     * 2. Check if all the frequencies are unique
+     * - Convert it to set
+     * - Compare the set size with the original size
      */
     private fun uniqueOccurrences(arr: IntArray): Boolean {
         // 1. Create frequency map

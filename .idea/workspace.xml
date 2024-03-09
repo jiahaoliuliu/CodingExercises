@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/MakeAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/MakeAnagram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidAnagram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidAnagram.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/UniqueNumberOfOccurrencesTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/UniqueNumberOfOccurrencesTODO.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidAnagramImpl and 1 more">
+  <component name="RunManager" selected="JUnit.UniqueNumberOfOccurrencesTODO">
     <configuration name="DepthFirstSearchImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -84,22 +81,6 @@
       <option name="PACKAGE_NAME" value="Graph.easy" />
       <option name="MAIN_CLASS_NAME" value="Graph.easy.DepthFirstSearchImpl" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepthFirstSearchImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Graph.easy" />
-      <option name="MAIN_CLASS_NAME" value="Graph.easy.DepthFirstSearchImpl" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +97,21 @@
       <option name="MAIN_CLASS_NAME" value="string.easy.FindTheIndexOfTheFirstOccurrenceInAStringImpl" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueNumberOfOccurrences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.UniqueNumberOfOccurrences" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniqueNumberOfOccurrencesTODO" />
         <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
         <item itemvalue="JUnit.ValidAnagramImpl" />
         <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
         <item itemvalue="JUnit.DepthFirstSearchImpl" />
-        <item itemvalue="JUnit.DepthFirstSearchImpl.test1" />
       </list>
     </recent_temporary>
   </component>
