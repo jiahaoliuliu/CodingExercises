@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/UniqueNumberOfOccurrencesTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/UniqueNumberOfOccurrencesTODO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/BreadthFirstSearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/Graph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidPalindrome.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +73,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UniqueNumberOfOccurrencesTODO">
-    <configuration name="DepthFirstSearchImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BreadthFirstSearchIterative">
+    <configuration name="BreadthFirstSearchIterative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -79,23 +83,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Graph.easy" />
-      <option name="MAIN_CLASS_NAME" value="Graph.easy.DepthFirstSearchImpl" />
+      <option name="MAIN_CLASS_NAME" value="Graph.easy.BreadthFirstSearchIterative" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringImpl.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepthFirstSearchIterative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="Graph.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.FindTheIndexOfTheFirstOccurrenceInAStringImpl" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="Graph.easy" />
+      <option name="MAIN_CLASS_NAME" value="Graph.easy.DepthFirstSearchIterative" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepthFirstSearchIterative.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph.easy" />
+      <option name="MAIN_CLASS_NAME" value="Graph.easy.DepthFirstSearchIterative" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,28 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.ValidAnagramImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreadthFirstSearchIterative" />
+        <item itemvalue="JUnit.DepthFirstSearchIterative" />
+        <item itemvalue="JUnit.DepthFirstSearchIterative.test1" />
         <item itemvalue="JUnit.UniqueNumberOfOccurrencesTODO" />
         <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
-        <item itemvalue="JUnit.ValidAnagramImpl" />
-        <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
-        <item itemvalue="JUnit.DepthFirstSearchImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -1002,8 +1006,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt</url>
-          <line>57</line>
+          <line>45</line>
           <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt</url>
+          <line>107</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt</url>
+          <line>119</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt</url>
+          <line>111</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/DepthFirstSearch.kt</url>
+          <line>112</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/BreadthFirstSearch.kt</url>
+          <line>80</line>
+          <option name="timeStamp" value="292" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

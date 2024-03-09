@@ -19,18 +19,6 @@ import org.junit.Test
  *
  */
 
-class Graph {
-    var adjList: HashMap<Int, ArrayList<Int>>
-
-    constructor() {
-        adjList = HashMap()
-    }
-
-    constructor(adjList: HashMap<Int, ArrayList<Int>>) {
-        this.adjList = adjList
-    }
-}
-
 abstract class DepthFirstSearch {
 
     abstract fun dfs(graph: Graph?, root: Int): IntArray
@@ -59,7 +47,7 @@ abstract class DepthFirstSearch {
     }
 }
 
-class DepthFirstSearchImpl: DepthFirstSearch() {
+class DepthFirstSearchRecursive: DepthFirstSearch() {
 
     /**
      * Initial thoughts
@@ -78,14 +66,58 @@ class DepthFirstSearchImpl: DepthFirstSearch() {
     }
 
     private fun dfs(graph: Graph, root:Int, visited: MutableSet<Int>): IntArray {
-        if (visited.contains(root)) return visited.toIntArray()
+        return if (visited.contains(root)) visited.toIntArray()
         else {
             visited.add(root)
             val neighbours = graph.adjList[root]!!
             for (i in 0 until neighbours.size) {
                 dfs(graph, neighbours[i], visited)
             }
-            return visited.toIntArray()
+            visited.toIntArray()
         }
     }
+}
+
+class DepthFirstSearchIterative: DepthFirstSearch() {
+    /**
+     *
+     * Depth first search
+     *
+     * Note the adjacent list is entered reversed. This is because it is a stack, so the
+     * first adjacent node should be on the top of the stack
+     *
+     * Complexity:
+     * - Time: O(|V| + |E|) where |V| is the number of vertices and |E| is the number of nodes
+     * - Space: O(|V|)
+     *
+     */
+    override fun dfs(graph: Graph?, root: Int): IntArray {
+        // 0. Corner cases
+        if (graph == null) return intArrayOf()
+
+        // 1. Init the variables
+        val visited = mutableListOf<Int>()
+        val stack = ArrayDeque<Int>()
+        stack.add(root)
+
+        // 2. Loop
+        while (stack.isNotEmpty()) {
+            val node = stack.removeFirst()
+
+            // Add the node to the visited if it was not visited
+            if (!visited.contains(node)) {
+                visited.add(node)
+            }
+
+            for (adjacent in graph.adjList[node]!!.reversed()) {
+                if (!visited.contains(adjacent)) {
+                    stack.addFirst(adjacent)
+                }
+            }
+        }
+
+        // 3. Return value
+        return visited.toIntArray()
+    }
+
 }
