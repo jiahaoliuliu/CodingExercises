@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,90 +71,93 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LowestCommonAncestorOfABinaryTreeEPI">
-    <configuration name="FlattenBinaryTreeToLinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindMinimumInASortedArrayImpl.test6">
+    <configuration name="FindMinimumInASortedArrayImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.FlattenBinaryTreeToLinkedListImpl" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMinimumInASortedArrayImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlattenBinaryTreeToLinkedListOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMinimumInASortedArrayImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.FlattenBinaryTreeToLinkedListOptim" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfABinaryTreeEPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMinimumInASortedArrayImpl.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeEPI" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfABinaryTreeOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMinimumInASortedArrayImpl.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeOptim" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LowestCommonAncestorOfABinaryTreeSol1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeSol1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeEPI" />
-        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeOptim" />
-        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeSol1" />
-        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListOptim" />
-        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListImpl.test1" />
+        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl.test6" />
+        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl" />
+        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl.test1" />
+        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl.test5" />
+        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -1031,6 +1035,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/tree/medium/FlattenBinaryTreeToLinkedList.kt</url>
           <line>47</line>
           <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt</url>
+          <line>147</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt</url>
+          <line>146</line>
+          <option name="timeStamp" value="306" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

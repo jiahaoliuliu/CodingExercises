@@ -164,6 +164,11 @@ class LowestCommonAncestorOfABinaryTreeOptim: LowestCommonAncestorOfABinaryTree(
 class LowestCommonAncestorOfABinaryTreeEPI: LowestCommonAncestorOfABinaryTree() {
     data class Status(val numTargetNodes: Int, val ancestor: TreeNode?)
 
+    /**
+     * Complexity
+     * - Time: O(n)
+     * - Space: O(h)
+     */
     override fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
         if (p == null || q == null) return null
         return lcaHelper(root, p, q, ).ancestor
