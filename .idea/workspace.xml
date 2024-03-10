@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/FlattenBinaryTreeToLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlattenBinaryTreeToLinkedListOptim">
+  <component name="RunManager" selected="JUnit.LowestCommonAncestorOfABinaryTreeEPI">
     <configuration name="FlattenBinaryTreeToLinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -102,59 +102,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTilePossibilitiesImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LowestCommonAncestorOfABinaryTreeEPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="tree.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LetterTilePossibilitiesImpl" />
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeEPI" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTilePossibilitiesOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LowestCommonAncestorOfABinaryTreeOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="tree.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LetterTilePossibilitiesOptim" />
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeOptim" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterTilePossibilitiesOptim.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LowestCommonAncestorOfABinaryTreeSol1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="tree.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LetterTilePossibilitiesOptim" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeSol1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeEPI" />
+        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeOptim" />
+        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeSol1" />
         <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListOptim" />
         <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListImpl.test1" />
-        <item itemvalue="JUnit.LetterTilePossibilitiesOptim.test4" />
-        <item itemvalue="JUnit.LetterTilePossibilitiesOptim" />
-        <item itemvalue="JUnit.LetterTilePossibilitiesImpl" />
       </list>
     </recent_temporary>
   </component>
