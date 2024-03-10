@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/LetterTilePossibilities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/FlattenBinaryTreeToLinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,17 +70,33 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LetterTilePossibilitiesOptim.test4">
-    <configuration name="BreadthFirstSearchIterative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FlattenBinaryTreeToLinkedListOptim">
+    <configuration name="FlattenBinaryTreeToLinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graph.easy.*" />
+          <option name="PATTERN" value="tree.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Graph.easy" />
-      <option name="MAIN_CLASS_NAME" value="Graph.easy.BreadthFirstSearchIterative" />
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.FlattenBinaryTreeToLinkedListImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlattenBinaryTreeToLinkedListOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree.medium" />
+      <option name="MAIN_CLASS_NAME" value="tree.medium.FlattenBinaryTreeToLinkedListOptim" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,22 +113,6 @@
       <option name="PACKAGE_NAME" value="string.medium" />
       <option name="MAIN_CLASS_NAME" value="string.medium.LetterTilePossibilitiesImpl" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LetterTilePossibilitiesImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LetterTilePossibilitiesImpl" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListOptim" />
+        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListImpl.test1" />
         <item itemvalue="JUnit.LetterTilePossibilitiesOptim.test4" />
         <item itemvalue="JUnit.LetterTilePossibilitiesOptim" />
         <item itemvalue="JUnit.LetterTilePossibilitiesImpl" />
-        <item itemvalue="JUnit.LetterTilePossibilitiesImpl.test4" />
-        <item itemvalue="JUnit.BreadthFirstSearchIterative" />
       </list>
     </recent_temporary>
   </component>
@@ -1027,6 +1027,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/BreadthFirstSearch.kt</url>
           <line>80</line>
           <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/tree/medium/FlattenBinaryTreeToLinkedList.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="299" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
