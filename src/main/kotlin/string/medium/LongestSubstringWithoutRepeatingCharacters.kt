@@ -145,7 +145,7 @@ class LongestSubstringWithoutRepeatingCharactersOptim: LongestSubstringWithoutRe
 
     /**
      * Optimization over the existing algorithm. Instead of using a hashset of all the chars in the string
-     * Use an array of 26 chars, where it stores the last know position
+     * Use an array of 128 chars, where it stores the last know position
      *
      * For each char, if the last position exists and it is bigger than start, then
      * move start to the next position to that position

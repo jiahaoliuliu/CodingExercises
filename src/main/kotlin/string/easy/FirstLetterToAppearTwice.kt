@@ -5,7 +5,7 @@ import org.junit.Assert.assertNull
 import org.junit.Test
 
 /**
- * First repeating character
+ * First letter to appear twice
  *
  * Given a string str, create a function that returns the first repeating character.
  * If such character doesn't exist, return the null character '\0'.
@@ -26,9 +26,9 @@ import org.junit.Test
  *      Input: str = "abba"
  *      Output: 'b'
  */
-abstract class FirstRepeatingCharacter {
+abstract class FirstLetterToAppearTwice {
 
-    abstract fun firstRepeatingCharacter(str: String): Char?
+    abstract fun firstLetterToAppearTwice(str: String): Char
 
     @Test
     fun test1() {
@@ -36,7 +36,7 @@ abstract class FirstRepeatingCharacter {
         val str = "inside code"
 
         // When
-        val result = firstRepeatingCharacter(str)
+        val result = firstLetterToAppearTwice(str)
 
         // Then
         assertEquals('i', result)
@@ -48,7 +48,7 @@ abstract class FirstRepeatingCharacter {
         val str = "programming"
 
         // When
-        val result = firstRepeatingCharacter(str)
+        val result = firstLetterToAppearTwice(str)
 
         // Then
         assertEquals('r', result)
@@ -60,10 +60,10 @@ abstract class FirstRepeatingCharacter {
         val str = "abcd"
 
         // When
-        val result = firstRepeatingCharacter(str)
+        val result = firstLetterToAppearTwice(str)
 
         // Then
-        assertNull(result)
+        assertEquals('a', result)
     }
 
     @Test
@@ -72,14 +72,39 @@ abstract class FirstRepeatingCharacter {
         val str = "abba"
 
         // When
-        val result = firstRepeatingCharacter(str)
+        val result = firstLetterToAppearTwice(str)
 
         // Then
         assertEquals('b', result)
     }
+
+    @Test
+    fun test5() {
+        // Given
+        val str = "abccbaacz"
+
+        // When
+        val result = firstLetterToAppearTwice(str)
+
+        // Then
+        assertEquals('c', result)
+    }
+
+    @Test
+    fun test6() {
+        // Given
+        val str = "abcdd"
+
+        // When
+        val result = firstLetterToAppearTwice(str)
+
+        // Then
+        assertEquals('d', result)
+    }
+
 }
 
-class FirstRepeatingCharacterImpl: FirstRepeatingCharacter() {
+class FirstLetterToAppearTwiceImpl: FirstLetterToAppearTwice() {
 
     /**
      * Initial thoughts
@@ -91,7 +116,7 @@ class FirstRepeatingCharacterImpl: FirstRepeatingCharacter() {
      * - Space: O(n)
      *
      */
-    override fun firstRepeatingCharacter(str: String): Char? {
+    override fun firstLetterToAppearTwice(str: String): Char {
         // 1. Init the variable
         val hashSet = HashSet<Char>()
 
@@ -104,16 +129,16 @@ class FirstRepeatingCharacterImpl: FirstRepeatingCharacter() {
             }
         }
 
-        return null
+        return 'a'
     }
 }
 
-class FirstRepeatingCharacterOptimSpace: FirstRepeatingCharacter() {
+class FirstLetterToAppearTwiceOptimSpace: FirstLetterToAppearTwice() {
 
     /**
      * Instead of using a hash set, use an array of chars
      */
-    override fun firstRepeatingCharacter(str: String): Char? {
+    override fun firstLetterToAppearTwice(str: String): Char {
         // 1. Init the variable
         val myArray = Array<Boolean>(26) { false }
 
@@ -128,7 +153,30 @@ class FirstRepeatingCharacterOptimSpace: FirstRepeatingCharacter() {
             }
         }
 
-        return null
+        return 'a'
+    }
+}
+
+class FirstLetterToAppearTwiceOptimized: FirstLetterToAppearTwice() {
+    /**
+     * Input: s = "abccbaacz
+     * a { }               -> {'a'} true
+     * b { 'a' }           -> {'a','b'} true
+     * c { 'a', 'b'}       -> {'a', 'b', 'c'} true
+     * c { 'a', 'b', 'c' } -> {'a', 'b', 'c'} false
+     */
+    override fun firstLetterToAppearTwice(str: String): Char {
+        // 1. Init the variable
+        val hashSet = HashSet<Char>()
+
+        // 2. Loop
+        str.forEach {ch ->
+            if (!hashSet.add(ch)) {
+                return ch
+            }
+        }
+
+        return 'a'
     }
 
 }

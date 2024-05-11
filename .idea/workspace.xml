@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/EditDistance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInARotatedArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/MinimumCostPathInMatrix.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/RearrangeArrayElementsBySignTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/RearrangeArrayElementsBySignTODO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstRepeatingCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstLetterToAppearTwice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/medium/LongestSubstringWithoutRepeatingCharacters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/LongestSubstringWithoutRepeatingCharacters.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jiaha/Downloads/Statistic-4.2.14.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jiaha/OneDrive/Documents/projects/github/CodingExercises&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -59,6 +64,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\medium" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\linkedlist\medium" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\easy" />
@@ -71,93 +79,91 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindMinimumInASortedArrayImpl.test6">
-    <configuration name="FindMinimumInASortedArrayImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FirstLetterToAppearTwiceImpl and 2 more">
+    <configuration name="All in CodingExercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.EditDistance" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInASortedArrayImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLetterToAppearTwiceImpl and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.FirstLetterToAppearTwice" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="string.easy.FirstLetterToAppearTwiceImpl" />
+        <pattern testClass="string.easy.FirstLetterToAppearTwiceOptimSpace" />
+        <pattern testClass="string.easy.FirstLetterToAppearTwiceOptimized" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInASortedArrayImpl.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLetterToAppearTwiceOptimized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.FirstLetterToAppearTwiceOptimized" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInASortedArrayImpl.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstRepeatingCharacterImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMinimumInASortedArrayImpl.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.FindMinimumInASortedArrayImpl" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.FirstRepeatingCharacter" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="string.easy.FirstRepeatingCharacterImpl" />
+        <pattern testClass="string.easy.FirstRepeatingCharacterOptimSpace" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl.test6" />
-        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl" />
-        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl.test1" />
-        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl.test5" />
-        <item itemvalue="JUnit.FindMinimumInASortedArrayImpl" />
+        <item itemvalue="JUnit.FirstLetterToAppearTwiceImpl and 2 more" />
+        <item itemvalue="JUnit.FirstLetterToAppearTwiceOptimized" />
+        <item itemvalue="JUnit.FirstRepeatingCharacterImpl and 1 more" />
+        <item itemvalue="JUnit.All in CodingExercises" />
+        <item itemvalue="JUnit.EditDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -1037,14 +1043,54 @@
           <option name="timeStamp" value="299" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt</url>
-          <line>147</line>
-          <option name="timeStamp" value="305" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="300" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/FindMinimumInASortedArray.kt</url>
-          <line>146</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>82</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>102</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>106</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>115</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>212</line>
           <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>214</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>215</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>230</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/SubsetsThatSumsUpToK.kt</url>
+          <line>218</line>
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
