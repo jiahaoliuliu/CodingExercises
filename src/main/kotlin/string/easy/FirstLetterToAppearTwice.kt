@@ -8,7 +8,7 @@ import org.junit.Test
  * First letter to appear twice
  *
  * Given a string str, create a function that returns the first repeating character.
- * If such character doesn't exist, return the null character '\0'.
+ * If such character doesn't exist, return 'a'.
  *
  * Example 1:
  *      Input: str = "inside code"
