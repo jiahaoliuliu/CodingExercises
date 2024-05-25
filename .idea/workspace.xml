@@ -73,15 +73,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidAnagramImpl and 1 more">
-    <configuration name="All in CodingExercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RomanToIntegerImpl">
     <configuration name="FirstLetterToAppearTwiceImpl and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -136,6 +128,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanToIntegerImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.kotlin.string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.kotlin.string.easy" />
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.string.easy.RomanToIntegerImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidAnagramImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -157,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanToIntegerImpl" />
         <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
         <item itemvalue="JUnit.FirstLetterToAppearTwiceImpl and 2 more" />
         <item itemvalue="JUnit.FirstLetterToAppearTwiceOptimized" />
         <item itemvalue="JUnit.FirstRepeatingCharacterImpl and 1 more" />
-        <item itemvalue="JUnit.All in CodingExercises" />
       </list>
     </recent_temporary>
   </component>

@@ -131,11 +131,10 @@ class RomanToIntegerImpl: RomanToInteger() {
      * Small optimization -> Have a variable to keep the value of the previous element
      *
      */
-    override fun romanToInt(s: String): Int {
-        // 1. Init the value
-        var previousValue = 0
-        var result = 0
-        val dict = IntArray(26)
+
+    // 0. Create dictionary to convert single letter
+    private val dict = IntArray(26)
+    init {
         dict['I' - 'A'] = 1
         dict['V' - 'A'] = 5
         dict['X' - 'A'] = 10
@@ -143,17 +142,27 @@ class RomanToIntegerImpl: RomanToInteger() {
         dict['C' - 'A'] = 100
         dict['D' - 'A'] = 500
         dict['M' - 'A'] = 1000
+    }
 
-//           X I V = 14
-//Pointer    i
-//PV = 1
-//CV = 5
-//Result 0 + 10 + 1 + 5 - (1 * 2) = 14
+    private fun convertSingleNumber(ch: Char): Int {
+        return dict[ch - 'A']
+    }
+
+    override fun romanToInt(s: String): Int {
+        // 1. Init the value
+        var previousValue = 0
+        var result = 0
+
+        //           X I V = 14
+        //Pointer    i
+        //PV = 1
+        //CV = 5
+        //Result 0 + 10 + 1 + 5 - (1 * 2) = 14
 
         // 2. Loop
         for (element in s) {
             // Get the current value corresponding to the roman number
-            val currentValue = dict[element - 'A']
+            val currentValue = convertSingleNumber(element)
             // Add the current value to the result
             result += currentValue
             // If the current number is bigger than the previous number, we have
@@ -167,6 +176,5 @@ class RomanToIntegerImpl: RomanToInteger() {
 
         // 3. Show result
         return result
-
     }
 }
