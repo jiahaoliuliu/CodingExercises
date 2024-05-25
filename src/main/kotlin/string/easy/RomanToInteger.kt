@@ -1,4 +1,4 @@
-package string.easy
+package main.kotlin.string.easy
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
@@ -50,60 +50,9 @@ import org.junit.Test
  *      s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
  *      It is guaranteed that s is a valid roman numeral in the range [1, 3999].
  */
-class RomanToInteger {
+abstract class RomanToInteger {
 
-    /** IV III VI
-     * Initial though
-     * 1. Build a dictionary of roman numbers
-     * init previous element as -1
-     * 2. Loop (from the first element to the last element)
-     *    Get the current element
-     *    If the current element is smaller or equals than the previous element
-     *      add the previous element to the result
-     *      assign the value of the current element to the previous element
-     *     else
-     *      extract from the current element the value of the previous element
-     *      add it to the result
-     *      assign MAX value to the previous element (it is not very good)
-     *  3. return the result
-     *
-     *  Improvement
-     *   M CM X C IV
-     *  Going through the list
-     *      check the value of the previous element
-     *      if it is bigger than the current element, add current element
-     *      if it smaller than the current element, add the current element, and extra 2 * value of the previous element
-     * So we just have to track one element at the time
-     *
-     * Small optimization -> Have a variable to keep the value of the previous element
-     *
-     */
-    private fun romanToInt(s: String): Int {
-        // 1. Init the value
-        var previousValue = 0
-        var result = 0
-        val dict = IntArray(26)
-        dict['I' - 'A'] = 1
-        dict['V' - 'A'] = 5
-        dict['X' - 'A'] = 10
-        dict['L' - 'A'] = 50
-        dict['C' - 'A'] = 100
-        dict['D' - 'A'] = 500
-        dict['M' - 'A'] = 1000
-
-        // 2. Loop
-        for (element in s) {
-           val currentValue = dict[element - 'A']
-            result += currentValue
-            if (currentValue > previousValue) {
-                result -= previousValue * 2
-            }
-            previousValue = currentValue
-        }
-
-        // 3. Show result
-        return result
-    }
+    abstract fun romanToInt(s: String): Int
 
     @Test
     fun test1() {
@@ -152,5 +101,60 @@ class RomanToInteger {
         // Then
         assertEquals(1994, result)
     }
+}
 
+class RomanToIntegerImpl: RomanToInteger() {
+
+    /** IV III VI
+     * Initial though
+     * 1. Build a dictionary of roman numbers
+     * init previous element as -1
+     * 2. Loop (from the first element to the last element)
+     *    Get the current element
+     *    If the current element is smaller or equals than the previous element
+     *      add the previous element to the result
+     *      assign the value of the current element to the previous element
+     *     else
+     *      extract from the current element the value of the previous element
+     *      add it to the result
+     *      assign MAX value to the previous element (it is not very good)
+     *  3. return the result
+     *
+     *  Improvement
+     *   M CM X C IV
+     *  Going through the list
+     *      check the value of the previous element
+     *      if it is bigger than the current element, add current element
+     *      if it smaller than the current element, add the current element, and extra 2 * value of the previous element
+     * So we just have to track one element at the time
+     *
+     * Small optimization -> Have a variable to keep the value of the previous element
+     *
+     */
+    override fun romanToInt(s: String): Int {
+        // 1. Init the value
+        var previousValue = 0
+        var result = 0
+        val dict = IntArray(26)
+        dict['I' - 'A'] = 1
+        dict['V' - 'A'] = 5
+        dict['X' - 'A'] = 10
+        dict['L' - 'A'] = 50
+        dict['C' - 'A'] = 100
+        dict['D' - 'A'] = 500
+        dict['M' - 'A'] = 1000
+
+        // 2. Loop
+        for (element in s) {
+            val currentValue = dict[element - 'A']
+            result += currentValue
+            if (currentValue > previousValue) {
+                result -= previousValue * 2
+            }
+            previousValue = currentValue
+        }
+
+        // 3. Show result
+        return result
+    }
 }

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstLetterToAppearTwice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/FirstLetterToAppearTwice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/RomanToInteger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/RomanToInteger.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,26 +73,11 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstLetterToAppearTwiceImpl and 2 more">
+  <component name="RunManager" selected="JUnit.ValidAnagramImpl and 1 more">
     <configuration name="All in CodingExercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.EditDistance" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,13 +136,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidAnagramImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.easy" />
+      <option name="MAIN_CLASS_NAME" value="string.easy.ValidAnagram" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="string.easy.ValidAnagramImpl" />
+        <pattern testClass="string.easy.ValidAnagramOptim" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
         <item itemvalue="JUnit.FirstLetterToAppearTwiceImpl and 2 more" />
         <item itemvalue="JUnit.FirstLetterToAppearTwiceOptimized" />
         <item itemvalue="JUnit.FirstRepeatingCharacterImpl and 1 more" />
         <item itemvalue="JUnit.All in CodingExercises" />
-        <item itemvalue="JUnit.EditDistance" />
       </list>
     </recent_temporary>
   </component>
