@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/BinarySearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/easy/ValidPalindrome.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,37 +73,32 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidPalindromeImpl">
-    <configuration name="FirstLetterToAppearTwiceImpl and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinarySearchImpl">
+    <configuration name="BinarySearchImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="arrayandlist.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.FirstLetterToAppearTwice" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="string.easy.FirstLetterToAppearTwiceImpl" />
-        <pattern testClass="string.easy.FirstLetterToAppearTwiceOptimSpace" />
-        <pattern testClass="string.easy.FirstLetterToAppearTwiceOptimized" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.BinarySearchImpl" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLetterToAppearTwiceOptimized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvertBinaryTreeImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.FirstLetterToAppearTwiceOptimized" />
+      <option name="PACKAGE_NAME" value="tree.easy" />
+      <option name="MAIN_CLASS_NAME" value="tree.easy.InvertBinaryTreeImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchImpl" />
+        <item itemvalue="JUnit.BinarySearchImpl" />
+        <item itemvalue="JUnit.InvertBinaryTreeImpl" />
         <item itemvalue="JUnit.ValidPalindromeImpl" />
         <item itemvalue="JUnit.RomanToIntegerImpl" />
-        <item itemvalue="JUnit.ValidAnagramImpl and 1 more" />
-        <item itemvalue="JUnit.FirstLetterToAppearTwiceImpl and 2 more" />
-        <item itemvalue="JUnit.FirstLetterToAppearTwiceOptimized" />
       </list>
     </recent_temporary>
   </component>
