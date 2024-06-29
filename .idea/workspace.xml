@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/BinarySearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/ClimbingStairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/ClimbingStairs.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchImpl">
+  <component name="RunManager" selected="JUnit.ClimbingStairsImpl">
     <configuration name="BinarySearchImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -84,6 +84,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.easy" />
       <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.BinarySearchImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.ClimbingStairs" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairsImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.ClimbingStairsImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,40 +130,6 @@
       <option name="PACKAGE_NAME" value="tree.easy" />
       <option name="MAIN_CLASS_NAME" value="tree.easy.InvertBinaryTreeImpl" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToIntegerImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.kotlin.string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.kotlin.string.easy" />
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.string.easy.RomanToIntegerImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagramImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.ValidAnagram" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="string.easy.ValidAnagramImpl" />
-        <pattern testClass="string.easy.ValidAnagramOptim" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClimbingStairsImpl" />
+        <item itemvalue="JUnit.ClimbingStairs" />
         <item itemvalue="JUnit.BinarySearchImpl" />
         <item itemvalue="JUnit.BinarySearchImpl" />
         <item itemvalue="JUnit.InvertBinaryTreeImpl" />
-        <item itemvalue="JUnit.ValidPalindromeImpl" />
-        <item itemvalue="JUnit.RomanToIntegerImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -720,12 +716,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/ClimbingStairs.kt</url>
-          <line>60</line>
+          <line>112</line>
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/ClimbingStairs.kt</url>
-          <line>66</line>
+          <line>118</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
