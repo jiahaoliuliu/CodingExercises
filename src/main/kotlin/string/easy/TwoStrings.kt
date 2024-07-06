@@ -15,6 +15,8 @@ import org.junit.Test
  *      s1 = 'be'
  *      s2 = 'cat'
  * These do not share a substring.
+ *
+ * Check: This problem is not in Leet code
  */
 class TwoStrings {
 

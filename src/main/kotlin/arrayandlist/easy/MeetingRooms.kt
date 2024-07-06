@@ -22,6 +22,8 @@ import org.junit.Test
  *      0 <= intervals.length <= 10^4
  *      intervals[i].length == 2
  *      0 <= start(i) < end(i) <= 10^6
+ *
+ * Check: Premium question
  */
 class MeetingRooms {
 

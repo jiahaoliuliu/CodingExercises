@@ -43,7 +43,7 @@ import org.junit.Test
  *      0 <= value <= 10^5
  *      At most 2 * 10^5 calls will be made to get and put.
  */
-class LRUCacheTODO  {
+class LRUCache  {
 
     /**
      * Initial thought

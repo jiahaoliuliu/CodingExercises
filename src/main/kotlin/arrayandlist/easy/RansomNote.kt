@@ -17,6 +17,8 @@ import org.junit.Test
  * Example:
  *  managezine = "attack at dawn"  note = "Attack at dawn"
  * The magazine has all the right words, but there is a case mismatch. The answer is No.
+ *
+ * Check: Problem not in Leet code, but in Hacker rank
  */
 class RansomNote {
 

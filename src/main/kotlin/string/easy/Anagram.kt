@@ -14,6 +14,8 @@ import org.junit.Test
  *  Break  into two parts: 'abc' and 'cde'. Note that all letters have been used, the substrings are
  *  contiguous and their lengths are equal. Now you can change 'a' and 'b' in the first substring to 'd'
  *  and 'e' to have 'dec' and 'cde' which are anagrams. Two changes were necessary.
+ *
+ *  Check: This problem is not in Leet code but it is similar to ValidAnagram
  */
 class Anagram {
 

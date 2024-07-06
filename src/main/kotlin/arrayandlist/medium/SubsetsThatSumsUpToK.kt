@@ -24,6 +24,9 @@ import org.junit.Test
  *      Output: 0
  *      Explanation: there are no subsets that sum up to k
  *
+ * Check: This problem is not in Leet code. It is possible one of the programs that is in the dynamic programming
+ * course in Udemy
+ *
  */
 abstract class SubsetsThatSumsUpToK {
 

@@ -23,6 +23,9 @@ import org.junit.Test
  *      matrix[i][j] can either be 0 or 1
  *      len(matrix) >= 1
  *      len(matrix[i]) >= 1
+ *
+ * Check: This problem is not in Leet code. It is possible one of the problems about dynamic programming
+ * in Udemy
  */
 abstract class PathsOnMatrixWithWalls {
 

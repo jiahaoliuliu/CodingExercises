@@ -33,6 +33,8 @@ import org.junit.Test
  *    Input: word = "apple", abbr = "a2e"
  *    Output: false
  *    Explanation: The word "apple" cannot be abbreviated as "a2e".
+ *
+ * Check: This problem is payed in Leet code
  */
 class ValidWordAbbreviation {
 

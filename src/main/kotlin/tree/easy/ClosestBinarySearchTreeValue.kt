@@ -24,6 +24,8 @@ import kotlin.math.min
  *      The number of nodes in the tree is in the range [1, 10^4].
  *      0 <= Node.val <= 10^9
  *      -10^9 <= target <= 10^9
+ *
+ * Check: This problem is paid in the Leet code
  */
 class ClosestBinarySearchTreeValue {
 

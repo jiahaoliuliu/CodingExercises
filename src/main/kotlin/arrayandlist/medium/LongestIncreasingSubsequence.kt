@@ -1,5 +1,8 @@
 package arrayandlist.medium
 
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
 /**
  * Longest increasing subsequence
  *
@@ -28,7 +31,48 @@ package arrayandlist.medium
  *
  * Follow up: Can you come up with an algorithm that runs in O(n log(n)) time complexity?
  */
-class LongestIncreasingSubsequenceTODO {
+abstract class LongestIncreasingSubsequence {
+
+    abstract fun lengthOfLIS(nums: IntArray): Int
+
+    @Test
+    fun test1() {
+        // Given
+        val input = intArrayOf(10, 9, 2, 5, 3, 7, 101, 18)
+
+        // When
+        val result = lengthOfLIS(input)
+
+        // Then
+        assertEquals(4, result)
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val input = intArrayOf(0, 1, 0, 3, 2, 3)
+
+        // When
+        val result = lengthOfLIS(input)
+
+        // Then
+        assertEquals(4, result)
+    }
+
+    @Test
+    fun test3() {
+        // Given
+        val input = intArrayOf(7,7,7,7,7,7,7)
+
+        // When
+        val result = lengthOfLIS(input)
+
+        // Then
+        assertEquals(1, result)
+    }
+}
+
+class LongestIncreasingSubsequenceDynamic: LongestIncreasingSubsequence() {
 
     /**
      * We can do this on dynamic programming
@@ -74,12 +118,48 @@ class LongestIncreasingSubsequenceTODO {
      *              - Check: Is the sequence increasing -> No
      *          - [0, 3, 1]
      *              - Check: Is the sequence increasing -> No
-     *
-     *
-     *
-     *
      */
-    fun lengthOfLIS(nums: IntArray): Int {
+    override fun lengthOfLIS(nums: IntArray): Int {
+        return 42
+    }
+
+}
+class LongestIncreasingSubsequenceImpl: LongestIncreasingSubsequence() {
+
+    // Length of the longest strictly increasing subsequence
+    // Find an n and m, such that all the elements from n to m which is bigger than
+    // n is k. Find the biggest k
+    // An easy solution is brute force, but it will have complexity of n^2
+    // HashMap?
+    // Stack?
+    // Queue?
+    // Min heap
+    // [10, 9, 2, 5, 3, 7, 101, 18]
+    // for 10: 101 or 18 -> 2
+    // for 9: 101, or 18 -> 2
+    // for 2: 5, 7, 101  -> 4
+    //        5, 7, 18   -> 4
+    //        3, 7, 101  -> 4
+    //        3, 7, 18.  -> 4
+    // for 5: 7, 101     -> 3
+    //        7, 18.     -> 3
+    //        101, 18    -> 3
+    // for 3: 7 101      -> 2
+    //        7, 18      -> 2
+    // for 101           -> 1
+    // for 18            -> 1
+    // Repetition: We are comparing the current number with the every element in the array
+    // then compare that element with the next element
+    // The key is find the sequence. The sequence between the numbers does not change
+    // We can manipulate the array but the order needs to be perserved
+    // There could be different choices. We can compare the current number but we don't know
+    // the result of next number
+    // i.e. choose between 101 and 18        -> Dynamic programming
+    // this is similar to the jumping problem
+    // Find the longest jump
+    // Map<Num, List of positions that could reach to it>
+    // The current decision depends on the previous decision
+    override fun lengthOfLIS(nums: IntArray): Int {
         val jumps = IntArray(nums.size)
         jumps[0] = 1
 
