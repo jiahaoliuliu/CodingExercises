@@ -1,5 +1,11 @@
 package arrayandlist.medium
 
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import java.util.*
+import kotlin.collections.HashSet
+
 /**
  * Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k,
  * and j != k, and nums[i] + nums[j] + nums[k] == 0.
@@ -28,8 +34,49 @@ package arrayandlist.medium
  *      3 <= nums.length <= 3000
  *      -10^5 <= nums[i] <= 10^5
  */
-class `3SumTODO` {
+abstract class `3Sum` {
+    abstract fun threeSum(nums: IntArray): List<List<Int>>
 
+    @Test
+    fun test1() {
+        // Given
+        val input = intArrayOf(-1, 0, 1, 2, -1, -4)
+
+        // When
+        val result = threeSum(input)
+
+        // Then
+        assertEquals(2, result.size)
+        assertEquals(listOf(-1, -1, 2), result[0])
+        assertEquals(listOf(-1, 0, 1), result[1])
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val input = intArrayOf(0, 1, 1)
+
+        // When
+        val result = threeSum(input)
+
+        // Then
+        assertTrue(result.isEmpty())
+    }
+    @Test
+    fun test3() {
+        // Given
+        val input = intArrayOf(0, 0, 0)
+
+        // When
+        val result = threeSum(input)
+
+        // Then
+        assertEquals(1, result.size)
+        assertEquals(listOf(0, 0, 0), result[0])
+    }
+}
+
+class `3SumImpl`: `3Sum`() {
     /**
      * Initial thought
      *
@@ -63,7 +110,21 @@ class `3SumTODO` {
      *
      * Time complexity O(n^2)
      */
-    private fun threeSum(nums: IntArray): List<List<Int>> {
-        return listOf(listOf(1,2,3))
+    override fun threeSum(nums: IntArray): List<List<Int>> {
+        val res:MutableSet<List<Int>> = HashSet()
+        if (nums.isEmpty()) return arrayListOf()
+        Arrays.sort(nums)
+        for (i in 0 until nums.size - 1){
+            var j = i +1
+            var k = nums.size -1
+            while (j < k) {
+                val sum = nums [i] + nums[j] + nums[k]
+                if (sum == 0) res.add(listOf(nums[i], nums[j++], nums[k--]))
+                else if (sum > 0) k--
+                else j++
+            }
+
+        }
+        return res.toList()
     }
 }
