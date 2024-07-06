@@ -23,10 +23,39 @@ import java.lang.Integer.max
  *      Explanation: In this case, no transactions are done and the max profit = 0.
  *
  * Constraints:
- *      1 <= prices.length <= 105
- *      0 <= prices[i] <= 104
+ *      1 <= prices.length <= 10^5
+ *      0 <= prices[i] <= 10^4
  */
-class BestTimeToBuyAndSellStock {
+abstract class BestTimeToBuyAndSellStock {
+
+    abstract fun maxProfit(prices: IntArray): Int
+
+    @Test
+    fun test1() {
+        // Given
+        val prices = intArrayOf(7, 1, 5, 3, 6, 4)
+
+        // When
+        val result = maxProfit(prices)
+
+        // Then
+        assertEquals(5, result)
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val prices = intArrayOf(7,6,4,3,1)
+
+        // When
+        val result = maxProfit(prices)
+
+        // Then
+        assertEquals(0, result)
+    }
+}
+
+class BestTimeToBuyAndSellStockImpl: BestTimeToBuyAndSellStock() {
 
     /**
      * Initial thought
@@ -64,11 +93,11 @@ class BestTimeToBuyAndSellStock {
      *  max = max(max, array[i] - max(subarray[i, array.length -1])
      *  The complexity is still O(n^2)
      */
-    private fun maxProfit(prices: IntArray): Int {
+    override fun maxProfit(prices: IntArray): Int {
         var max = 0
         prices.forEachIndexed { index, item ->
             var maxSubarray = 0
-            for (i in index+1 until prices.size) {
+            for (i in index + 1 until prices.size) {
                 maxSubarray = max(maxSubarray, prices[i])
             }
             max = max(max, maxSubarray - item)
@@ -76,6 +105,9 @@ class BestTimeToBuyAndSellStock {
 
         return max
     }
+}
+
+class BestTimeToBuyAndSellStockOptim: BestTimeToBuyAndSellStock() {
 
     /**
      * Optimization (More efficient)
@@ -104,7 +136,7 @@ class BestTimeToBuyAndSellStock {
      *
      * return max
      */
-    private fun maxProfit2(prices: IntArray): Int {
+    override fun maxProfit(prices: IntArray): Int {
         // 1. init
         var max = 0
         var left = 0
@@ -122,53 +154,4 @@ class BestTimeToBuyAndSellStock {
         // 3. Return value
         return max
     }
-
-    @Test
-    fun test1() {
-        // Given
-        val prices = intArrayOf(7, 1, 5, 3, 6, 4)
-
-        // When
-        val result = maxProfit(prices)
-
-        // Then
-        assertEquals(5, result)
-    }
-
-    @Test
-    fun test2() {
-        // Given
-        val prices = intArrayOf(7,6,4,3,1)
-
-        // When
-        val result = maxProfit(prices)
-
-        // Then
-        assertEquals(0, result)
-    }
-
-    @Test
-    fun test3() {
-        // Given
-        val prices = intArrayOf(7, 1, 5, 3, 6, 4)
-
-        // When
-        val result = maxProfit2(prices)
-
-        // Then
-        assertEquals(5, result)
-    }
-
-    @Test
-    fun test4() {
-        // Given
-        val prices = intArrayOf(7,6,4,3,1)
-
-        // When
-        val result = maxProfit2(prices)
-
-        // Then
-        assertEquals(0, result)
-    }
-
 }
