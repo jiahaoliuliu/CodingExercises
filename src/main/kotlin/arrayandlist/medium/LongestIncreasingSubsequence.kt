@@ -80,6 +80,26 @@ class LongestIncreasingSubsequenceTODO {
      *
      */
     fun lengthOfLIS(nums: IntArray): Int {
-        return -1
+        val jumps = IntArray(nums.size)
+        jumps[0] = 1
+
+        // Build the list of jumps
+        for (i in 1 until nums.size) {
+            var max = 0
+            for (j in 0 until i) {
+                val currentNumber = nums[i]
+                if (nums[j] < currentNumber && jumps[j] > max) {
+                    max = jumps[j]
+                }
+            }
+            jumps[i] = 1 + max
+        }
+
+        var maxLength = 0
+        for (i in jumps.indices) {
+            maxLength = Math.max(maxLength, jumps[i])
+        }
+
+        return maxLength
     }
 }
