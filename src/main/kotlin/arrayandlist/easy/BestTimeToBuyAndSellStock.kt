@@ -3,6 +3,7 @@ package arrayandlist.easy
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.lang.Integer.max
+import java.lang.Integer.min
 
 /**
  * Best time to buy and sell stocks
@@ -107,7 +108,7 @@ class BestTimeToBuyAndSellStockImpl: BestTimeToBuyAndSellStock() {
     }
 }
 
-class BestTimeToBuyAndSellStockOptim: BestTimeToBuyAndSellStock() {
+class BestTimeToBuyAndSellStockTwoPointer: BestTimeToBuyAndSellStock() {
 
     /**
      * Optimization (More efficient)
@@ -154,4 +155,22 @@ class BestTimeToBuyAndSellStockOptim: BestTimeToBuyAndSellStock() {
         // 3. Return value
         return max
     }
+}
+
+class BestTimeToBuyAndSellStockSubset: BestTimeToBuyAndSellStock() {
+    /**
+     * The idea is finding the minimum price before today and check if the difference between that
+     * minimum and the price today is bigger than the maximum price so far.
+     */
+    override fun maxProfit(prices: IntArray): Int {
+        var minPrice = prices[0]
+        var maxProfit = 0
+        for (index in 1 until prices.size) {
+            val profitSoFar = prices[index] - minPrice
+            maxProfit = max(maxProfit, profitSoFar)
+            minPrice = min(minPrice, prices[index])
+        }
+        return maxProfit
+    }
+
 }
