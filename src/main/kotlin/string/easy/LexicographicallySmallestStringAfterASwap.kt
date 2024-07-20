@@ -88,3 +88,29 @@ class LexicographicallySmallestStringAfterASwapImp: LexicographicallySmallestStr
         return this.digitToInt() > anotherChar.digitToInt()
     }
  }
+
+class LexicographicallySmallestStringAfterASwapOptim: LexicographicallySmallestStringAfterASwap() {
+
+    /**
+     * Looking at the previous solution, since the algo needs to convert all the char to int anyway
+     * it would be optimal if it is only do it once
+     */
+    override fun getSmallestString(s: String): String {
+        val sb = StringBuilder()
+        var previousDigit = s[0].digitToInt()
+        for (i in 1 until s.length) {
+            val currentDigit = s[i].digitToInt()
+            if ((previousDigit % 2 == currentDigit % 2) && previousDigit > currentDigit) {
+                sb.append(currentDigit)
+                sb.append(previousDigit)
+                sb.append(s.substring(i+1))
+                return sb.toString()
+            } else {
+                sb.append(previousDigit)
+                previousDigit = currentDigit
+            }
+        }
+        sb.append(s[s.length-1])
+        return sb.toString()
+    }
+}
