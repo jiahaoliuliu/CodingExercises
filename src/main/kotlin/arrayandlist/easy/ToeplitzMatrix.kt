@@ -37,28 +37,9 @@ import org.junit.Test
  *      What if the matrix is so large that you can only load up a partial row into the memory at once?
  *
  */
-class ToeplitzMatrix {
+abstract class ToeplitzMatrix {
 
-    /**
-     * initial thought
-     * We need to check, for each row, if the item i+1, j+1 is the same
-     *
-     * and this goes from the first to the n-2 row
-     * and from first to m - 2 column
-     *
-     */
-    private fun isToeplitzMatrix(matrix: Array<IntArray>): Boolean {
-        for (i in 0 until matrix.size - 1) {
-            val row = matrix[i]
-            for (j in 0 until row.size - 1) {
-                if (matrix[i][j] != matrix[i+1][j+1]) {
-                    return false
-                }
-            }
-        }
-
-        return true
-    }
+    abstract fun isToeplitzMatrix(matrix: Array<IntArray>): Boolean
 
     @Test
     fun test1() {
@@ -82,5 +63,30 @@ class ToeplitzMatrix {
 
         // Then
         assertFalse(result)
+    }
+}
+
+
+class ToeplitzMatrixImpl: ToeplitzMatrix() {
+
+    /**
+     * initial thought
+     * We need to check, for each row, if the item i+1, j+1 is the same
+     *
+     * and this goes from the first to the n-2 row
+     * and from first to m - 2 column
+     *
+     */
+    override fun isToeplitzMatrix(matrix: Array<IntArray>): Boolean {
+        for (i in 0 until matrix.size - 1) {
+            val row = matrix[i]
+            for (j in 0 until row.size - 1) {
+                if (matrix[i][j] != matrix[i+1][j+1]) {
+                    return false
+                }
+            }
+        }
+
+        return true
     }
 }
