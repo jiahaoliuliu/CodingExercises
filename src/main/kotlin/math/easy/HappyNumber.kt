@@ -32,8 +32,60 @@ import org.junit.Test
  * Constraints:
  *  1 <= n <= 2^31 - 1
  */
-class HappyNumber {
+abstract class HappyNumber {
 
+    abstract fun isHappy(n: Int): Boolean
+
+    @Test
+    fun test1() {
+        // Given
+        val input = 19
+
+        // When
+        val result = isHappy(input)
+
+        // Then
+        assertTrue(result)
+    }
+
+    @Test
+    fun test2() {
+        // Given
+        val input = 2
+
+        // When
+        val result = isHappy(input)
+
+        // Then
+        assertFalse(result)
+    }
+
+    @Test
+    fun test3() {
+        // Given
+        val input = 42
+
+        // When
+        val result = isHappy(input)
+
+        // Then
+        assertFalse(result)
+    }
+
+    @Test
+    fun test4() {
+        // Given
+        val input = 10
+
+        // When
+        val result = isHappy(input)
+
+        // Then
+        assertTrue(result)
+    }
+}
+
+class HappyNumberImpl: HappyNumber() {
     /**
      * Initial thought
      * To avoid the cycle, we can create a hash set to store all the number that has happened
@@ -65,7 +117,7 @@ class HappyNumber {
      * In this case, we are going to need to remember the hashset
      * -> create another method which accepts the hashset as paramter
      */
-    private fun isHappy(n: Int): Boolean {
+    override fun isHappy(n: Int): Boolean {
         return isHappy(n, hashSetOf())
     }
 
@@ -93,37 +145,15 @@ class HappyNumber {
         prevResult.add(result)
         return isHappy(result, prevResult)
     }
+}
 
-    @Test
-    fun test1() {
-        // Given
-        val input = 19
+class HappyNumberBest: HappyNumber() {
 
-        // When
-        val result = isHappy(input)
-
-        // Then
-        assertTrue(result)
-    }
-
-    @Test
-    fun test2() {
-        // Given
-        val input = 2
-
-        // When
-        val result = isHappy(input)
-
-        // Then
-        assertFalse(result)
-    }
-
-    //------------------------------------
-    private fun isHappyBest(n: Int): Boolean {
+    override fun isHappy(n: Int): Boolean {
         val prev = HashSet<Int>()
         var current = n
         var next = -1
-        while (!prev.contains(current)) {
+        while (next != 1 && !prev.contains(current)) {
             next = getNext(current)
             prev.add(current)
             current = next
@@ -133,37 +163,14 @@ class HappyNumber {
 
     private fun getNext(n: Int): Int {
         var rem = n
-        var next = 0
+        var result = 0
         var digit = 0
         while (rem > 0) {
             digit = rem % 10
-            next += digit * digit
+            result += digit * digit
             rem /= 10
         }
 
-        return next
-    }
-
-    @Test
-    fun testBest1() {
-        // Given
-        val input = 19
-        // When
-        val result = isHappy(input)
-
-        // Then
-        assertTrue(result)
-    }
-
-    @Test
-    fun testBest2() {
-        // Given
-        val input = 2
-
-        // When
-        val result = isHappy(input)
-
-        // Then
-        assertFalse(result)
+        return result
     }
 }

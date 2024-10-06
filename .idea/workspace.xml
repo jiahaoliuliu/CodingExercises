@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ToeplitzMatrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/ToeplitzMatrix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,90 +74,104 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LexicographicallySmallestStringAfterASwapOptim">
-    <configuration name="BestTimeToBuyAndSellStockSubset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HappyNumberBest and 1 more">
+    <configuration name="HappyNumberBest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.BestTimeToBuyAndSellStockSubset" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="math.easy.HappyNumberBest" />
+        <pattern testClass="math.easy.HappyNumberImpl" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HappyNumberBest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumberBest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStockSubset.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HappyNumberBest.test20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.easy.BestTimeToBuyAndSellStockSubset" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumberBest" />
+      <option name="METHOD_NAME" value="test20" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexicographicallySmallestStringAfterASwapImp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HappyNumberBest,test3 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.LexicographicallySmallestStringAfterASwapImp" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="math.easy.HappyNumberBest,test3" />
+        <pattern testClass="math.easy.HappyNumberImpl,test3" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexicographicallySmallestStringAfterASwapOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HappyNumberBest,test4 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.easy.*" />
+          <option name="PATTERN" value="math.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.LexicographicallySmallestStringAfterASwapOptim" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParenthesesImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.easy" />
-      <option name="MAIN_CLASS_NAME" value="string.easy.ValidParenthesesImpl" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="math.easy" />
+      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="math.easy.HappyNumberBest,test4" />
+        <pattern testClass="math.easy.HappyNumberImpl,test4" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LexicographicallySmallestStringAfterASwapOptim" />
-        <item itemvalue="JUnit.LexicographicallySmallestStringAfterASwapImp" />
-        <item itemvalue="JUnit.ValidParenthesesImpl" />
-        <item itemvalue="JUnit.BestTimeToBuyAndSellStockSubset" />
-        <item itemvalue="JUnit.BestTimeToBuyAndSellStockSubset.test1" />
+        <item itemvalue="JUnit.HappyNumberBest and 1 more" />
+        <item itemvalue="JUnit.HappyNumberBest.test20" />
+        <item itemvalue="JUnit.HappyNumberBest,test4 and 1 more" />
+        <item itemvalue="JUnit.HappyNumberBest" />
+        <item itemvalue="JUnit.HappyNumberBest,test3 and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -1090,6 +1104,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/BestTimeToBuyAndSellStock.kt</url>
           <line>165</line>
           <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt</url>
+          <line>156</line>
+          <option name="timeStamp" value="313" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
