@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/easy/HappyNumber.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/AddTwoNumbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/AddTwoNumbers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,26 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HappyNumberBest and 1 more">
+  <component name="RunManager" selected="JUnit.AddTwoNumbersImpl and 1 more">
+    <configuration name="AddTwoNumbersImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.AddTwoNumbers" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="linkedlist.medium.AddTwoNumbersImpl" />
+        <pattern testClass="linkedlist.medium.AddTwoNumbersOptim" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HappyNumberBest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -125,26 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyNumberBest,test3 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.easy" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="math.easy.HappyNumberBest,test3" />
-        <pattern testClass="math.easy.HappyNumberImpl,test3" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HappyNumberBest,test4 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddTwoNumbersImpl and 1 more" />
         <item itemvalue="JUnit.HappyNumberBest and 1 more" />
         <item itemvalue="JUnit.HappyNumberBest.test20" />
         <item itemvalue="JUnit.HappyNumberBest,test4 and 1 more" />
         <item itemvalue="JUnit.HappyNumberBest" />
-        <item itemvalue="JUnit.HappyNumberBest,test3 and 1 more" />
       </list>
     </recent_temporary>
   </component>

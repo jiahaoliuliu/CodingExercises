@@ -117,3 +117,26 @@ class AddTwoNumbersImpl: AddTwoNumbers() {
         return currentNode
     }
 }
+
+class AddTwoNumbersOptim: AddTwoNumbers() {
+    override fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
+        var carry = 0
+        var currentL1 = l1
+        var currentL2 = l2
+        val dummyHead = ListNode(0)
+        var current = dummyHead
+
+        while (currentL1 != null || currentL2 != null || carry != 0) {
+            val x = currentL1?.`val` ?: 0
+            val y = currentL2?.`val` ?: 0
+            val sum = x + y + carry
+            carry = sum / 10
+            current.next = ListNode(sum % 10)
+            current = current.next!!
+            currentL1 = currentL1?.next
+            currentL2 = currentL2?.next
+        }
+
+        return dummyHead.next
+    }
+}
