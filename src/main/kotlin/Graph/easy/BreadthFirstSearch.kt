@@ -1,6 +1,7 @@
 package Graph.easy
 
-import org.junit.Assert
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 /**
@@ -40,8 +41,8 @@ abstract class BreadthFirstSearch {
         val result = bfs(graph, root)
 
         // Then
-        Assert.assertEquals(8, result.size)
-        Assert.assertTrue(intArrayOf(5, 8, 1, 12, 14, 4, 7, 16) contentEquals result)
+        assertEquals(8, result.size)
+        assertTrue(intArrayOf(5, 8, 1, 12, 14, 4, 7, 16) contentEquals result)
     }
 }
 

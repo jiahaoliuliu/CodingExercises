@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bluecatcode_junit_4_12_extended.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_params.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/MedianOfTwoSortedArrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/ParametizedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/AddTwoNumbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/AddTwoNumbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingExercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingExercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/BreadthFirstSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Graph/easy/BreadthFirstSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/hard/MedianOfTwoSortedArraysTODO.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jiaha/OneDrive/Documents/projects/github/CodingExercises&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/CodingExercisesOriginal/src/main/kotlin/arrayandlist/hard",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercisesOriginal\src\main\kotlin\arrayandlist\hard" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\arrayandlist\medium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,103 +83,89 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddTwoNumbersImpl and 1 more">
-    <configuration name="AddTwoNumbersImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MedianOfTwoSortedArraysImpl">
+    <configuration name="AverageOfTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
+          <option name="PATTERN" value="arrayandlist.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.AddTwoNumbers" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="linkedlist.medium.AddTwoNumbersImpl" />
-        <pattern testClass="linkedlist.medium.AddTwoNumbersOptim" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HappyNumberBest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.easy" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="math.easy.HappyNumberBest" />
-        <pattern testClass="math.easy.HappyNumberImpl" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HappyNumberBest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.easy" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumberBest" />
+      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.AverageOfTwoNumbers" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyNumberBest.test20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AverageOfTwoNumbersImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.easy.*" />
+          <option name="PATTERN" value="arrayandlist.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="math.easy" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumberBest" />
-      <option name="METHOD_NAME" value="test20" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.AverageOfTwoNumbersImpl" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyNumberBest,test4 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MedianOfTwoSortedArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.easy.*" />
+          <option name="PATTERN" value="arrayandlist.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="math.easy" />
-      <option name="MAIN_CLASS_NAME" value="math.easy.HappyNumber" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="math.easy.HappyNumberBest,test4" />
-        <pattern testClass="math.easy.HappyNumberImpl,test4" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.MedianOfTwoSortedArrays" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedianOfTwoSortedArraysImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.MedianOfTwoSortedArraysImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.ParameterizedExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddTwoNumbersImpl and 1 more" />
-        <item itemvalue="JUnit.HappyNumberBest and 1 more" />
-        <item itemvalue="JUnit.HappyNumberBest.test20" />
-        <item itemvalue="JUnit.HappyNumberBest,test4 and 1 more" />
-        <item itemvalue="JUnit.HappyNumberBest" />
+        <item itemvalue="JUnit.MedianOfTwoSortedArraysImpl" />
+        <item itemvalue="JUnit.AverageOfTwoNumbersImpl" />
+        <item itemvalue="JUnit.AverageOfTwoNumbers" />
+        <item itemvalue="JUnit.MedianOfTwoSortedArrays" />
+        <item itemvalue="JUnit.ParameterizedExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1041,7 +1036,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/Graph/easy/BreadthFirstSearch.kt</url>
-          <line>82</line>
+          <line>83</line>
           <option name="timeStamp" value="292" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
