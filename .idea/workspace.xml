@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/string/medium/LongestPalindromicSubstringTODO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/LongestPalindromicSubstringTODO.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListCycleOptim">
+  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringImpl and 1 more">
     <configuration name="AverageOfTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -121,17 +121,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestPalindromicSubstringImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.hard.*" />
+          <option name="PATTERN" value="string.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.MedianOfTwoSortedArrays" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LongestPalindromicSubstring" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="string.medium.LongestPalindromicSubstringImpl" />
+        <pattern testClass="string.medium.LongestPalindromicSubstringOptim" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromicSubstringImpl and 1 more" />
         <item itemvalue="JUnit.LinkedListCycleOptim" />
         <item itemvalue="JUnit.MedianOfTwoSortedArraysImpl" />
         <item itemvalue="JUnit.AverageOfTwoNumbersImpl" />
         <item itemvalue="JUnit.AverageOfTwoNumbers" />
-        <item itemvalue="JUnit.MedianOfTwoSortedArrays" />
       </list>
     </recent_temporary>
   </component>
