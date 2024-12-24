@@ -128,3 +128,84 @@ class `3SumImpl`: `3Sum`() {
         return res.toList()
     }
 }
+
+// [-1, 0, 1, 2, -1, -4]
+// Sort [-4, -1, -1, 0, 1, 2]
+// a      ^
+// start      ^
+// end                      ^
+// sum = -1 + (0) + 1 = 0
+// result = [[-1, -1, 2], [-1, 0, 1]]
+class `3SumOptim` : `3Sum`() {
+    override fun threeSum(nums: IntArray): List<List<Int>> {
+        // 1. Init the variables
+        val result: MutableList<List<Int>> = ArrayList()
+        Arrays.sort(nums)
+        // 2. Loop through
+        for (i in 0..nums.size - 2) {
+            val a = nums[i]
+            // Once the current number is bigger than 0, it does not
+            // make sense to continue
+            if (a > 0) continue
+            // To avoid the same solution twice
+            if (i > 0 && a == nums[i - 1]) continue
+            var start = i + 1
+            var end = nums.size - 1
+            while (start < end) {
+                val b = nums[start]
+                val c = nums[end]
+                val sum = a + b + c
+                if (sum > 0) {
+                    end--
+                } else if (sum < 0) {
+                    start++
+                } else {
+                    result.add(listOf(a, b, c))
+                    start++
+                    end--
+
+                    // Discards the same solution
+                    while (start < end && nums[start] == nums[start - 1]) {
+                        start++
+                    }
+                }
+            }
+        }
+
+        // 3. Return the final result
+        return result
+    }
+}
+
+class `3SumOptim2`: `3Sum`() {
+    override fun threeSum(nums: IntArray): List<List<Int>> {
+        Arrays.sort(nums)
+        val list = mutableListOf<List<Int>>()
+        for(index in nums.indices){
+            if(nums[index] <= 0 )
+                if(index == 0 || nums[index-1] != nums[index]){
+                    twoSum(nums, index ,list)
+                }
+        }
+        return list
+    }
+
+    private fun twoSum(nums: IntArray, i :Int,  list :MutableList<List<Int>>){
+        var low = i + 1
+        var high = nums.size - 1
+        while( low < high){
+            val sum = nums[low] + nums[high] + nums[i]
+            if ( sum > 0 ){
+                high--
+            } else if(sum <0){
+                low++
+            }else{
+                list.add( Arrays.asList(nums[i], nums[low++],nums[high--]))
+
+                // Discards the same solution
+                while (low < high && nums[low]==nums[low-1]) low++
+            }
+        }
+    }
+
+}
