@@ -1,6 +1,5 @@
 package string.medium
 
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.MethodSource
@@ -151,7 +150,7 @@ class LetterCombinationOfAPhoneNumberOptim: LetterCombinationsOfAPhoneNumber() {
 }
 
 class LetterCombinationOfAPhoneNumberOptim2: LetterCombinationsOfAPhoneNumber() {
-    fun letters(symbol: Char) = when(symbol) {
+    private fun letters(symbol: Char) = when(symbol) {
         '2' -> "abc"
         '3' -> "def"
         '4' -> "ghi"
@@ -167,7 +166,7 @@ class LetterCombinationOfAPhoneNumberOptim2: LetterCombinationsOfAPhoneNumber() 
      * Optimization:
      * - Use a map structure instead of map function
      *  - Instead of using a list of strings, returns one single string
-     * - Use String builder instead of appending strings one by one
+     * - Use an index to go thought the list of strings every time
      */
     override fun letterCombinations(digits: String): List<String> {
         val result = mutableListOf<String>()
