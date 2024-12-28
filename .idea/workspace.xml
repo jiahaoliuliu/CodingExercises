@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string/medium/LetterCombinationsOfAPhoneNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/LongestCommonPrefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/easy/LongestCommonPrefix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/3Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/3Sum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +75,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.3SumImpl and 2 more">
-    <configuration name="3SumImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LetterCombinationOfAPhoneNumberOptim2">
+    <configuration name="ContainerWithMostWaterImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -86,88 +85,84 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.3Sum" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.ContainerWithMostWater" />
       <option name="TEST_OBJECT" value="pattern" />
       <patterns>
-        <pattern testClass="arrayandlist.medium.3SumImpl" />
-        <pattern testClass="arrayandlist.medium.3SumOptim" />
+        <pattern testClass="arrayandlist.medium.ContainerWithMostWaterImpl" />
+        <pattern testClass="arrayandlist.medium.ContainerWithMostWaterOptim" />
       </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="3SumImpl and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterCombinationOfAPhoneNumberOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.3Sum" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="arrayandlist.medium.3SumImpl" />
-        <pattern testClass="arrayandlist.medium.3SumOptim" />
-        <pattern testClass="arrayandlist.medium.3SumOptim2" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="3SumOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.3SumOptim" />
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationOfAPhoneNumberOptim" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="3SumOptim2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterCombinationOfAPhoneNumberOptim2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="PATTERN" value="string.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.3SumOptim2" />
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationOfAPhoneNumberOptim2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfTwoSortedArraysImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterCombinationsOfAPhoneNumberImp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayandlist.hard.*" />
+          <option name="PATTERN" value="string.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="arrayandlist.hard" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.hard.MedianOfTwoSortedArraysImpl" />
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationsOfAPhoneNumberImp" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterCombinationsOfAPhoneNumberImp.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.medium" />
+      <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationsOfAPhoneNumberImp" />
+      <option name="METHOD_NAME" value="test(java.lang.String,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.3SumImpl and 2 more" />
-        <item itemvalue="JUnit.3SumOptim" />
-        <item itemvalue="JUnit.3SumOptim2" />
-        <item itemvalue="JUnit.3SumImpl and 1 more" />
-        <item itemvalue="JUnit.3SumOptim" />
+        <item itemvalue="JUnit.LetterCombinationOfAPhoneNumberOptim2" />
+        <item itemvalue="JUnit.LetterCombinationOfAPhoneNumberOptim" />
+        <item itemvalue="JUnit.LetterCombinationsOfAPhoneNumberImp" />
+        <item itemvalue="JUnit.LetterCombinationsOfAPhoneNumberImp" />
+        <item itemvalue="JUnit.LetterCombinationsOfAPhoneNumberImp.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1105,6 +1100,31 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/3Sum.kt</url>
           <line>48</line>
           <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/medium/LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>71</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/medium/LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>91</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/medium/LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>81</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/medium/LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>72</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/string/medium/LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>86</line>
+          <option name="timeStamp" value="320" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
