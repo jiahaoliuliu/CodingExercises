@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/RemoveNthNodeFromEndOfList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +75,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveNthNodeFromEndOfListOptim">
-    <configuration name="LetterCombinationOfAPhoneNumberOptim2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationOfAPhoneNumberOptim2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MergeTwoSortedListImpl and 1 more">
     <configuration name="LetterCombinationsOfAPhoneNumberImp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -118,6 +103,25 @@
       <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationsOfAPhoneNumberImp" />
       <option name="METHOD_NAME" value="test(java.lang.String,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedListImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedList" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="linkedlist.easy.MergeTwoSortedListImpl" />
+        <pattern testClass="linkedlist.easy.MergeTwoSortedListOptimalImpl" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListOptim" />
-        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListImpl" />
-        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListImpl" />
-        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListImpl" />
-        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListImpl" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
+        <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -849,23 +853,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
-          <line>191</line>
+          <line>118</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
-          <line>212</line>
+          <line>139</line>
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
-          <line>220</line>
+          <line>147</line>
           <option name="timeStamp" value="233" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt</url>
-          <line>64</line>
-          <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/LinkedListCycle.kt</url>

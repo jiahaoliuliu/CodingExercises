@@ -5,6 +5,9 @@ import linkedlist.checkValues
 import linkedlist.toLinkedList
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.MethodSource
 
 /**
  * Merge two sorted list
@@ -33,102 +36,26 @@ import org.junit.Test
 abstract class MergeTwoSortedList {
     abstract fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode?
 
-    @Test
-    fun testCornerCases_listsWithSameSize() {
-        // Given
-        val list1 = listOf(1, 2, 4)
-        val head1 = list1.toLinkedList()
-
-        val list2 = listOf(1, 3, 4)
-        val head2 = list2.toLinkedList()
-
-        // When
-        val result = mergeTwoLists(head1, head2)
-
-        // Then
-        assertTrue(result.checkValues(listOf(1,1,2,3,4,4)))
+    @ParameterizedTest(name = "After merging {0} and {1} it should be {2}")
+    @MethodSource("getData")
+    fun test(list1: List<Int>, list2: List<Int>, expectedValue: List<Int>) {
+        val result = mergeTwoLists(list1.toLinkedList(), list2.toLinkedList())
+        Assertions.assertTrue(result.checkValues(expectedValue))
     }
 
-    @Test
-    fun testCornerCases_listsWithDifferentSize1() {
-        // Given
-        val list1 = listOf(1, 2, 4, 5)
-        val head1 = list1.toLinkedList()
-
-        val list2 = listOf(1, 3, 4)
-        val head2 = list2.toLinkedList()
-
-        // When
-        val result = mergeTwoLists(head1, head2)
-
-        // Then
-        assertTrue(result.checkValues(listOf(1,1,2,3,4,4,5)))
+    companion object {
+        @JvmStatic
+        fun getData(): List<Array<List<Int>>> {
+            return listOf(
+                arrayOf(listOf(1, 2, 4), listOf(1, 3, 4), listOf(1,1,2,3,4,4)),
+                arrayOf(listOf(1, 2, 4, 5), listOf(1, 3, 4), listOf(1,1,2,3,4,4,5)),
+                arrayOf(listOf(1, 2, 4), listOf(1, 3, 4, 5), listOf(1,1,2,3,4,4,5)),
+                arrayOf(listOf(), listOf(), listOf()),
+                arrayOf(listOf(), listOf(0, 1, 2, 3), listOf(0, 1, 2, 3)),
+                arrayOf(listOf(0, 1, 2, 3), listOf(), listOf(0, 1, 2, 3)),
+            )
+        }
     }
-
-    @Test
-    fun testCornerCases_listsWithDifferentSize2() {
-        // Given
-        val list1 = listOf(1, 2, 4)
-        val head1 = list1.toLinkedList()
-
-        val list2 = listOf(1, 3, 4, 5)
-        val head2 = list2.toLinkedList()
-
-        // When
-        val result = mergeTwoLists(head1, head2)
-
-        // Then
-        assertTrue(result.checkValues(listOf(1,1,2,3,4,4,5)))
-    }
-
-    @Test
-    fun testCornerCases_BothEmptyList() {
-        // Given
-        val list1 = listOf<Int>()
-        val head1 = list1.toLinkedList()
-
-        val list2 = listOf<Int>()
-        val head2 = list2.toLinkedList()
-
-        // When
-        val result = mergeTwoLists(head1, head2)
-
-        // Then
-        assertTrue(result.checkValues(listOf()))
-    }
-
-    @Test
-    fun testCornerCases_List1Empty() {
-        // Given
-        val list1 = listOf<Int>()
-        val head1 = list1.toLinkedList()
-
-        val list2 = listOf(0, 1, 2, 3)
-        val head2 = list2.toLinkedList()
-
-        // When
-        val result = mergeTwoLists(head1, head2)
-
-        // Then
-        result.checkValues(listOf(0, 1, 2, 3))
-    }
-
-    @Test
-    fun testCornerCases_List2Empty() {
-        // Given
-        val list1 = listOf<Int>(0, 1, 2, 3)
-        val head1 = list1.toLinkedList()
-
-        val list2 = listOf<Int>()
-        val head2 = list2.toLinkedList()
-
-        // When
-        val result = mergeTwoLists(head1, head2)
-
-        // Then
-        result.checkValues(listOf(0, 1, 2, 3))
-    }
-
 }
 
 class MergeTwoSortedListImpl : MergeTwoSortedList() {
