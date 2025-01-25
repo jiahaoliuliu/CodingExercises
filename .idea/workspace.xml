@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GenerateParenthesis.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MergeTwoSortedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +75,17 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeTwoSortedListImpl and 1 more">
-    <configuration name="LetterCombinationsOfAPhoneNumberImp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GenerateParenthesesImpl">
+    <configuration name="GenerateParenthesesImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.medium.*" />
+          <option name="PATTERN" value="arrayandlist.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string.medium" />
-      <option name="MAIN_CLASS_NAME" value="string.medium.LetterCombinationsOfAPhoneNumberImp" />
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GenerateParenthesesImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,7 +158,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
+        <item itemvalue="JUnit.GenerateParenthesesImpl" />
         <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
         <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
         <item itemvalue="JUnit.MergeTwoSortedListImpl and 1 more" />
