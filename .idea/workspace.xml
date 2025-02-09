@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="JL [ArrayAndList][Medium][Generate parenthesis] Added the exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/MergeKSortedList.kt" afterDir="false" />
+    <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="JL [LinkedList][Hard][Merge K sorted list] Added the initial solution.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/CodingExercisesOriginal/src/main/kotlin/linkedlist/hard",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jiaha/OneDrive/Documents/projects/github/CodingExercisesOriginal/src/main/kotlin/linkedlist/hard&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercisesOriginal\src\main\kotlin\linkedlist\hard" />
@@ -76,8 +77,8 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeKSortedListImpl">
-    <configuration name="GenerateParenthesesImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GroupAnagramOptim and 1 more">
+    <configuration name="GroupAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +87,58 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arrayandlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GenerateParenthesesImpl" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GroupAnagram" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagramOptim and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GroupAnagrams" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="arrayandlist.medium.GroupAnagramOptim" />
+        <pattern testClass="arrayandlist.medium.GroupAnagramsImpl" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagramOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GroupAnagramOptim" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagram.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayandlist.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayandlist.medium" />
+      <option name="MAIN_CLASS_NAME" value="arrayandlist.medium.GroupAnagram" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,61 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedListImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MergeTwoSortedList" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="linkedlist.easy.MergeTwoSortedListImpl" />
-        <pattern testClass="linkedlist.easy.MergeTwoSortedListOptimalImpl" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveNthNodeFromEndOfListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.RemoveNthNodeFromEndOfListImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveNthNodeFromEndOfListOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist.medium" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.medium.RemoveNthNodeFromEndOfListOptim" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeKSortedListImpl" />
-        <item itemvalue="JUnit.MergeKSortedListImpl" />
-        <item itemvalue="JUnit.MergeKSortedListImpl" />
-        <item itemvalue="JUnit.MergeKSortedListImpl" />
+        <item itemvalue="JUnit.GroupAnagramOptim and 1 more" />
+        <item itemvalue="JUnit.GroupAnagramOptim" />
+        <item itemvalue="JUnit.GroupAnagram.test2" />
+        <item itemvalue="JUnit.GroupAnagram" />
         <item itemvalue="JUnit.MergeKSortedListImpl" />
       </list>
     </recent_temporary>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737822558562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JL [LinkedList][Hard][Merge K sorted list] Added the initial solution.">
+      <created>1738423604173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738423604173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JL [ArrayAndList][Medium][Generate parenthesis] Added the exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="JL [ArrayAndList][Medium][Generate parenthesis] Added the exercise" />
+    <MESSAGE value="JL [LinkedList][Hard][Merge K sorted list] Added the initial solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="JL [LinkedList][Hard][Merge K sorted list] Added the initial solution." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,33 +284,33 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>100</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>88</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>68</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt</url>
-          <line>83</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>112</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt</url>
-          <line>80</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>109</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagram.kt</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>61</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -1162,6 +1172,16 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/medium/RemoveNthNodeFromEndOfList.kt</url>
           <line>121</line>
           <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>128</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrayandlist/medium/GroupAnagrams.kt</url>
+          <line>143</line>
+          <option name="timeStamp" value="333" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
