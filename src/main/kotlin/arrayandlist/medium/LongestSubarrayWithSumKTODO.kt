@@ -14,6 +14,8 @@ package arrayandlist.medium
  *      Input: arr[] = {-5, 8, -14, 2, 4, 12}, k = -5
  *      Output: 5
  *      Explanation: The sub-array is {-5, 8, -14, 2, 4}
+ *
+ *  Check: Not in Leet code
  */
 class LongestSubarrayWithSumKTODO {
 

@@ -27,45 +27,9 @@ import org.junit.Test
  * Constraints:
  *      1 <= n <= 45
  */
-class ClimbingStairs {
+abstract class ClimbingStairs {
 
-    /**
-     * Initial thoughts
-     *
-     * This is a typical DP problem
-     *
-     * Base case
-     *  - climbStairs(1) = 1
-     *  - climbStairs(2) = 2
-     *
-     * Main logic
-     * - climbStairs(n) = climStairs(n - 1) + climbStairs(n - 2)
-     *
-     * Table: Per each step, store the possible value
-     */
-    private fun climbStairs(n: Int): Int {
-        // Corner case
-        if (n == 1) return 1
-        if (n == 2) return 2
-
-        // 1. Init the values
-        // The cache has size n + 1 to accommodate the debugging
-        // since the index starts with 0 always
-        val cache = IntArray(n + 1)
-
-        // 2. Set up the base cases
-        cache[1] = 1
-        cache[2] = 2
-
-        // 3. Loop through
-        for (i in 3 until n+1) {
-            val steps = cache[i - 1] + cache[i - 2]
-            cache[i] = steps
-        }
-
-        // 4. Return the result
-        return cache[n]
-    }
+    abstract fun climbStairs(n: Int): Int
 
     @Test
     fun test1() {
@@ -91,4 +55,67 @@ class ClimbingStairs {
         assertEquals(3, result)
     }
 
+    @Test
+    fun test3() {
+        // Given
+        val n = 4
+
+        // When
+        val result = climbStairs(n)
+
+        // Then
+        assertEquals(5, result)
+    }
+
+    @Test
+    fun test4() {
+        // Given
+        val n = 5
+
+        // When
+        val result = climbStairs(n)
+
+        // Then
+        assertEquals(8, result)
+    }
+}
+
+class ClimbingStairsImpl: ClimbingStairs() {
+    /**
+     * Initial thoughts
+     *
+     * This is a typical DP problem
+     *
+     * Base case
+     *  - climbStairs(1) = 1
+     *  - climbStairs(2) = 2
+     *
+     * Main logic
+     * - climbStairs(n) = climStairs(n - 1) + climbStairs(n - 2)
+     *
+     * Table: Per each step, store the possible value
+     */
+    override fun climbStairs(n: Int): Int {
+        // Corner case
+        if (n == 1) return 1
+        if (n == 2) return 2
+
+        // 1. Init the values
+        // The cache has size n + 1 to accommodate the debugging
+        // since the index starts with 0 always
+        val cache = IntArray(n + 1)
+
+        // 2. Set up the base cases
+        cache[1] = 1
+        cache[2] = 2
+
+        // 3. Loop through
+        for (i in 3 .. n) {
+            val steps = cache[i - 1] + cache[i - 2]
+            cache[i] = steps
+        }
+
+        // 4. Return the result
+        return cache[n]
+    }
 }

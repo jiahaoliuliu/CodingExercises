@@ -32,51 +32,9 @@ import org.junit.Test
  *      1 <= s.length <= 2 * 10^5
  *      s consists only of printable ASCII characters.
  */
-class ValidPalindrome {
+abstract class ValidPalindrome {
 
-    /**
-     * Initial thoughts
-     *
-     * We can going through the list and strip all the non-alphanumeric chars
-     * append them, and then run them again
-     *
-     * A better way is going through the list once, skip all non-alphanumeric chars
-     *
-     */
-    private fun isPalindrome(s: String): Boolean {
-        // Init the data
-        var left = 0
-        var right = s.lastIndex
-
-        // 2. Loop
-        while (left < right) {
-            // Advance left
-            while (left < right && !isAlphaNumeric(s[left])) {
-                left++
-            }
-
-            // Advance right
-            while (left < right && !isAlphaNumeric(s[right])) {
-                right--
-            }
-
-
-            if (s[left].lowercaseChar() != s[right].lowercaseChar()) {
-                return false
-            }
-
-            left++
-            right--
-        }
-
-        // 3. Return default value
-        return true
-    }
-
-    private fun isAlphaNumeric(char: Char): Boolean {
-        return char - 'a' in 0..'z' - 'a' || char - 'A' in 0 .. 'Z' - 'A' ||
-                char - '0' in 0 .. '9' - '0'
-    }
+    abstract fun isPalindrome(s: String): Boolean
 
     @Test
     fun test1() {
@@ -114,4 +72,50 @@ class ValidPalindrome {
         assertTrue(result)
     }
 
+}
+class ValidPalindromeImpl: ValidPalindrome() {
+
+    /**
+     * Initial thoughts
+     *
+     * We can going through the list and strip all the non-alphanumeric chars
+     * append them, and then run them again
+     *
+     * A better way is going through the list once, skip all non-alphanumeric chars
+     *
+     */
+    override fun isPalindrome(s: String): Boolean {
+        // Init the data
+        var left = 0
+        var right = s.lastIndex
+
+        // 2. Loop
+        while (left < right) {
+            // Advance left
+            while (left < right && !isAlphaNumeric(s[left])) {
+                left++
+            }
+
+            // Advance right
+            while (left < right && !isAlphaNumeric(s[right])) {
+                right--
+            }
+
+
+            if (s[left].lowercaseChar() != s[right].lowercaseChar()) {
+                return false
+            }
+
+            left++
+            right--
+        }
+
+        // 3. Return default value
+        return true
+    }
+
+    private fun isAlphaNumeric(char: Char): Boolean {
+        return char - 'a' in 0..'z' - 'a' || char - 'A' in 0 .. 'Z' - 'A' ||
+                char - '0' in 0 .. '9' - '0'
+    }
 }

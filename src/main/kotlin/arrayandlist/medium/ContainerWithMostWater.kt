@@ -1,5 +1,11 @@
 package arrayandlist.medium
 
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.MethodSource
+import kotlin.math.max
+import kotlin.math.min
+
 /**
  * Container with most water
  * You are given an integer array height of length n. There are n vertical lines drawn such that the two
@@ -25,7 +31,8 @@ package arrayandlist.medium
  *      2 <= n <= 10^5
  *      0 <= height[i] <= 10^4
  */
-class ContainerWithMostWaterTODO {
+
+abstract class ContainerWithMostWater() {
 
     /**
      * Initial thoughts
@@ -119,7 +126,65 @@ class ContainerWithMostWaterTODO {
      * - Recalculate the area
      * - Update the max area
      */
-    fun maxArea(height: IntArray): Int {
-        return 0
+    abstract fun maxArea(height: IntArray): Int
+
+    @ParameterizedTest(name = "The container with most water of {0} should be {1}")
+    @MethodSource("getData")
+    fun test(array1: IntArray, expectedValue: Int) {
+        val result = maxArea(array1)
+        assertEquals(expectedValue, result,)
+    }
+
+    companion object {
+
+        @JvmStatic
+        fun getData(): List<Array<Any>> {
+            return listOf(
+                arrayOf(intArrayOf(1,8,6,2,5,4,8,3,7), 49),
+                arrayOf(intArrayOf(1, 1), 1),
+            )
+        }
+    }
+}
+
+class ContainerWithMostWaterImpl : ContainerWithMostWater() {
+    override fun maxArea(height: IntArray): Int {
+        var leftWall = 0
+        var rightWall = height.lastIndex
+        var maxContainerSoFar = 0
+
+        while (leftWall < rightWall) {
+            val width = rightWall - leftWall
+            val area = width * min(height[leftWall], height[rightWall])
+            maxContainerSoFar = max(maxContainerSoFar, area)
+            if (height[leftWall] < height[rightWall]) {
+                leftWall++
+            } else {
+                rightWall--
+            }
+        }
+
+        return maxContainerSoFar
+    }
+}
+
+class ContainerWithMostWaterOptim : ContainerWithMostWater() {
+    override fun maxArea(height: IntArray): Int {
+        var max = 0
+        var leftPointer = 0
+        var rightPointer = height.size - 1
+        while(leftPointer < rightPointer) {
+            var tmpMax = rightPointer - leftPointer
+            if (height[leftPointer] > height[rightPointer]) {
+                tmpMax *= height[rightPointer]
+                rightPointer--
+            } else {
+                tmpMax *= height[leftPointer]
+                leftPointer++
+            }
+            if (tmpMax > max) max = tmpMax
+        }
+        return max
+
     }
 }

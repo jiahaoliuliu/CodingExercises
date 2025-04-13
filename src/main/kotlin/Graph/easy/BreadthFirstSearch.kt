@@ -1,6 +1,7 @@
 package Graph.easy
 
-import org.junit.Assert
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 /**
@@ -14,6 +15,8 @@ import org.junit.Test
  *      Input: graph = {"5" : [8, 1, 12], "8" : [5, 12, 14, 4], "12" : [5, 8, 14], "14" : [8, 12, 4],
  *      "4" : [8, 14], "1" : [5, 7], "7" : [1, 16], "16" : [7]}, root = 5
  *      Output: 5 8 1 12 14 4 7 16
+ *
+ *  Check: This problem is not in Leet code
  */
 abstract class BreadthFirstSearch {
 
@@ -38,8 +41,8 @@ abstract class BreadthFirstSearch {
         val result = bfs(graph, root)
 
         // Then
-        Assert.assertEquals(8, result.size)
-        Assert.assertTrue(intArrayOf(5, 8, 1, 12, 14, 4, 7, 16) contentEquals result)
+        assertEquals(8, result.size)
+        assertTrue(intArrayOf(5, 8, 1, 12, 14, 4, 7, 16) contentEquals result)
     }
 }
 

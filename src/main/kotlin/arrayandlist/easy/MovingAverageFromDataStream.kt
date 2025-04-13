@@ -30,6 +30,8 @@ import org.junit.Test
  *      1 <= size <= 1000
  *      -10^5 <= val <= 10^5
  *      At most 104 calls will be made to next.
+ *
+ * Check: Premium Leet code problem
  */
 class MovingAverageFromDataStream {
 

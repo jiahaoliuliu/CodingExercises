@@ -41,6 +41,9 @@ import org.junit.Test
  *      Every timestamp will be passed in non-decreasing order (chronological order).
  * 1 <= message.length <= 30
  * At most 104 calls will be made to shouldPrintMessage.
+ *
+ * Check: Premium question
+ *
  */
 class LoggerRateLimiter {
 

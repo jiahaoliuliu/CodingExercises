@@ -115,5 +115,22 @@ class LinkedListCycleImpl: LinkedListCycle() {
         // 3. Return result
         return false
     }
+}
 
+class LinkedListCycleOptim: LinkedListCycle() {
+    override fun hasCycle(head: ListNode?): Boolean {
+        // 1. Init the variable
+        var tortoise = head
+        var hare = head
+
+        // 2. Loop
+        while(hare?.next != null){
+            tortoise = tortoise?.next
+            hare = hare.next?.next
+            if(tortoise == hare) return true
+        }
+
+        // 3. If fast is ever null or fast.next is ever null, return false
+        return false
+    }
 }

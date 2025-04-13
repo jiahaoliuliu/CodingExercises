@@ -57,6 +57,8 @@ class DesignCompressedStringIterator {
      *  iterator = 0
      *  occurrences = 0
      *  currentChar = ' '
+     *
+     *  Check: This problem is in the premium program of Leet code
      */
     class StringIterator(private val compressedString: String) {
         var iterator = 0

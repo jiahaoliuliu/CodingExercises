@@ -28,6 +28,7 @@ import java.lang.Integer.max
  *      len(matrix[i]) >= 1
  *      matrix[i][j] >= 0
  *
+ * Check: not in leet code.
  */
 abstract class GoldMine {
 

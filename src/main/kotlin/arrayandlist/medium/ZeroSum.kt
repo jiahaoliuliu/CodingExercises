@@ -17,6 +17,8 @@ import org.junit.Test
  *
  * Example 4: [10, 3, 4, 0, -4, -5, 8, 9, -12, 6]
  *      - Output [4, 0, -4, -5, 8, 9, -12]
+ *
+ * Check: This problem is not in Leet code.
  */
 abstract class ZeroSum {
 

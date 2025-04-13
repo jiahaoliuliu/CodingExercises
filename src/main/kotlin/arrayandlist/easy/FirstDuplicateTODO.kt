@@ -16,6 +16,8 @@ package arrayandlist.easy
  * Example 2
  * For a=[1,2,3,4,5], the output should be firstDuplicate(a)=-1
  * Indeed, there is no duplicate in this list!
+ *
+ * Check: Not in Leet Code
  */
 class FirstDuplicateTODO {
 

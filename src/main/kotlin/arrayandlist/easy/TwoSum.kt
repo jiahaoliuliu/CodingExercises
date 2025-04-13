@@ -26,41 +26,8 @@ import org.junit.Test
  *      Input: nums = [3,3], target = 6
  *      Output: [0,1]
  */
-class TwoSum {
-
-    /**
-     * Initial thought
-     * - Normal cases
-     *  - The list could contain negative numbers
-     *  - The target could be negative
-     *  Algorithm:
-     *  - Use a hashMap of missing numbers
-     *  - 1. Init hash map of Pair (Int, Int) where
-     *      - key = complement NEEDED
-     *      - value = complement position
-     *  - 2. Loop (over the list)
-     *      - If the key with the number[i] exists
-     *          - return value and i
-     *      - else
-     *          - add new entry
-     *              - key = target - number[i]
-     *              - value = i
-     * - 3. return empty list
-     * - Corner cases
-     *  - The list is empty -> return empty list
-     */
-    private fun twoSum(nums: IntArray, target: Int): IntArray {
-        val myHashMap = HashMap<Int, Int>()
-        nums.forEachIndexed{ index, item ->
-            if (myHashMap.contains(item)) {
-                return intArrayOf(index, myHashMap[item]!!)
-            } else {
-                myHashMap[target - item] = index
-            }
-        }
-
-        return intArrayOf()
-    }
+abstract class TwoSum {
+    abstract fun twoSum(nums: IntArray, target: Int): IntArray
 
     @Test
     fun test1() {
@@ -106,5 +73,41 @@ class TwoSum {
         assertEquals(2, result.size)
         assertTrue(result.contains(0))
         assertTrue(result.contains(1))
+    }
+}
+
+class TwoSumImpl: TwoSum() {
+
+    /**
+     * Initial thought
+     * - Normal cases
+     *  - The list could contain negative numbers
+     *  - The target could be negative
+     *  Algorithm:
+     *  - Use a hashMap of missing numbers
+     *  - 1. Init hash map of Pair (Int, Int) where
+     *      - key = complement NEEDED
+     *      - value = complement position
+     *  - 2. Loop (over the list)
+     *      - If the key with the number[i] exists
+     *          - return value and i
+     *      - else
+     *          - add new entry
+     *              - key = target - number[i]
+     *              - value = i
+     * - 3. return empty list
+     * - Corner cases
+     *  - The list is empty -> return empty list
+     */
+    override fun twoSum(nums: IntArray, target: Int): IntArray {
+        val myHashMap = HashMap<Int, Int>()
+        nums.forEachIndexed{ index, item ->
+            if (myHashMap.contains(item)) {
+                return intArrayOf(index, myHashMap[item]!!)
+            } else {
+                myHashMap[target - item] = index
+            }
+        }
+        return intArrayOf()
     }
 }

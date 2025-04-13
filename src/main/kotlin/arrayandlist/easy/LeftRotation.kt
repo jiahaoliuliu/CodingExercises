@@ -18,7 +18,9 @@ import org.junit.Test
  *      int a[n]: the array to rotate
  *      int d: the number of rotations
  * Returns
-        int a'[n]: the rotated array
+ *        int a'[n]: the rotated array
+ *
+ * Check: Not in Leet code. In Hacker rank
  */
 class LeftRotation {
     private fun rotLeft(a: Array<Int>, d: Int): Array<Int> {

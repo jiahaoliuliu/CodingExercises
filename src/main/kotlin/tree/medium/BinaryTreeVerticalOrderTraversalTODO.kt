@@ -25,6 +25,8 @@ import tree.easy.ClosestBinarySearchTreeValue
  * Constraints:
  *      The number of nodes in the tree is in the range [0, 100].
  *      -100 <= Node.val <= 100
+ *
+ * Check: This problem is in the paid version of Leet code
  */
 class BinaryTreeVerticalOrderTraversalTODO {
 
