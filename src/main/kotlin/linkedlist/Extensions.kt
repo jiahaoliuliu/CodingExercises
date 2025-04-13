@@ -20,36 +20,6 @@ fun List<Int>.toLinkedList(): ListNode? {
     return sentinel.next
 }
 
-class TestsToLinkedList {
-    @Test
-    fun testSimple() {
-        // Given
-        val list = listOf(1, 2, 3, 4)
-
-        // When
-        val result = list.toLinkedList()
-
-        // Then
-        assertNotNull(result)
-        assertEquals(1, result?.`val`)
-        assertEquals(2, result?.next?.`val`)
-        assertEquals(3, result?.next?.next?.`val`)
-        assertEquals(4, result?.next?.next?.next?.`val`)
-    }
-
-    @Test
-    fun testEmptyLinkedList() {
-        // Given
-        val list = listOf<Int>()
-
-        // When
-        val result = list.toLinkedList()
-
-        // Then
-        assertNull(result)
-    }
-}
-
 fun ListNode?.checkValues(list: List<Int>): Boolean {
     if (this == null) return list.isEmpty()
 
@@ -65,6 +35,17 @@ fun ListNode?.checkValues(list: List<Int>): Boolean {
     }
 
     return current == null && i == list.size
+}
+
+fun ListNode?.toList(): List<Int> {
+    val list = mutableListOf<Int>()
+    var current = this
+    while (current != null) {
+        list.add(current.`val`)
+        current = current.next
+    }
+
+    return list
 }
 
 class TestCheckValues {
@@ -107,5 +88,36 @@ class TestCheckValues {
         // Then
         assertFalse(result)
     }
-
 }
+
+class TestsToLinkedList {
+    @Test
+    fun testSimple() {
+        // Given
+        val list = listOf(1, 2, 3, 4)
+
+        // When
+        val result = list.toLinkedList()
+
+        // Then
+        assertNotNull(result)
+        assertEquals(1, result?.`val`)
+        assertEquals(2, result?.next?.`val`)
+        assertEquals(3, result?.next?.next?.`val`)
+        assertEquals(4, result?.next?.next?.next?.`val`)
+    }
+
+    @Test
+    fun testEmptyLinkedList() {
+        // Given
+        val list = listOf<Int>()
+
+        // When
+        val result = list.toLinkedList()
+
+        // Then
+        assertNull(result)
+    }
+}
+
+

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00ee16c-5b25-4582-aedf-3c50e7295543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/tree/medium/LowestCommonAncestorOfABinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_params.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/ReverseNodesInKGroup.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingExercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingExercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/ListNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bMA9yhQjwXxE89eI1POTvCt0n8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,22 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jiaha/Downloads/Statistic-4.2.14.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in CodingExercises.executor": "Run",
+    "JUnit.ReverseNodesInKGroupImpl.executor": "Run",
+    "JUnit.ReverseNodesInKGroupImpl.test.executor": "Run",
+    "JUnit.ReverseNodesInKGroupImpl2.executor": "Debug",
+    "JUnit.ReverseNodesInKGroupImpl2.test.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jiahaoliuliu/project/github/CodingExercisesOrig",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\CodingExercises\src\main\kotlin\linkedlist\medium" />
@@ -70,53 +85,7 @@
       <recent name="arrayandlist.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LowestCommonAncestorOfABinaryTreeEPI">
-    <configuration name="FlattenBinaryTreeToLinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.FlattenBinaryTreeToLinkedListImpl" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlattenBinaryTreeToLinkedListOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.FlattenBinaryTreeToLinkedListOptim" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LowestCommonAncestorOfABinaryTreeEPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodingExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeEPI" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ReverseNodesInKGroupImpl">
     <configuration name="LowestCommonAncestorOfABinaryTreeOptim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
@@ -132,30 +101,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfABinaryTreeSol1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseNodesInKGroupImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.medium.*" />
+          <option name="PATTERN" value="linkedlist.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree.medium" />
-      <option name="MAIN_CLASS_NAME" value="tree.medium.LowestCommonAncestorOfABinaryTreeSol1" />
+      <option name="PACKAGE_NAME" value="linkedlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.hard.ReverseNodesInKGroupImpl" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseNodesInKGroupImpl2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.hard.ReverseNodesInKGroupImpl2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseNodesInKGroupImpl2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.hard.ReverseNodesInKGroupImpl2" />
+      <option name="METHOD_NAME" value="test(linkedlist.ListNode,int,linkedlist.ListNode)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseNodesInKGroupImpl.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.hard" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.hard.ReverseNodesInKGroupImpl" />
+      <option name="METHOD_NAME" value="test(linkedlist.ListNode,int,linkedlist.ListNode)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeEPI" />
-        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeOptim" />
-        <item itemvalue="JUnit.LowestCommonAncestorOfABinaryTreeSol1" />
-        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListOptim" />
-        <item itemvalue="JUnit.FlattenBinaryTreeToLinkedListImpl.test1" />
+        <item itemvalue="JUnit.ReverseNodesInKGroupImpl" />
+        <item itemvalue="JUnit.ReverseNodesInKGroupImpl" />
+        <item itemvalue="JUnit.ReverseNodesInKGroupImpl" />
+        <item itemvalue="JUnit.ReverseNodesInKGroupImpl2.test" />
+        <item itemvalue="JUnit.ReverseNodesInKGroupImpl2.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -839,7 +862,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/Extensions.kt</url>
-          <line>77</line>
+          <line>58</line>
           <option name="timeStamp" value="228" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -1031,6 +1054,21 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/tree/medium/FlattenBinaryTreeToLinkedList.kt</url>
           <line>47</line>
           <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/ReverseNodesInKGroup.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/ReverseNodesInKGroup.kt</url>
+          <line>62</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/ReverseNodesInKGroup.kt</url>
+          <line>79</line>
+          <option name="timeStamp" value="316" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
