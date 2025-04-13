@@ -69,14 +69,15 @@ class ReverseNodesInKGroupImpl : ReverseNodesInKGroup() {
         while (currGroupFirstNode != null) {
             val currGroupLastNode = getGroupFinalNode(currGroupFirstNode, k) ?: return dummy.next
 
-            val nextGroupStartingNode = currGroupLastNode.next
+            val nextGroupFirstNode = currGroupLastNode.next
 
             // Revert the list
-            prevGroupLastNode?.next = reverseList(currGroupFirstNode, nextGroupStartingNode)
+            // after reverting, currGroupFirstNode is current group last node
+            prevGroupLastNode?.next = reverseList(currGroupFirstNode, nextGroupFirstNode)
 
             // Reset values
             prevGroupLastNode = currGroupFirstNode
-            currGroupFirstNode = nextGroupStartingNode
+            currGroupFirstNode = nextGroupFirstNode
         }
 
         // 3. Returning the result
@@ -95,12 +96,12 @@ class ReverseNodesInKGroupImpl : ReverseNodesInKGroup() {
     }
 
     private fun reverseList(
-        head: ListNode?,
+        currentNode: ListNode?,
         finalNode: ListNode?
     ): ListNode? {
         // 1. Init the value
         var previous: ListNode? = finalNode
-        var current = head
+        var current = currentNode
 
         // 2. Loop
         while (current != finalNode) {
