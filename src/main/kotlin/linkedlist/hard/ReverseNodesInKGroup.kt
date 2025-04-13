@@ -58,6 +58,40 @@ abstract class ReverseNodesInKGroup {
 }
 
 class ReverseNodesInKGroupImpl : ReverseNodesInKGroup() {
+    /**
+    ------------------------- Itertion 1 -----------------
+    prevGLastNode head
+    |      |
+    dummy[0] -> [1] -> [2] -> [3] -> [4] -> [5] -> null
+    |  G1  |     |  G2  |       |  G3  |
+    --------       --------     --------
+    |      |     |
+    curGFirstNode   nextGFirstNode
+    |
+    curGLastNode
+
+    ------------------------- Itertion 2 -----------------
+    head,prevGLastNode
+    |
+    dummy[0] -> [2] -> [1] -> [3] -> [4] -> [5] -> null
+    |  G1  |     |  G2  |     |  G3  |
+    --------       --------     --------
+    |      |     |
+    curGFirstNode   nextGFirstNode
+    |
+    curGLastNode
+
+    ------------------------- Itertion 3 -----------------
+    head      prevGLastNode
+    |             |
+    dummy[0] -> [2] -> [1] -> [4] -> [3] -> [5] -> null
+    |  G1  |       |  G2  |     |  G3  |
+    --------       --------     --------
+    |      |
+    curGFirstNode
+    |
+    curGLastNode
+     */
     override fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
         // 1. Create a dummy node
         val dummy = ListNode(0)

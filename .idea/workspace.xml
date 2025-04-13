@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13c893f-10c2-4cec-8eb5-a22c1e317331" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/ReverseNodesInKGroup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/hard/ReverseNodesInKGroup.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
