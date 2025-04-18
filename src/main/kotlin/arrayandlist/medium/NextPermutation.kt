@@ -61,6 +61,7 @@ abstract class NextPermutation {
                 Arguments.of(intArrayOf(3, 2, 1), intArrayOf(1, 2, 3)),
                 Arguments.of(intArrayOf(1, 1, 5), intArrayOf(1, 5, 1)),
                 Arguments.of(intArrayOf(1, 3, 2), intArrayOf(2, 1, 3)),
+                //                      0  1  2  3  4  5
                 Arguments.of(intArrayOf(4, 3, 2, 5, 3, 1), intArrayOf(4, 3, 3, 1, 2, 5)),
                 Arguments.of(intArrayOf(1, 2), intArrayOf(2, 1)),
                 Arguments.of(intArrayOf(2), intArrayOf(2)),
@@ -101,7 +102,7 @@ class NextPermutationImpl: NextPermutation() {
         // 1. Find the number to be replaced
         val posToBeReplaced = findPosToBeReplaced(nums)
 
-        // 2. Element to be replaced
+        // 2. Element to replaced
         if (posToBeReplaced >= 0) {
             val posToReplace = findElementToReplace(posToBeReplaced, nums)
             if (posToReplace >= 0) {
@@ -204,4 +205,46 @@ class NextPermutationClaude: NextPermutation() {
             right--
         }
     }
+}
+
+class NextPermutationOptim: NextPermutation() {
+    override fun nextPermutation(nums: IntArray) {
+        // 1. Find the position to be replaced. Starting from the second position from right
+        var positionToBeReplaced = nums.size - 1 - 1
+        while (positionToBeReplaced >= 0 && nums[positionToBeReplaced] >= nums[positionToBeReplaced + 1]) {
+            positionToBeReplaced--
+        }
+
+        // 2. Find element to replace.
+        // It is the smallest element on the right and it is bigger than nums[i]
+        if (positionToBeReplaced >= 0) {
+            var positionToReplace = nums.size - 1
+            while (nums[positionToReplace] <= nums[positionToBeReplaced]) {
+                positionToReplace--
+            }
+
+            // 3. Swap both elements
+            nums.swap(positionToReplace, positionToBeReplaced)
+        }
+
+        // 4. Reverse the elements from `positionToBeReplaced` to right
+        nums.reverse(positionToBeReplaced + 1)
+    }
+
+    private fun IntArray.swap(i: Int, j: Int) {
+        val tmp = get(i)
+        set(i, get(j))
+        set(j, tmp)
+    }
+
+    private fun IntArray.reverse(startPosition: Int) {
+        var left = startPosition
+        var right = this.size - 1
+        while (left < right) {
+            swap(left, right)
+            left++
+            right--
+        }
+    }
+
 }
