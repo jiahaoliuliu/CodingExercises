@@ -47,6 +47,7 @@ abstract class LongestValidParentheses {
                 Arguments.of("(()", 2),
                 Arguments.of(")()())", 4),
                 Arguments.of("", 0),
+                Arguments.of("())(())", 4),
             )
         }
     }
@@ -91,5 +92,54 @@ class LongestValidParenthesisImpl: LongestValidParentheses() {
         }
 
         return maxCount
+    }
+}
+
+// Source: https://www.youtube.com/watch?v=vURq_xYGr-k
+class LongestValidParenthesisOptim: LongestValidParentheses() {
+    override fun longestValidParentheses(s: String): Int {
+        // Left to right
+        var left = 0
+        var right = 0
+        var max = 0
+
+        for (i in s.indices) {
+            if (s[i] == '(') {
+                left++
+            } else {
+                right++
+            }
+
+            if (left == right) {
+                if (left * 2 > max) {
+                    max = left * 2
+                }
+            } else if (right > left) {
+                left = 0
+                right = 0
+            }
+        }
+
+        // Right to left
+        left = 0
+        right = 0
+        for (i in s.indices.reversed()) {
+            if (s[i] == '(') {
+                left++
+            } else {
+                right++
+            }
+
+            if (left == right) {
+                if (left * 2 > max) {
+                    max = left * 2
+                }
+            } else if (left > right) {
+                left = 0
+                right = 0
+            }
+        }
+
+        return max
     }
 }
