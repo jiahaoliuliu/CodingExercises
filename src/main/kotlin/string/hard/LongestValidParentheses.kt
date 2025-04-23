@@ -1,6 +1,7 @@
 package string.hard
 
 import org.junit.Assert.assertEquals
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.extension.ExtensionContext
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
@@ -37,7 +38,7 @@ abstract class LongestValidParentheses {
     @ArgumentsSource(TestDataArgumentProvider::class)
     fun test(input: String, expectedValue: Int) {
         val result = longestValidParentheses(input)
-        assertEquals(expectedValue, result)
+        Assertions.assertEquals(expectedValue, result)
     }
 
     class TestDataArgumentProvider: ArgumentsProvider{
@@ -53,6 +54,42 @@ abstract class LongestValidParentheses {
 
 class LongestValidParenthesisImpl: LongestValidParentheses() {
     override fun longestValidParentheses(s: String): Int {
-        return 2
+        // 1. Form the parenthesis
+        val stack = ArrayDeque<Int>()
+        val validParenthesisCount = Array(s.length){0}
+        s.forEachIndexed { index, item ->
+            if (item == '(') {
+                stack.addFirst(index)
+            } else if (item == ')') {
+                val lastOpenPosition = stack.removeFirstOrNull()
+                if (lastOpenPosition != null) {
+                    validParenthesisCount[lastOpenPosition] = 1
+                    validParenthesisCount[index] = 1
+                }
+            } //
+        }
+
+        // 2. Count the list of longest 1s
+        var maxCount = 0
+        var curCount = 0
+        validParenthesisCount.forEachIndexed {index, item->
+            if (item == 0) {
+                if (curCount > maxCount) {
+                    maxCount = curCount
+                }
+
+                curCount = 0
+            } else if (item == 1) {
+                curCount++
+            }
+
+            if (index == validParenthesisCount.size - 1) {
+                if (curCount > maxCount) {
+                    maxCount = curCount
+                }
+            }
+        }
+
+        return maxCount
     }
 }
