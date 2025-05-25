@@ -1,6 +1,6 @@
 package arrayandlist.medium
 
-import junit.framework.Assert.assertTrue
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.extension.ExtensionContext
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
@@ -41,7 +41,7 @@ abstract class FindFirstAndLastPositionOfElementInSortedArray {
     @ArgumentsSource(TestDataArgumentProvider::class)
     fun test(nums: IntArray, target: Int, expectedValue: IntArray) {
         val result = searchRange(nums, target)
-        assertTrue(expectedValue contentEquals result)
+        Assertions.assertTrue(expectedValue contentEquals result)
     }
 
     class TestDataArgumentProvider : ArgumentsProvider {
@@ -71,7 +71,7 @@ class FindFirstAndLastPositionOfElementInSortedArrayImpl: FindFirstAndLastPositi
      *
      */
     override fun searchRange(nums: IntArray, target: Int): IntArray {
-        // Binary search for the left number
+        // Binary search for the target
         var left = 0
         var right = nums.size - 1
 
@@ -79,10 +79,10 @@ class FindFirstAndLastPositionOfElementInSortedArrayImpl: FindFirstAndLastPositi
             val middlePos = left + (right - left) / 2
 
             if (nums[middlePos] == target) {
-                // Check if there is anything on the left
-                val leftest = findLeftest(nums, target, middlePos)
-                val rightest = findRightest(nums, target, middlePos)
-                return intArrayOf(leftest, rightest)
+                // Expand the check to left and right
+                val leftmost = findLeftmost(nums, target, middlePos)
+                val rightmost = findRightmost(nums, target, middlePos)
+                return intArrayOf(leftmost, rightmost)
 
             } else if (nums[middlePos] > target) {
                 right = middlePos - 1
@@ -94,21 +94,67 @@ class FindFirstAndLastPositionOfElementInSortedArrayImpl: FindFirstAndLastPositi
         return intArrayOf(-1, -1)
     }
 
-    private fun findLeftest(nums: IntArray, target: Int, currentPos: Int): Int {
-        var leftest = currentPos
-        while ((leftest - 1 >= 0) && nums[leftest - 1] == target) {
-            leftest--
+    private fun findLeftmost(nums: IntArray, target: Int, currentPos: Int): Int {
+        var leftmost = currentPos
+        while ((leftmost - 1 >= 0) && nums[leftmost - 1] == target) {
+            leftmost--
         }
 
-        return leftest
+        return leftmost
     }
 
-    private fun findRightest(nums: IntArray, target: Int, currentPos: Int): Int {
-        var rightest = currentPos
-        while ((rightest + 1 < nums.size) && nums[rightest + 1] == target) {
-            rightest++
+    private fun findRightmost(nums: IntArray, target: Int, currentPos: Int): Int {
+        var rightmost = currentPos
+        while ((rightmost + 1 < nums.size) && nums[rightmost + 1] == target) {
+            rightmost++
         }
 
-        return rightest
+        return rightmost
+    }
+}
+
+class FindFirstAndLastPositionOfElementInSortedArrayOptim: FindFirstAndLastPositionOfElementInSortedArray() {
+    /**
+     * Initial thoughts
+     * Perform a binary search on the left
+     * Perform a binary search on the right
+     * return both of them together
+     */
+    override fun searchRange(nums: IntArray, target: Int): IntArray {
+        val leftmost = binarySearch(nums, target, true)
+        val rightmost = binarySearch(nums, target, false)
+        return intArrayOf(leftmost, rightmost)
+    }
+
+    private fun binarySearch(nums: IntArray, target: Int, findLeftmost: Boolean): Int {
+        var left = 0
+        var right = nums.size - 1
+
+        while (left <= right) {
+            val middle = left + (right - left) / 2
+            if (nums[middle] == target) {
+                if (findLeftmost) {
+                    // While the element on the left exists and it is equals to the target
+                    if (middle > 0 && nums[middle - 1] == target) {
+                        right = middle - 1
+                    } else {
+                        return middle
+                    }
+                } else {
+                    // while the element on the right exists and it is equals to the target
+                    if (middle < nums.size - 1 && nums[middle + 1] == target) {
+                        left = middle + 1
+                    } else {
+                        return middle
+                    }
+                }
+            } else if (nums[middle] < target) {
+                left = middle + 1
+            } else {
+                right = middle - 1
+            }
+        }
+
+        return -1
     }
 }
