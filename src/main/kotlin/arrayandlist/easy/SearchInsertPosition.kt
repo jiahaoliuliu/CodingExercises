@@ -51,10 +51,10 @@ abstract class SearchInsertPosition {
     class TestDataArgumentProvider : ArgumentsProvider {
         override fun provideArguments(context: ExtensionContext?): Stream<out Arguments> {
             return Stream.of(
-//                Arguments.of(intArrayOf(1, 3, 5, 6), 5, 2),
-//                Arguments.of(intArrayOf(1, 3, 5, 6), 2, 1),
-//                Arguments.of(intArrayOf(1, 3, 5, 6), 7, 4),
-//                Arguments.of(intArrayOf(2, 3, 5, 6), 1, 0),
+                Arguments.of(intArrayOf(1, 3, 5, 6), 5, 2),
+                Arguments.of(intArrayOf(1, 3, 5, 6), 2, 1),
+                Arguments.of(intArrayOf(1, 3, 5, 6), 7, 4),
+                Arguments.of(intArrayOf(2, 3, 5, 6), 1, 0),
                 Arguments.of(intArrayOf(-50, -40, -30, -20), -60, 0),
             )
         }
