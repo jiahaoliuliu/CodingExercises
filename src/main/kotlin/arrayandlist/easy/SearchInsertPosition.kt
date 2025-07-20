@@ -1,10 +1,6 @@
 package arrayandlist.easy
 
-import linkedlist.ListNode
-import linkedlist.toLinkedList
-import linkedlist.toList
 import org.junit.Assert.assertEquals
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.extension.ExtensionContext
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
