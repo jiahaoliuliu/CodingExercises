@@ -46,25 +46,90 @@ abstract class CombinationSum {
 
     abstract fun combinationSum(candidates: IntArray, target: Int): List<List<Int>>
 
-    @ParameterizedTest(name = "The position of {1} in {0} should be {2}")
+    @ParameterizedTest(name = "The combination sum of {0} with target {1} should be {2}")
     @ArgumentsSource(TestDataArgumentProvider::class)
     fun test(nums: IntArray, target: Int, expectedValue: List<List<Int>>) {
         val result = combinationSum(nums, target)
         Assertions.assertEquals(expectedValue, result)
     }
 
-
     class TestDataArgumentProvider : ArgumentsProvider {
         override fun provideArguments(context: ExtensionContext?): Stream<out Arguments> {
             return Stream.of(
-                Arguments.of(listOf(2, 3, 6, 7).toIntArray(), 7, listOf(listOf(2, 2, 3), listOf(7))),
+                Arguments.of(listOf(2, 3, 6, 7).toIntArray(), 7, listOf(listOf(2, 2, 3), listOf(7)))
+//                Arguments.of(listOf(2, 3, 5).toIntArray(), 8, listOf(listOf(2, 2, 2, 2), listOf(2, 3, 3), listOf(3, 5))),
+//                Arguments.of(listOf(2).toIntArray(), 1, emptyList<Int>())
             )
         }
     }
 }
 
 class CombinationSumImpl: CombinationSum() {
+    /**
+     * Initial thoughts
+     *
+     * It is a typical combination problem, where the elements could be repeated.
+     * Example: [2, 3, 6, 7] [7]
+     * 1. Take each one of items separately
+     *  [2]          [3]           [6]               [7]
+     * The sum of 7 is the target, so return it
+     * - 7 - [2] = 5 > 0
+     * - 7 - [3] = 4 > 0
+     * - 7 - [6] = 1 > 0
+     * - 7 - [7] = 0 == 0 -> Add it to the solution
+     * Somehow we need to carry the existing list of numbers and the target
+     * combinationSumHelp([2, 3, 6, 7], 7, [])
+     *                                     ^
+     *                             current combination
+     * return the current combination if the target == 0
+     * else, do not return anything (null?)
+     *
+     * Distributor
+     * - Distribute each one of the candidates
+     * - Create a list of lists and add each one of the results of the helper
+     * Checker
+     * - Check if the combination is correct
+     * - if the target is 0, then return the combination + candidate
+     * Aggregator
+     * - Add all the results by the candidates and return as result
+     *
+     *                                         *
+     *        [2]                [3]                    [6]                   [7]
+     *
+     * [2] [3] [6] [7]       [2] [3] [6] [7]       [2] [3] [6] [7]      [2] [3] [6] [7]
+     */
     override fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
-        return listOf(listOf(2, 2, 3), listOf(7))
+        // Aggregator
+//        val result = mutableListOf(listOf<Int>())
+//        for (candidate in candidates) {
+//            // Distributor
+//            val currentCombination = mutableListOf(listOf<Int>())
+//            combinationSum(candidates, target - candidate, mutableListOf(candidate), currentCombination)
+//            result.addAll(currentCombination)
+//        }
+//        return result
+        // Aggregator
+        val result = mutableListOf<List<Int>>()
+        combinationSum(candidates, target, mutableListOf(), result)
+        return result
+    }
+
+    private fun combinationSum(candidates: IntArray, target: Int, currentCombination: MutableList<Int>, currentResult: MutableList<List<Int>>) {
+        // Checker
+        // If the current combination has already exceeded. Then there is nothing to do
+        if (target < 0) return
+        // If the target has been found, add the current combination to the list of results and return it
+        if (target == 0) {
+            currentResult.add(currentCombination)
+            return
+        }
+
+        // If the target is still a positive number
+        // Distributor
+        // TODO: The combination needs to be reset at some point, otherwise it will contain all the possible paths
+        for (candidate in candidates) {
+            currentCombination.add(candidate)
+            combinationSum(candidates, target - candidate, currentCombination, currentResult)
+        }
     }
 }
