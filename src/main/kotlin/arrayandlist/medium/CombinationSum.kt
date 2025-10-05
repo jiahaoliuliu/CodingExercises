@@ -56,9 +56,9 @@ abstract class CombinationSum {
     class TestDataArgumentProvider : ArgumentsProvider {
         override fun provideArguments(context: ExtensionContext?): Stream<out Arguments> {
             return Stream.of(
-                Arguments.of(listOf(2, 3, 6, 7).toIntArray(), 7, listOf(listOf(2, 2, 3), listOf(7)))
-//                Arguments.of(listOf(2, 3, 5).toIntArray(), 8, listOf(listOf(2, 2, 2, 2), listOf(2, 3, 3), listOf(3, 5))),
-//                Arguments.of(listOf(2).toIntArray(), 1, emptyList<Int>())
+                Arguments.of(listOf(2, 3, 6, 7).toIntArray(), 7, listOf(listOf(2, 2, 3), listOf(7))),
+                Arguments.of(listOf(2, 3, 5).toIntArray(), 8, listOf(listOf(2, 2, 2, 2), listOf(2, 3, 3), listOf(3, 5))),
+                Arguments.of(listOf(2).toIntArray(), 1, emptyList<Int>())
             )
         }
     }
@@ -131,5 +131,37 @@ class CombinationSumImpl: CombinationSum() {
             currentCombination.add(candidate)
             combinationSum(candidates, target - candidate, currentCombination, currentResult)
         }
+    }
+}
+
+class CombinationSumCl: CombinationSum() {
+
+    override fun combinationSum(
+        candidates: IntArray,
+        target: Int
+    ): List<List<Int>> {
+        val result = mutableListOf<List<Int>>()
+
+        fun backtrack(start: Int, current: MutableList<Int>, total: Int) {
+            // Base cases
+            when {
+                total == target -> {
+                    result.add(current.toList())  // Found valid combination
+                    return
+                }
+                total > target -> return  // Exceeded target, stop exploring
+            }
+
+            // Try each candidate starting from 'start' index
+            for (i in start until candidates.size) {
+                current.add(candidates[i])
+                // Can reuse same element, so pass 'i' not 'i+1'
+                backtrack(i, current, total + candidates[i])
+                current.removeAt(current.size - 1)  // Backtrack
+            }
+        }
+
+        backtrack(0, mutableListOf(), 0)
+        return result
     }
 }
